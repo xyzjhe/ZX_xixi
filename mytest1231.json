@@ -1,7 +1,7 @@
 
 {
 
-  "spider": "./jar/GM.jar",
+  "spider": "./jar/GM.jar;md5;b7397bd6d49458eabbce5b2892116bb9",
   
   "sites": [
     {
