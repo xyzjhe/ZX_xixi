@@ -5,7 +5,7 @@
 // @description  XOJAV GMSpider
 // @author       Luomo
 // @match        https://xojav.tv/*
-// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.min.js
+// @require      https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js
 // @grant        unsafeWindow
 // ==/UserScript==
 console.log(JSON.stringify(GM_info));

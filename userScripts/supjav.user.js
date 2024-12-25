@@ -5,7 +5,7 @@
 // @description  Supjav GMSpider
 // @author       Luomo
 // @match        https://supjav.com/*
-// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.min.js
+// @require      https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js
 // @grant        unsafeWindow
 // ==/UserScript==
 console.log(JSON.stringify(GM_info));
@@ -148,7 +148,7 @@ console.log(JSON.stringify(GM_info));
                         }
                     }
                 }
-                let playUrl = [];
+                let media = [];
                 let btnServers;
                 if ($(".video-wrap .cd-server").length > 0) {
                     btnServers = $(".video-wrap .cd-server:first .btn-server");
@@ -156,16 +156,14 @@ console.log(JSON.stringify(GM_info));
                     btnServers = $(".video-wrap .btn-server");
 
                 }
-                btnServers.each(function () {
-                    playUrl.push({
+                btnServers.each(function (i) {
+                    media.push({
                         name: $(this).text().trim(),
-                        value: {
-                            type: "webview",
-                            data: {
-                                replace: {
-                                    pathname: ids[0],
-                                    link: $(this).data("link")
-                                }
+                        type: "webview",
+                        ext: {
+                            replace: {
+                                pathname: ids[0],
+                                link: i
                             }
                         }
                     })
@@ -180,20 +178,17 @@ console.log(JSON.stringify(GM_info));
                         vod_content: vodContent,
                         vod_play_data: [{
                             from: "Supjav",
-                            url: playUrl
+                            media: media
                         }]
                     }]
                 };
                 return result
             },
             playerContent: function (flag, id, vipFlags) {
-                let link = window.location.hash.split("#").at(1);
-                document.querySelector(`.video-wrap .btn-server[data-link='${link}']`).dispatchEvent(new Event("click"));
+                const link = window.location.hash.split("#").at(1);
+                document.querySelectorAll(`.video-wrap .btn-server`)[link].dispatchEvent(new Event("click"));
                 return {
-                    type: "match",
-                    data: {
-                        url: link
-                    }
+                    type: "match"
                 };
             },
             searchContent: function (key, quick, pg) {

@@ -5,7 +5,7 @@
 // @description  NETFLAV GMSpider
 // @author       Luomo
 // @match        https://netflav.com/*
-// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.min.js
+// @require      https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js
 // @grant        unsafeWindow
 // ==/UserScript==
 console.log(JSON.stringify(GM_info));
@@ -150,7 +150,7 @@ if (typeof unsafeWindow.gmSpiderRunning === "undefined") {
                                     vod_tag: "folder"
                                 })
                             });
-                            console.log(gotItems.length,$(".video_grid_container .grid_0_cell").length);
+                            console.log(gotItems.length, $(".video_grid_container .grid_0_cell").length);
                             if (gotItems.length === $(".video_grid_container .grid_0_cell").length) {
                                 gotItems.forEach(function (media) {
                                     result.list.push({
@@ -185,7 +185,7 @@ if (typeof unsafeWindow.gmSpiderRunning === "undefined") {
                 detailContent: function (ids) {
                     const formatData = JSON.parse($("#__NEXT_DATA__").html());
                     const video = formatData.props.initialState.video.data;
-                    let vodActor = [], tags = [], playUrl = [];
+                    let vodActor = [], tags = [], media = [];
                     video?.actors.forEach(function (actor) {
                         if (actor.startsWith("zh:")) {
                             const actress = actor.substring(3);
@@ -199,20 +199,18 @@ if (typeof unsafeWindow.gmSpiderRunning === "undefined") {
                         }
                     })
                     video?.srcs.forEach(function (src, index) {
-                        playUrl.push({
+                        media.push({
                             name: `播放源${index + 1}`,
-                            value: {
-                                type: "webview",
-                                data: {
-                                    replace: {
-                                        vod_id: video.videoId,
-                                        src: index + 1
-                                    }
+                            type: "webview",
+                            ext: {
+                                replace: {
+                                    vod_id: video.videoId,
+                                    src: index + 1
                                 }
                             }
                         });
                     })
-                    return vod = {
+                    return  {
                         vod_id: video.videoId,
                         vod_name: video.code,
                         vod_pic: video.preview_hp,
@@ -222,7 +220,7 @@ if (typeof unsafeWindow.gmSpiderRunning === "undefined") {
                         vod_content: video.description,
                         vod_play_data: [{
                             from: video?.category ?? "NETFLAV",
-                            url: playUrl
+                            media: media
                         }]
                     };
                 },
@@ -230,10 +228,7 @@ if (typeof unsafeWindow.gmSpiderRunning === "undefined") {
                     let link = window.location.hash.split("#").at(1);
                     document.querySelector(`.videoiframe_source_container .videoiframe_source_tag:nth-child(${link})`).dispatchEvent(new Event("click"));
                     return {
-                        type: "match",
-                        data: {
-                            url: link
-                        }
+                        type: "match"
                     };
                 },
                 searchContent: function (key, quick, pg) {
