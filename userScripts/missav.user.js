@@ -4,7 +4,7 @@
 // @version      2024.12.03
 // @description  MissAV GMSpider
 // @author       Luomo
-// @match        https://missav.com/*
+// @match        https://missav.*/*
 // @require      https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js
 // @grant        unsafeWindow
 // ==/UserScript==
