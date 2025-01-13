@@ -1,7 +1,9 @@
 
 {
 
-  "spider": "./jar/GM.jar;md5;b7397bd6d49458eabbce5b2892116bb9",
+  "spider": "./jar/GM.jar;md5;3e59c9c3c50ea1d4609cec9dbee730c3",
+
+  
   
   "sites": [
     {
@@ -10,6 +12,7 @@
       "type": 3,
       "searchable": 1,
       "changeable": 1,
+      "quickSearch": 0,
       "style": {
         "type": "rect",
         "ratio": 0.75
@@ -47,15 +50,13 @@
         }
       }
     },
-    
-    
-    
     {
       "key": "gaze",
       "name": "🎯|注视影视",
       "type": 3,
       "searchable": 1,
       "changeable": 1,
+      "quickSearch": 0,
       "style": {
         "type": "rect",
         "ratio": 0.66
@@ -97,15 +98,13 @@
         }
       }
     },
-    
-    
-    
     {
       "key": "hitv",
       "name": "🎯|Hi视频",
       "type": 3,
       "searchable": 1,
       "changeable": 1,
+      "quickSearch": 0,
       "style": {
         "type": "rect",
         "ratio": 0.71
@@ -128,10 +127,487 @@
             "loadUrl": "https://www.upfuhn.com/column/${tid}.html"
           },
           "detailContent": {
-            "loadUrl": "https://www.upfuhn.com/play/${id}.html"
+            "loadUrl": "https://www.upfuhn.com/play/${id}-1-0.html"
           },
           "searchContent": {
             "loadUrl": "https://www.upfuhn.com/search/${key}.html"
+          }
+        }
+      }
+    },
+    {
+      "key": "bilfun",
+      "name": "🎯|BILFUN",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "ext": {
+        "userScript": "./userScripts/bilfun.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://*.51.la/*",
+            "https://collect-v6.51.la/*"
+          ]
+        },
+        "playUrlMatch": [
+          "*://*/*.m3u8*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://bilfun.cc/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://bilfun.cc/bilfunshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": {
+            "loadUrl": "https://bilfun.cc${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://bilfun.cc${playUrl}"
+          },
+          "searchContent": {
+            "loadUrl": "https://bilfun.cc${playUrl}"
+          }
+        }
+      }
+    },
+    {
+      "key": "huochetaidu",
+      "name": "🎯|火车太堵",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "ext": {
+        "userScript": "./userScripts/huochetaidu.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://hm.baidu.com"
+          ]
+        },
+        "playUrlMatch": [
+          "*://*/*.m3u8*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://www.tdgo.shop/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://www.tdgo.shop/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": {
+            "loadUrl": "https://www.tdgo.shop${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://www.tdgo.shop${playUrl}"
+          },
+          "searchContent": {
+            "loadUrl": "https://www.tdgo.shop/vodsearch/${key}----------${pg:-1}---.html"
+          }
+        }
+      }
+    },
+    {
+      "key": "fantuan",
+      "name": "🎯|饭团影视",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "ext": {
+        "userScript": "./userScripts/fantuan.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://hm.baidu.com"
+          ]
+        },
+        "playUrlMatch": [
+          "*://*/*.m3u8*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://www.fantuan.vip/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://www.fantuan.vip/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": {
+            "loadUrl": "https://www.fantuan.vip${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://www.fantuan.vip${playUrl}"
+          },
+          "searchContent": {
+            "loadUrl": "https://www.fantuan.vip/vodsearch/${key}----------${pg:-1}---.html"
+          }
+        }
+      }
+    },
+    {
+      "key": "pipiys",
+      "name": "🎯|皮皮影视",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "ext": {
+        "userScript": "./userScripts/pipiys.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://hm.baidu.com"
+          ]
+        },
+        "playUrlMatch": [
+          "*://*/*.m3u8*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://www.pipiys1.com/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://www.pipiys1.com/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": {
+            "loadUrl": "https://www.pipiys1.com${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://www.pipiys1.com${playUrl}"
+          },
+          "searchContent": {
+            "loadUrl": "https://www.pipiys1.com/vodsearch/${key}----------${pg:-1}---.html"
+          }
+        }
+      }
+    },
+    {
+      "key": "freeok",
+      "name": "🎯|FreeOK",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "ext": {
+        "userScript": "./userScripts/freeok.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://hm.baidu.com"
+          ]
+        },
+        "playUrlMatch": [
+          "*://*/*.m3u8*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://www.freeok.la/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://www.freeok.la/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": {
+            "loadUrl": "https://www.freeok.la${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://www.freeok.la${playUrl}"
+          },
+          "searchContent": {
+            "loadUrl": "https://www.freeok.la/vodsearch/${key}----------${pg:-1}---.html"
+          }
+        }
+      }
+    },
+    {
+      "key": "ppdys",
+      "name": "🎯|皮皮蛋影视",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "ext": {
+        "userScript": "./userScripts/ppdys.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://hm.baidu.com"
+          ]
+        },
+        "playUrlMatch": [
+          "*://*/*.m3u8*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://www.ppdys.me/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://www.ppdys.me/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": {
+            "loadUrl": "https://www.ppdys.me${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://www.ppdys.me${playUrl}"
+          },
+          "searchContent": {
+            "loadUrl": "https://www.ppdys.me/vodsearch/${key}----------${pg:-1}---.html"
+          }
+        }
+      }
+    },
+    {
+      "key": "dandantu",
+      "name": "🎯|蛋蛋兔",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "ext": {
+        "userScript": "./userScripts/dandantu.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://hm.baidu.com"
+          ]
+        },
+        "playUrlMatch": [
+          "*://*/*.m3u8*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://www.dandantu.cc/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://www.dandantu.cc/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": {
+            "loadUrl": "https://www.dandantu.cc${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://www.dandantu.cc${playUrl}"
+          },
+          "searchContent": {
+            "loadUrl": "https://www.dandantu.cc/vodsearch/${key}----------${pg:-1}---.html"
+          }
+        }
+      }
+    },
+    {
+      "key": "juyeye",
+      "name": "🎯|剧爷爷",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "ext": {
+        "userScript": "./userScripts/juyeye.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://hm.baidu.com"
+          ]
+        },
+        "playUrlMatch": [
+          "*://*/*.m3u8*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://www.juyeye.cc/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://www.juyeye.cc/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": {
+            "loadUrl": "https://www.juyeye.cc${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://www.juyeye.cc${playUrl}"
+          },
+          "searchContent": {
+            "loadUrl": "https://www.juyeye.cc/vodsearch/${key}----------${pg:-1}---.html"
+          }
+        }
+      }
+    },
+    {
+      "key": "yirenmeng",
+      "name": "🎯|番茄影视",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "ext": {
+        "userScript": "./userScripts/yirenmeng.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://hm.baidu.com"
+          ]
+        },
+        "playUrlMatch": [
+          "*://*/*.m3u8*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://www.yirenmeng.com/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://www.yirenmeng.com/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": {
+            "loadUrl": "https://www.yirenmeng.com${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://www.yirenmeng.com${playUrl}"
+          },
+          "searchContent": {
+            "loadUrl": "https://www.yirenmeng.com/vodsearch/${key}----------${pg:-1}---.html"
+          }
+        }
+      }
+    },
+    {
+      "key": "zxzjhd",
+      "name": "🎯|在线之家",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "ext": {
+        "userScript": "./userScripts/zxzjhd.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://hm.baidu.com/*",
+            "https://*.51.la/*"
+          ]
+        },
+        "playUrlMatch": [
+          "*://*/*.mp4*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://www.zxzjhd.com/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://www.zxzjhd.com/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": {
+            "loadUrl": "https://www.zxzjhd.com${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://www.zxzjhd.com${playUrl}"
+          },
+          "searchContent": {
+            "loadUrl": "https://www.zxzjhd.com/vodsearch/${key}----------${pg:-1}---.html"
+          }
+        }
+      }
+    },
+
+
+    {
+      "key": "kkys",
+      "name": "🎯|可可影视",
+      "type": 3,
+      "searchable": 0,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "ext": {
+        "userScript": "./userScripts/kkys.user.js",
+        "debug": true,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://hm.baidu.com"
+          ]
+        },
+        "playUrlMatch": [
+          "https://*/*.m3u8*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://www.kkys01.com/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://www.kkys01.com/show/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": {
+            "loadUrl": "https://www.kkys01.com${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://www.kkys01.com${playUrl}"
+          },
+          "searchContent": {
+            "loadUrl": "https://www.kkys01.com/search?k=${key}&page=${pg:-1}"
           }
         }
       }
@@ -188,9 +664,6 @@
         }
       }
     },
-    
-    
-    
     {
       "key": "netflav",
       "name": "🔞|NETFLAV",
@@ -208,6 +681,9 @@
         "webViewSettings": {
           "blockNetworkImage": true,
           "blockList": [
+            "*.png",
+            "*.css",
+            "*.woff2",
             "https://*.googletagmanager.com/*",
             "https://*.imkirh.com/*",
             "https://*.xlvirdr.com/*"
@@ -237,9 +713,6 @@
         }
       }
     },
-    
-    
-    
     {
       "key": "123av",
       "name": "🔞|123AV",
@@ -274,10 +747,10 @@
         ],
         "spider": {
           "homeContent": {
-            "loadUrl": "https://123av.com/zh/"
+            "loadUrl": "https://123av.com/zh/dm1"
           },
           "categoryContent": {
-            "loadUrl": "https://123av.com/zh/${tid}?page=${pg:-1}${filter:-}${sort:-}"
+            "loadUrl": "https://123av.com/zh/dm1/${tid}?page=${pg:-1}${filter:-}${sort:-}"
           },
           "detailContent": {
             "loadUrl": "https://123av.com/zh/v/${id}"
@@ -288,9 +761,6 @@
         }
       }
     },
-    
-    
-    
     {
       "key": "MissAV",
       "name": "🔞|MissAV",
@@ -329,23 +799,20 @@
         },
         "spider": {
           "homeContent": {
-            "loadUrl": "https://missav.com/cn/"
+            "loadUrl": "https://missav.ws/cn/"
           },
           "categoryContent": {
-            "loadUrl": "https://missav.com/cn/${tid}?page=${pg:-1}${filter:-}${sort:-}"
+            "loadUrl": "https://missav.ws/cn/${tid}?page=${pg:-1}${filter:-}${sort:-}"
           },
           "detailContent": {
-            "loadUrl": "https://missav.com/cn/${id}"
+            "loadUrl": "https://missav.ws/cn/${id}"
           },
           "searchContent": {
-            "loadUrl": "https://missav.com/cn/search/${key}?page=${pg:-1}"
+            "loadUrl": "https://missav.ws/cn/search/${key}?page=${pg:-1}"
           }
         }
       }
     },
-    
-    
-    
     {
       "key": "supjav",
       "name": "🔞|Supjav",
@@ -363,18 +830,24 @@
         "webViewSettings": {
           "blockNetworkImage": true,
           "blockList": [
-            "https://*.tapioni.com/*",
-            "https://*.fanza.cc/*",
-            "https://*.mnaspm.com/*",
-            "https://*.sacdnssedge.com/*",
-            "https://*.bbrdbr.com/*",
-            "https://*.googletagmanager.com/*",
-            "https://endowmentoverhangutmost.com/*",
-            "https://*.google-analytics.com/*",
+            "https://*.adforcast.com/*",
             "https://*.adxadserv.com/*",
-            "https://*.yandex.ru/*",
+            "https://*.bbrdbr.com/*",
+            "https://*.fanza.cc/*",
+            "https://*.google-analytics.com/*",
+            "https://*.googletagmanager.com/*",
+            "https://*.mnaspm.com/*",
             "https://*.recombee.com/*",
-            "https://*.adforcast.com/*"
+            "https://*.sacdnssedge.com/*",
+            "https://*.tapioni.com/*",
+            "https://*.yandex.ru/*",
+            "https://*/prebid.min.js",
+            "https://divisiondrearilyunfiled.com/*",
+            "https://endowmentoverhangutmost.com/*",
+            "https://imasdk.googleapis.com/*",
+            "https://psoroumukr.com/*",
+            "https://static.ads-twitter.com/*",
+            "https://streamhg.com/*"
           ]
         },
         "playUrlMatch": [
@@ -383,7 +856,7 @@
           "https://*.cloudflarestorage.com/*",
           "https://*.linkofnyz.com/*.m3u8*",
           "https://*.tapecontent.net/*",
-          "https://*.turboviplay.com/*.m3u8",
+          "https://*.turboviplay.*/*.m3u8",
           "https://*.voe-network.net/*/master.m3u8*",
           "https://dood.la/pass_md5/*",
           "https://streamtape.com/get_video*"
