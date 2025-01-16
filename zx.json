@@ -46,7 +46,20 @@
   ],
   "sites": [
     
-    {"key":"csp_DouDou","name":"🔍豆瓣┃本接口免费-🈲贩卖","type":3,"api":"csp_DouDou","searchable":0,"filterable":1,"changeable":1,"ext":{"commonConfig":"http://127.0.0.1:9978/file/TVBox/peizhi.json","filter":"https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/douban.json"}},
+    {
+      "key":"csp_DouDou",
+      "name":"🔍豆瓣┃本接口免费-🈲贩卖",
+      "type":3,
+      "api":"csp_DouDou",
+      "jar": "./Yoursmile1215.jar;md5;C6BB658C79DBF1B220A5004B3FB05326"
+      "searchable":0,
+      "filterable":1,
+      "changeable":1,
+      "ext":{
+        "commonConfig": "./json/peizhi.json",
+        "filter": "./json/douban.json"
+      }
+    },
     
     {
       "key": "Tg | 豆瓣",
