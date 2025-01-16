@@ -85,20 +85,20 @@
     },
     {
       "key": "玩偶 | 蜡笔",
-      "name": "玩偶 | 蜡笔",
+      "name": "玩偶 | 蜡笔4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
       "changeable": 0,
       "ext": {
         "commonConfig": "./json/peizhi.json",
-        "siteUrl": "https://labipan.com/",
+        "siteUrl": "https://feimaoai.site",
         "filter": "./json/wogg.json"
       }
     },
     {
       "key": "玩偶 | 木偶",
-      "name": "玩偶 | 木偶",
+      "name": "玩偶 | 木偶4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -110,8 +110,151 @@
       }
     },
     {
+      "key": "玩偶 | 至臻",
+      "name": "玩偶 | 至臻4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://mihdr.top",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶 | 小米",
+      "name": "玩偶 | 小米4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "http://www.mucpan.cc",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶 | 多多",
+      "name": "玩偶 | 多多4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://tv.yydsys.top",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶 | 讴歌",
+      "name": "玩偶 | 讴歌4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://woog.nxog.eu.org",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶 | 闪电",
+      "name": "玩偶 | 闪电4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "http://1.95.79.193",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶 | 六趣",
+      "name": "玩偶 | 六趣4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://wp.0v.fit",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶 | 奥秘",
+      "name": "玩偶 | 奥秘4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://vip.omii.to",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶 | 白嫖",
+      "name": "玩偶 | 白嫖4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://smdyo.top",
+        "filter": "./json/wogg.json"
+      }  
+    },
+    {
+      "key": "玩偶 | 下饭",
+      "name": "玩偶 | 下饭4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "http://www.xn--ghqy10g1w0a.xyz",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "玩偶 | 土豆",
+      "name": "玩偶 | 土豆4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "https://dcyun.cc",
+        "filter": "./json/wogg.json"
+      }  
+    },
+    {
+      "key": "玩偶 | 虎斑",
+      "name": "玩偶 | 虎斑4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json",
+        "siteUrl": "http://45.207.212.215:12121",
+        "filter": "./json/wogg.json"
+      }
+    },
+    {
       "key": "玩偶gg",
-      "name": "玩偶 | 饭",
+      "name": "玩偶 | 饭饭4K",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
