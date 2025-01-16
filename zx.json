@@ -1,49 +1,17 @@
 
 {
   "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
+  
   "wallpaper": "https://bing.img.run/rand.php",
+  
   "lives": [
-    {
-      "name": "feiyang.allinone",
-      "type": 0,
-      "url": "http://127.0.0.1:35457/tv.m3u",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "feiyang.bililive",
-      "type": 0,
-      "url": "http://127.0.0.1:35457/bililive.m3u",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "feiyang.huyayqk",
-      "type": 0,
-      "url": "http://127.0.0.1:35457/huyayqk.m3u",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "feiyang.douyuyqk",
-      "type": 0,
-      "url": "http://127.0.0.1:35457/douyuyqk.m3u",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "feiyang.yylunbo",
-      "type": 0,
-      "url": "http://127.0.0.1:35457/yylunbo.m3u",
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
+    
+    {"name":"IPV4","type":0,"url":"https://ghfast.top/raw.githubusercontent.com/MemoryCollection/IPTV/refs/heads/main/multicast.txt","playerType":1,"logo": "https://ghfast.top/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/{name}.png"},
+    {"name":"IPV6①","type":0,"url":"https://ghfast.top/raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Gather.m3u","playerType":1},
+    {"name":"平台直播","type":0,"url":"http://tv.iill.top/m3u/Live","ua": "okhttp/3.15","playerType":2 }
+    
   ],
+  
   "sites": [
     
     {
@@ -58,6 +26,18 @@
       "ext":{
         "commonConfig": "./json/peizhi.json",
         "filter": "./json/douban.json"
+      }
+    },
+
+    {
+      "key": "ConfigCenter",
+      "name": "配置中心",
+      "type": 3,
+      "api": "csp_ConfigCenter",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json"
       }
     },
     
@@ -75,8 +55,6 @@
         "filter": "./json/douban.json"
       }
     },
-
-
     {
       "key": "Tg | 豆瓣2",
       "name": "Tg | 豆瓣2",
@@ -91,8 +69,6 @@
         "filter": "./json/douban.json"
       }
     },
-
-
     {
             "key": "TgYunPan|服务器",
             "name": "真心TgYunPan|服务器",
@@ -107,8 +83,6 @@
                 "commonConfig": "http://127.0.0.1:9978/file/download/peizhi.json"
             }
     },
-    
-    
     {
       "key": "TgYunPan|本地",
       "name": "TgYunPan|本地",
@@ -128,17 +102,6 @@
     {"key":"csp_Nongm","name":"👩‍🌾农民","type":3,"api":"csp_Nongm","jar": "./Yoursmile1215.jar;md5;c6bb658c79dbf1b220a5004b3fb05326","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://wwgz.cn"},
 
     
-    {
-      "key": "ConfigCenter",
-      "name": "配置中心",
-      "type": 3,
-      "api": "csp_ConfigCenter",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "./json/peizhi.json"
-      }
-    },
     {
       "key": "网盘集合",
       "name": "网盘集合|4K",
