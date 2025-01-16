@@ -51,7 +51,7 @@
       "name":"🔍豆瓣┃本接口免费-🈲贩卖",
       "type":3,
       "api":"csp_DouDou",
-      "jar": "./Yoursmile1215.jar;md5;C6BB658C79DBF1B220A5004B3FB05326"
+      "jar": "./Yoursmile1215.jar;md5;C6BB658C79DBF1B220A5004B3FB05326",
       "searchable":0,
       "filterable":1,
       "changeable":1,
