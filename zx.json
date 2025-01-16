@@ -45,6 +45,9 @@
     }
   ],
   "sites": [
+    
+    {"key":"csp_DouDou","name":"🔍豆瓣┃本接口免费-🈲贩卖","type":3,"api":"csp_DouDou","searchable":0,"filterable":1,"changeable":1,"ext":{"commonConfig":"http://127.0.0.1:9978/file/TVBox/peizhi.json","filter":"https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/sub/douban.json"}},
+    
     {
       "key": "Tg | 豆瓣",
       "name": "Tg | 豆瓣",
@@ -59,6 +62,28 @@
         "filter": "./json/douban.json"
       }
     },
+    {
+      "key": "TgYunPan|本地",
+      "name": "TgYunPan|本地",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "channelUsername": "ucpanpan,ydypzyfx,tianyi_pd2,hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
+        "commonConfig": "./json/peizhi.json"
+      }
+    },
+    
+
+
+    {"key":"csp_TgYunDouBanPan1","name":"雷蒙影视 | 📡TG豆瓣1(SP)","type":3,"api":"csp_TgYunDouBanPan","searchable":1,"filterable":1,"changeable":0,"ext":{"siteUrl":"http://45.207.209.177:9999/","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig":"./N3RD/T/zx.json","filter":"./N3RD/T/douban.json"}},
+    {"key":"csp_TgYunDouBanPan2","name":"雷蒙影视 | 📡TG豆瓣2(SP)","type":3,"api":"csp_TgYunDouBanPan","searchable":1,"filterable":1,"changeable":0,"ext":{"siteUrl":"http://tgsou.fish2018.us.kg","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig":"./N3RD/T/zx.json","filter":"./N3RD/T/douban.json"}},
+
+
+
+    
     {
       "key": "ConfigCenter",
       "name": "配置中心",
@@ -309,19 +334,7 @@
         "cookie": ""
       }
     },
-    {
-      "key": "TgYunPan|本地",
-      "name": "TgYunPan|本地",
-      "type": 3,
-      "api": "csp_TgYunPanLocal",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "channelUsername": "ucpanpan,ydypzyfx,tianyi_pd2,hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
-        "commonConfig": "./json/peizhi.json"
-      }
-    },
+    
     {
       "key": "盘Ta",
       "name": "盘Ta",
