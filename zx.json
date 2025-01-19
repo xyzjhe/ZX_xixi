@@ -20,7 +20,7 @@
       "key":"csp_DouDou",
       "name":"🔍真心豆瓣┃1221&0119",
       "type":3,
-      "api":"csp_DouDou",
+      "api":"csp_Douban",
       "searchable":0,
       "filterable":1,
       "changeable":1,
