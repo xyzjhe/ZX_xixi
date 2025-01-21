@@ -185,7 +185,7 @@ if (typeof unsafeWindow.gmSpiderRunning === "undefined") {
                 detailContent: function (ids) {
                     const formatData = JSON.parse($("#__NEXT_DATA__").html());
                     const video = formatData.props.initialState.video.data;
-                    let vodActor = [], tags = [], media = [];
+                    let vodActor = [], tags = [];
                     video?.actors.forEach(function (actor) {
                         if (actor.startsWith("zh:")) {
                             const actress = actor.substring(3);
@@ -198,19 +198,23 @@ if (typeof unsafeWindow.gmSpiderRunning === "undefined") {
                             tags.push(`[a=cr:{"id":"all?genre=${genre}","name":"${genre}"}/]${genre}[/a]`);
                         }
                     })
+                    let vodPlayData = [];
                     video?.srcs.forEach(function (src, index) {
-                        media.push({
-                            name: `播放源${index + 1}`,
-                            type: "webview",
-                            ext: {
-                                replace: {
-                                    vod_id: video.videoId,
-                                    src: index + 1
+                        vodPlayData.push({
+                            from: `播放源${index + 1}`,
+                            media: [{
+                                name: video?.category ?? video.code,
+                                type: "webview",
+                                ext: {
+                                    replace: {
+                                        vod_id: video.videoId,
+                                        src: index + 1
+                                    }
                                 }
-                            }
-                        });
+                            }]
+                        })
                     })
-                    return  {
+                    return {
                         vod_id: video.videoId,
                         vod_name: video.code,
                         vod_pic: video.preview_hp,
@@ -218,10 +222,7 @@ if (typeof unsafeWindow.gmSpiderRunning === "undefined") {
                         vod_remarks: tags.join(" "),
                         vod_actor: vodActor.join(" "),
                         vod_content: video.description,
-                        vod_play_data: [{
-                            from: video?.category ?? "NETFLAV",
-                            media: media
-                        }]
+                        vod_play_data: vodPlayData
                     };
                 },
                 playerContent: function (flag, id, vipFlags) {

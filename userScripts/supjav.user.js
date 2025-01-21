@@ -148,7 +148,7 @@ console.log(JSON.stringify(GM_info));
                         }
                     }
                 }
-                let media = [];
+                let vodPlayData = [];
                 let btnServers;
                 if ($(".video-wrap .cd-server").length > 0) {
                     btnServers = $(".video-wrap .cd-server:first .btn-server");
@@ -157,16 +157,19 @@ console.log(JSON.stringify(GM_info));
 
                 }
                 btnServers.each(function (i) {
-                    media.push({
-                        name: $(this).text().trim(),
-                        type: "webview",
-                        ext: {
-                            replace: {
-                                pathname: ids[0],
-                                link: i
+                    vodPlayData.push({
+                        from: $(this).text().trim(),
+                        media: [{
+                            name: vodName,
+                            type: "webview",
+                            ext: {
+                                replace: {
+                                    pathname: ids[0],
+                                    link: i
+                                }
                             }
-                        }
-                    })
+                        }]
+                    });
                 })
                 const result = {
                     list: [{
@@ -176,10 +179,7 @@ console.log(JSON.stringify(GM_info));
                         vod_actor: vodActor.join(" "),
                         vod_remarks: tags.join(" "),
                         vod_content: vodContent,
-                        vod_play_data: [{
-                            from: "Supjav",
-                            media: media
-                        }]
+                        vod_play_data: vodPlayData
                     }]
                 };
                 return result
