@@ -43,8 +43,8 @@
     },
     
     {
-      "key": "Tg | 豆瓣1",
-      "name": "Tg | 豆瓣1",
+      "key": "Tg┃豆瓣1",
+      "name": "Tg┃豆瓣1",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -57,8 +57,8 @@
       }
     },
     {
-      "key": "Tg | 豆瓣2",
-      "name": "Tg | 豆瓣2",
+      "key": "Tg┃豆瓣2",
+      "name": "Tg┃豆瓣2",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -73,8 +73,8 @@
 
     
     /*{
-      "key": "TgYunPan|本地",
-      "name": "TgYunPan|本地",
+      "key": "TgYunPan┃本地",
+      "name": "TgYunPan┃本地",
       "type": 3,
       "api": "csp_TgYunPanLocal",
       "searchable": 1,
@@ -104,22 +104,22 @@
 
 
     
-    {"key":"csp_TgYunPan5","name":"TgYunPan|uu8","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://tgsou.uu8.pro","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,cloudtianyi,tianyirigeng,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig": "./json/peizhi.json"}},
-    {"key":"csp_TgYunPan6","name":"TgYunPan|630","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://107.172.201.182:630","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,cloudtianyi,tianyirigeng,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig": "./json/peizhi.json"}},
+    {"key":"csp_TgYunPan5","name":"TgYunPan┃uu8","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://tgsou.uu8.pro","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,cloudtianyi,tianyirigeng,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig": "./json/peizhi.json"}},
+    {"key":"csp_TgYunPan6","name":"TgYunPan┃630","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://107.172.201.182:630","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,cloudtianyi,tianyirigeng,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig": "./json/peizhi.json"}},
     
     
-    {"key":"csp_TgYunPan9","name":"TgYunPan|fish2018","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://tgsou.fish2018.us.kg","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,cloudtianyi,tianyirigeng,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig": "./json/peizhi.json"}},
-    {"key":"csp_TgYunPan10","name":"TgYunPan|651156","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://tgsou.651156.xyz/","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,cloudtianyi,tianyirigeng,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig": "./json/peizhi.json"}},
+    {"key":"csp_TgYunPan9","name":"TgYunPan┃fish2018","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://tgsou.fish2018.us.kg","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,cloudtianyi,tianyirigeng,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig": "./json/peizhi.json"}},
+    {"key":"csp_TgYunPan10","name":"TgYunPan┃651156","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://tgsou.651156.xyz/","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,cloudtianyi,tianyirigeng,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig": "./json/peizhi.json"}},
     
     
 
-    {"key":"csp_SuBaiBai","name":"🏳️素白白","type":3,"api":"csp_SuBaiBai","jar": "./Yoursmile1215.jar;md5;c6bb658c79dbf1b220a5004b3fb05326","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://subaibai.com"},
-    {"key":"csp_Nongm","name":"👩‍🌾农民","type":3,"api":"csp_Nongm","jar": "./Yoursmile1215.jar;md5;c6bb658c79dbf1b220a5004b3fb05326","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://wwgz.cn"},
+    {"key":"csp_SuBaiBai","name":"🏳️素白白┃2K","type":3,"api":"csp_SuBaiBai","jar": "./Yoursmile1215.jar;md5;c6bb658c79dbf1b220a5004b3fb05326","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://subaibai.com"},
+    {"key":"csp_Nongm","name":"👩‍🌾农民┃2K","type":3,"api":"csp_Nongm","jar": "./Yoursmile1215.jar;md5;c6bb658c79dbf1b220a5004b3fb05326","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://wwgz.cn"},
 
     
     {
       "key": "网盘集合",
-      "name": "网盘集合|4K",
+      "name": "网盘集合┃4K",
       "type": 3,
       "api": "csp_网盘集合",
       "searchable": 1,
@@ -131,8 +131,8 @@
       }
     },
     {
-      "key": "玩偶 | 蜡笔",
-      "name": "玩偶 | 蜡笔4K",
+      "key": "玩偶┃蜡笔",
+      "name": "玩偶┃蜡笔4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -144,8 +144,8 @@
       }
     },
     {
-      "key": "玩偶 | 木偶",
-      "name": "玩偶 | 木偶4K",
+      "key": "玩偶┃木偶",
+      "name": "玩偶┃木偶4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -157,8 +157,8 @@
       }
     },
     {
-      "key": "玩偶 | 至臻",
-      "name": "玩偶 | 至臻4K",
+      "key": "玩偶┃至臻",
+      "name": "玩偶┃至臻4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -170,8 +170,8 @@
       }
     },
     {
-      "key": "玩偶 | 小米",
-      "name": "玩偶 | 小米4K",
+      "key": "玩偶┃小米",
+      "name": "玩偶┃小米4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -183,8 +183,8 @@
       }
     },
     {
-      "key": "玩偶 | 多多",
-      "name": "玩偶 | 多多4K",
+      "key": "玩偶┃多多",
+      "name": "玩偶┃多多4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -196,8 +196,8 @@
       }
     },
     {
-      "key": "玩偶 | 讴歌",
-      "name": "玩偶 | 讴歌4K",
+      "key": "玩偶┃讴歌",
+      "name": "玩偶┃讴歌4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -209,8 +209,8 @@
       }
     },
     {
-      "key": "玩偶 | 闪电",
-      "name": "玩偶 | 闪电4K",
+      "key": "玩偶┃闪电",
+      "name": "玩偶┃闪电4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -222,8 +222,8 @@
       }
     },
     {
-      "key": "玩偶 | 六趣",
-      "name": "玩偶 | 六趣4K",
+      "key": "玩偶┃六趣",
+      "name": "玩偶┃六趣4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -235,8 +235,8 @@
       }
     },
     {
-      "key": "玩偶 | 奥秘",
-      "name": "玩偶 | 奥秘4K",
+      "key": "玩偶┃奥秘",
+      "name": "玩偶┃奥秘4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -248,8 +248,8 @@
       }
     },
     {
-      "key": "玩偶 | 白嫖",
-      "name": "玩偶 | 白嫖4K",
+      "key": "玩偶┃白嫖",
+      "name": "玩偶┃白嫖4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -261,8 +261,8 @@
       }  
     },
     {
-      "key": "玩偶 | 下饭",
-      "name": "玩偶 | 下饭4K",
+      "key": "玩偶┃下饭",
+      "name": "玩偶┃下饭4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -274,8 +274,8 @@
       }
     },
     {
-      "key": "玩偶 | 土豆",
-      "name": "玩偶 | 土豆4K",
+      "key": "玩偶┃土豆",
+      "name": "玩偶┃土豆4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -287,8 +287,8 @@
       }  
     },
     {
-      "key": "玩偶 | 虎斑",
-      "name": "玩偶 | 虎斑4K",
+      "key": "玩偶┃虎斑",
+      "name": "玩偶┃虎斑4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -301,7 +301,7 @@
     },
     {
       "key": "玩偶gg",
-      "name": "玩偶 | 饭饭4K",
+      "name": "玩偶┃饭饭4K",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
@@ -463,7 +463,7 @@
 
     {
       "key": "360资源",
-      "name": "360zy丨采集",
+      "name": "360zy┃采集",
       "type": 1,
       "api": "https://360zy.com/api.php/seaxml/vod/",
       "searchable": 1,
@@ -502,7 +502,7 @@
     },
     {
       "key": "非凡",
-      "name": "非凡丨采集",
+      "name": "非凡┃采集",
       "type": 1,
       "api": "http://api.ffzyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -541,7 +541,7 @@
     },
     {
       "key": "量子",
-      "name": "量子丨采集",
+      "name": "量子┃采集",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "searchable": 1,
