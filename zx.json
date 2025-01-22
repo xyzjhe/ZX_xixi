@@ -1,6 +1,6 @@
 
 {
-  "spider": "./custom_spider.jar;md5;2f80bd7b2be1661a6b6710aa6f30a80d",
+  "spider": "./custom_spider.jar;md5;b62bfc86d304c325cd7674bda62e6432",
   
   "wallpaper": "https://bing.img.run/rand.php",
 
@@ -18,7 +18,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250122",
+      "name":"🔍真心豆瓣┃250122V2",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
