@@ -1,6 +1,6 @@
 
 {
-  "spider": "./custom_spider1221.jar",
+  "spider": "./custom_spider_zx250123.jar",
 
   //"spider": "./custom_spider.jar;md5;b62bfc86d304c325cd7674bda62e6432",
   
@@ -20,7 +20,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250123V2",
+      "name":"🔍真心豆瓣┃250123V3",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
