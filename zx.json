@@ -4,9 +4,7 @@
 
   "spider": "./custom_spider.jar;md5;bfa32232fc06f5d26174174bf92c373a",
 
-  //"spider": "./custom_spider.jar;md5;b62bfc86d304c325cd7674bda62e6432",
-  
-  "wallpaper": "https://bing.img.run/rand.php",
+   "wallpaper": "https://bing.img.run/rand.php",
 
   "logo":"https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
   
