@@ -415,13 +415,14 @@
     },
     {
       "key": "星剧社",
-      "name": "星剧社",
+      "name": "网盘 | 星剧社",
       "type": 3,
       "api": "csp_Star2",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
       "ext": {
+        "siteUrl": "https://www.4.star2.cn/",
         "commonConfig": "./json/peizhi.json"
       }
     },
