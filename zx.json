@@ -1,6 +1,8 @@
 
 {
-  "spider": "./custom_spider1221.jar",
+  //"spider": "./custom_spider1221.jar",
+
+  "spider": "./custom_spider.jar;md5;bfa32232fc06f5d26174174bf92c373a",
 
   //"spider": "./custom_spider.jar;md5;b62bfc86d304c325cd7674bda62e6432",
   
