@@ -20,7 +20,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250123V6",
+      "name":"🔍真心豆瓣┃250124V1",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -53,6 +53,7 @@
       "changeable": 0,
       "ext": {
         "siteUrl": "https://tgsou.651156.xyz",
+        "count":4,
         "channelUsername": "leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
         "commonConfig": "./json/peizhi.json",
         "filter": "./json/douban.json"
@@ -67,6 +68,7 @@
       "changeable": 0,
       "ext": {
         "siteUrl": "http://tgsou.fish2018.us.kg",
+        "count":4,
         "channelUsername": "leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,hao115,guaguale115,longzbija,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe",
         "commonConfig": "./json/peizhi.json",
         "filter": "./json/douban.json"
@@ -333,7 +335,7 @@
     },
     {
       "key": "盤搜天意",
-      "name": "盤搜天意",
+      "name": "盘搜┃天翼",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
@@ -413,7 +415,7 @@
     },
     {
       "key": "星剧社",
-      "name": "网盘 | 星剧社",
+      "name": "网盘┃星剧社",
       "type": 3,
       "api": "csp_Star2",
       "searchable": 1,
@@ -426,7 +428,7 @@
     },
     {
       "key": "易搜",
-      "name": "易搜|4K",
+      "name": "易搜┃4K",
       "type": 3,
       "api": "csp_YiSo",
       "searchable": 1,
@@ -439,7 +441,7 @@
     },
     {
       "key": "盤搜索",
-      "name": "盤搜索",
+      "name": "盘搜索",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -450,7 +452,7 @@
     },
     {
       "key": "紙條搜",
-      "name": "紙條搜",
+      "name": "纸条搜",
       "type": 3,
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,
@@ -461,12 +463,12 @@
     },
     {
       "key": "賤賤",
-      "name": "賤賤",
+      "name": "荐片┃2K",
       "type": 3,
       "api": "csp_Jianpian",
       "searchable": 1,
       "changeable": 1,
-      "ext": "https://ghp.ci/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
+      "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
     },
     {
       "key": "AList",
