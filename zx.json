@@ -820,23 +820,7 @@
     },
     
     
-    {
-      "key": "Youtube",
-      "name": "Youtube",
-      "type": 3,
-      "api": "csp_Youtube",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "commonConfig": "./json/peizhi.json",
-        "json": "./json/youtube.json",
-        "cookie": ""
-      }
-    },
+    
     {
       "key": "盤搜天意",
       "name": "盘搜┃天翼",
@@ -850,33 +834,7 @@
         "commonConfig": "./peizhi.json"
       }
     },
-    {
-      "key": "lf_live10_min",
-      "name": " 路飞丨Live",
-      "type": 3,
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "api": "./lib/lf_live10_min-output.js",
-      "ext": "./json/lf_live.json"
-    },
-    {
-      "key": "哔哩FM",
-      "name": "哔哩",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 1,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "json": "./json/bilibili.json",
-        "cookie": ""
-      }
-    },
+    
     
     {
       "key": "盘Ta",
@@ -891,6 +849,8 @@
         "commonConfig": "./json/peizhi.json"
       }
     },
+
+	  
     {
       "key": "小雷",
       "name": "小雷",
@@ -904,6 +864,8 @@
         "commonConfig": "./json/peizhi.json"
       }
     },
+
+	  
     {
       "key": "网盘-片库",
       "name": "网盘-片库",
@@ -917,54 +879,7 @@
         "commonConfig": "./json/peizhi.json"
       }
     },
-    {
-      "key": "星剧社",
-      "name": "网盘┃星剧社",
-      "type": 3,
-      "api": "csp_Star2",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "siteUrl": "https://www.4.star2.cn/",
-        "commonConfig": "./json/peizhi.json"
-      }
-    },
-    {
-      "key": "易搜",
-      "name": "易搜┃4K",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "cookie": "",
-        "commonConfig": "./json/peizhi.json"
-      }
-    },
-    {
-      "key": "盤搜索",
-      "name": "盘搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "./json/peizhi.json"
-      }
-    },
-    {
-      "key": "紙條搜",
-      "name": "纸条搜",
-      "type": 3,
-      "api": "csp_XiaoZhiTiao",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "./json/peizhi.json"
-      }
-    },
+   
     {
       "key": "賤賤",
       "name": "荐片┃2K",
@@ -974,15 +889,7 @@
       "changeable": 1,
       "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
     },
-    {
-      "key": "AList",
-      "name": "AList",
-      "type": 3,
-      "api": "csp_AList",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "./json/alist.json"
-    },
+    
     {
       "key": "push_agent",
       "name": "推送",
