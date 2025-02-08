@@ -34,7 +34,7 @@
 
     {
       "key": "ConfigCenter",
-      "name": "配置中心",
+      "name": "真心｜配置中心",
       "type": 3,
       "api": "csp_ConfigCenter",
       "searchable": 0,
@@ -46,7 +46,7 @@
 
     {
             "key": "配置中心",
-            "name": "网盘弹幕｜配置中心",
+            "name": "潇洒｜配置中心",
             "type": 3,
             "api": "csp_Config",
             "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -58,20 +58,21 @@
                 "ratio": 1.597
             }
      },
+	  
      {
             "key": "影视配置",
             "name": "天翼专用｜配置中心",
             "type": 3,
             "api": "csp_Wexconfig",
+	     "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585",
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
             "style": {
                 "type": "rect",
                 "ratio": 1.597
-            },
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585"
-     },
+            }
+    },
 
     {
             "key": "csp_SuBaiBai",
@@ -79,7 +80,7 @@
             "type": 3,
             "searchable": 1,
             "api": "csp_SuBaiBai",
-	          "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
             "playerType": 2,
             "ext": "https://www.subaibaiys.com/"
     },
@@ -93,7 +94,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "api": "csp_Wwys",
-	          "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
             "ext": "https://www.wwgz.cn/"
     },
 
@@ -101,7 +102,7 @@
             "key": "csp_Xlys",
             "name": "🍤哔嘀┃1080P",
             "api": "csp_Xlys",
-	          "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
             "searchable": 1,
             "quickSearch": 1,
             "type": 3,
@@ -109,13 +110,47 @@
     },
 
     {
+            "key": "wencai",
+            "name": "🥭文采┃1080P",
+            "type": 3,
+            "api": "csp_Jpys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "changeable": 0,
+            "ext": "https://www.hkybqufgh.com"
+    },
+
+    {
             "key": "配置",
-            "name": "⚙️网盘┃配置中心",
+            "name": "⚙️小米┃配置中心",
             "type": 3,
             "changeable": 0,
             "searchable": 0,
             "api": "csp_Config",
 	          "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6" 
+    },
+
+    {
+      "key": "机器人弹幕",
+      "name": "机器人｜弹幕",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+
+    {
+      "key": "采集之王",
+      "name": "采集｜合集",
+      "type": 3,
+      "api": "https://bitbucket.org/mytvbox2025/four-d/raw/master/js/drpy2.min.js",
+      "ext": "https://bitbucket.org/mytvbox2025/four-d/raw/master/movie/js/CJZW.js?type=url&params=https://bitbucket.org/mytvbox2025/four-d/raw/master/movie/json/CJJT.json$1$1"
     },
     
     {
@@ -191,9 +226,7 @@
     
     
 
-    {"key":"csp_SuBaiBai","name":"🏳️素白白┃2K","type":3,"api":"csp_SuBaiBai","jar": "./Yoursmile1215.jar;md5;c6bb658c79dbf1b220a5004b3fb05326","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://subaibai.com"},
-    {"key":"csp_Nongm","name":"👩‍🌾农民┃2K","type":3,"api":"csp_Nongm","jar": "./Yoursmile1215.jar;md5;c6bb658c79dbf1b220a5004b3fb05326","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://wwgz.cn"},
-
+   
     
     {
       "key": "网盘集合",
@@ -647,6 +680,28 @@
             "searchable": 1,
             "changeable": 1,
             "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/YD1231.jar"
+    },
+
+    {
+            "key": "csp_Wogg",
+            "name": "🧸玩偶┃4K弹幕",
+            "type": 3,
+            "api": "csp_Wogg",
+            "changeable": 0,
+            "searchable": 1,
+            "filterable": 1,
+            "ext": {
+                "site_urls": [
+                    "http://woggpan.333232.xyz/",
+                    "http://wogg.xxooo.cf/",
+                    "http://woggapi.888484.xyz/",
+                    "http://www.wogg.net"
+                ],
+                "threadinfo": {
+                    "chunksize": 450,
+                    "threads": 12
+                }
+            }
     },
 
     {
