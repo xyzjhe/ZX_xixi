@@ -32,7 +32,7 @@
     
      {
       "key": "豆瓣",
-      "name": "🌕豆瓣热播┃20250203V1立春🌕",
+      "name": "🌕豆瓣热播┃20250208V1🌕",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -40,8 +40,7 @@
     
      {
             "key": "lf_js_search",
-            "name": "🕸路飞导航┃20250203V1立春🕸",
-            "type": 3,
+            "name": "🕸路飞导航┃20250208V1🕸",
             "searchable": 0,
             "changeable": 0,
             "quickSearch": 0,
@@ -60,8 +59,8 @@
                 "type": "rect",
                 "ratio": 1.597
             }
-        },
-        {
+     },
+     {
             "key": "影视配置",
             "name": "天翼专用｜配置中心",
             "type": 3,
@@ -74,31 +73,54 @@
                 "ratio": 1.597
             },
             "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585"
-        },
-    
-    
-   
-        {
-            "key": "csp_Xlys",
-            "name": "修罗影视(SP)",
+     },
+
+     {
+            "key": "csp_SuBaiBai",
+            "name": "☁️白白┃1080P",
             "type": 3,
-            "api": "csp_Xlys",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6"
-        },
-        {
+            "searchable": 1,
+            "api": "csp_SuBaiBai",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
+            "playerType": 2,
+            "ext": "https://www.subaibaiys.com/"
+    },
+
+    {
             "key": "csp_Wwys",
-            "name": "旺旺影视(SP)",
+            "name": "👨农民┃1080P",
             "type": 3,
-            "api": "csp_Wwys",
+            "playerType": 2,
             "searchable": 1,
             "quickSearch": 1,
+            "changeable": 1,
+            "api": "csp_Wwys",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
+            "ext": "https://www.wwgz.cn/"
+    },
+
+    {
+            "key": "csp_Xlys",
+            "name": "🍤哔嘀┃1080P",
+            "api": "csp_Xlys",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
+            "searchable": 1,
+            "quickSearch": 1,
+            "type": 3,
+            "playerType": 2
+    },
+
+    {
+            "key": "配置",
+            "name": "⚙️网盘┃配置中心",
+            "type": 3,
             "changeable": 0,
-            "ext": "https://www.wwgz.cn",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6"
-        },
+            "searchable": 0,
+            "api": "csp_Config",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6" 
+     },
     
-   
-   {
+     {
 			"key": "修罗影视",
 			"name": "修罗影视┃XBPQ",
 			
@@ -146,12 +168,8 @@
 				"搜索请求头": "User-Agent$MOBILE_UA",
 				"搜索url": "https://www.xlys01.com/search/{wd}/{pg}"
 			}
-	},
+    },
 
-
-	
-    
-    
     {
       "key": "旺旺影视VIP",
       "name": "旺旺影视vip┃XBPQ",
@@ -220,10 +238,6 @@
       }
     },
 
-    
-    
-   
-   
     {
 			"key": "旺旺影视w",
 			"name": "旺旺影视w┃XBPQ",
@@ -253,11 +267,6 @@
 				"类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#剧情片$10#战争片$11#惊悚片$16#奇幻片$17||国产剧#12港台泰#13日韩剧#14欧美剧#15||空||动漫剧#18动漫片#19||空"
 			}
 	},
-    
-    
-   
-
-    
     
     {
             "key": "旺旺影视m",
@@ -290,13 +299,9 @@
             }
     },
 
-
-
-
-
     {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
     
-     {
+    {
         "key": "旺旺影视cat",
         "name": "旺旺影视┃CatJS",
         "type": 3,
@@ -385,248 +390,7 @@
 			}
 	},
     
-   
-    
-    
-        
-    
-    {
-            "key": "厂长影院",
-            "name": "厂长影视┃XBPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-        
-            "searchable": 1,
-            "changeable": 1,
-            "ext": {
-                "主页url": "https://www.czzyvideo.com/",
-                "分类url": "https://www.czzyvideo.com/{cateId}/{class}/{area}/page/{catePg};;x",
-                "分类": "全部&豆瓣电影Top250&高分影视&最新电影&电影&国产剧&电视剧&动画&日剧&韩剧&美剧&海外剧&俄罗斯电影&加拿大电影&华语电影&印度电影&日本电影&欧美电影&韩国电影&纪录片",
-                "分类值": "movie_bt&dbtop250&gaofenyingshi&zuixindianying&movie_bt_series/dyy&movie_bt_series/guochanju&movie_bt_series/dianshiju&movie_bt_series/dohua&movie_bt_series/rj&movie_bt_series/hj&movie_bt_series/mj&movie_bt_series/hwj&movie_bt_series/eluosidianying&movie_bt_series/jianadadianying&movie_bt_series/huayudianying&movie_bt_series/yindudianying&movie_bt_series/ribendianying&movie_bt_series/meiguodianying&movie_bt_series/hanguodianying&movie_bt/movie_bt_tags/jlpp",
-                "简介": "<div class=\"yp_context\">&&</div>",
-                "导演": "导演：&&</li>",
-                "主演": "主演：&&</li>",
-                "影片年代": "年份：&&</li>",
-                "影片地区": "地区：&&</li>",
-                "影片类型": "类型：&&</li>",
-                "数组": "<li>&&</li>",
-                "图片": "data-original=\"&&\"",
-                "标题": "alt=\"&&\"",
-                "链接": "href=\"&&\"",
-                "副标题": "jidi\">&&</div>+furk\">&&</div>+rating\">&&</div>",
-                "线路数组": "<div class=\"mi_paly_box\">&&</div>",
-                "线路标题": "<span>&&</span>[替换:在线观看>>防失联公众号（玉玉软件库）]",
-                "播放数组": "<div class=\"paly_list_btn\">&&</div>",
-                "播放列表": "<a&&/a>",
-                "播放标题": ">&&<[替换:立即播放>>空]",
-                "播放链接": "href=\"&&\"",
-                "筛选": {
-                    "movie_bt": [
-                        {
-                            "key": "area",
-                            "name": "分类",
-                            "value": [
-                                {
-                                    "v": "",
-                                    "n": "全部分类"
-                                },
-                                {
-                                    "v": "movie_bt_series/dyy",
-                                    "n": "电影"
-                                },
-                                {
-                                    "v": "movie_bt_series/dianshiju",
-                                    "n": "电视剧"
-                                },
-                                {
-                                    "v": "movie_bt_series/dohua",
-                                    "n": "动画"
-                                },
-                                {
-                                    "v": "movie_bt_series/guochanju",
-                                    "n": "国产剧"
-                                },
-                                {
-                                    "v": "movie_bt_series/mj",
-                                    "n": "美剧"
-                                },
-                                {
-                                    "v": "movie_bt_series/rj",
-                                    "n": "日剧"
-                                },
-                                {
-                                    "v": "movie_bt_series/hj",
-                                    "n": "韩剧"
-                                },
-                                {
-                                    "v": "movie_bt_series/hwj",
-                                    "n": "海外剧（其他）"
-                                },
-                                {
-                                    "v": "movie_bt_series/huayudianying",
-                                    "n": "华语电影"
-                                },
-                                {
-                                    "v": "movie_bt_series/meiguodianying",
-                                    "n": "欧美电影"
-                                },
-                                {
-                                    "v": "movie_bt_series/ribendianying",
-                                    "n": "日本电影"
-                                },
-                                {
-                                    "v": "movie_bt_series/hanguodianying",
-                                    "n": "韩国电影"
-                                },
-                                {
-                                    "v": "movie_bt_series/yindudianying",
-                                    "n": "印度电影"
-                                },
-                                {
-                                    "v": "movie_bt_series/eluosidianying",
-                                    "n": "俄罗斯电影"
-                                },
-                                {
-                                    "v": "movie_bt_series/jianadadianying",
-                                    "n": "加拿大电影"
-                                },
-                                {
-                                    "v": "movie_bt_series/huiyuanzhuanqu",
-                                    "n": "会员专区"
-                                }
-                            ]
-                        },
-                        {
-                            "key": "class",
-                            "name": "类型",
-                            "value": [
-                                {
-                                    "n": "全部类型",
-                                    "v": ""
-                                },
-                                {
-                                    "n": "传记",
-                                    "v": "movie_bt_tags/chuanji"
-                                },
-                                {
-                                    "n": "儿童",
-                                    "v": "movie_bt_tags/etet"
-                                },
-                                {
-                                    "n": "冒险",
-                                    "v": "movie_bt_tags/maoxian"
-                                },
-                                {
-                                    "n": "剧情",
-                                    "v": "movie_bt_tags/juqing"
-                                },
-                                {
-                                    "n": "动作",
-                                    "v": "movie_bt_tags/dozuo"
-                                },
-                                {
-                                    "n": "动漫",
-                                    "v": "movie_bt_tags/doman"
-                                },
-                                {
-                                    "n": "动画",
-                                    "v": "movie_bt_tags/dhh"
-                                },
-                                {
-                                    "n": "历史",
-                                    "v": "movie_bt_tags/lishi"
-                                },
-                                {
-                                    "n": "古装",
-                                    "v": "movie_bt_tags/guzhuang"
-                                },
-                                {
-                                    "n": "喜剧",
-                                    "v": "movie_bt_tags/xiju"
-                                },
-                                {
-                                    "n": "奇幻",
-                                    "v": "movie_bt_tags/qihuan"
-                                },
-                                {
-                                    "n": "家庭",
-                                    "v": "movie_bt_tags/jiating"
-                                },
-                                {
-                                    "n": "恐怖",
-                                    "v": "movie_bt_tags/kubu"
-                                },
-                                {
-                                    "n": "悬疑",
-                                    "v": "movie_bt_tags/xuanyi"
-                                },
-                                {
-                                    "n": "情色",
-                                    "v": "movie_bt_tags/qingse"
-                                },
-                                {
-                                    "n": "惊悚",
-                                    "v": "movie_bt_tags/kingsong"
-                                },
-                                {
-                                    "n": "战争",
-                                    "v": "movie_bt_tags/zhanzhen"
-                                },
-                                {
-                                    "n": "歌舞",
-                                    "v": "movie_bt_tags/gw"
-                                },
-                                {
-                                    "n": "武侠",
-                                    "v": "movie_bt_tags/wuxia"
-                                },
-                                {
-                                    "n": "灾难",
-                                    "v": "movie_bt_tags/zainan"
-                                },
-                                {
-                                    "n": "爱情",
-                                    "v": "movie_bt_tags/aiqing"
-                                },
-                                {
-                                    "n": "犯罪",
-                                    "v": "movie_bt_tags/fanzui"
-                                },
-                                {
-                                    "n": "短片",
-                                    "v": "movie_bt_tags/dp"
-                                },
-                                {
-                                    "n": "科幻",
-                                    "v": "movie_bt_tags/kh"
-                                },
-                                {
-                                    "n": "纪录片",
-                                    "v": "movie_bt_tags/jlpp"
-                                },
-                                {
-                                    "n": "西部",
-                                    "v": "movie_bt_tags/xb"
-                                },
-                                {
-                                    "n": "运动",
-                                    "v": "movie_bt_tags/yd"
-                                },
-                                {
-                                    "n": "音乐",
-                                    "v": "movie_bt_tags/yy"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            }
-        },
-    
-    
-    
-    
-    {
+   {
             "key": "新视觉影视",
             "name": "新视觉┃py版",
             "type": 3,
@@ -675,6 +439,8 @@
             "api": "https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js",
             "ext": "https://gitee.com/xyzjhe/test/raw/master/drpy_js/流光.js"
     },
+
+    
     
     {
             "key": "csp_Wogg",
@@ -1552,16 +1318,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "素白白",
-      "name": "素白白｜影视",
-      "type": 3,
-      "api": "csp_Subaibai",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://subaibai.com"
-    },
+    
     {
       "key": "小苹果",
       "name": "小苹果｜影视",
