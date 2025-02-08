@@ -20,7 +20,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250208V1",
+      "name":"🔍真心豆瓣┃250208V2🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -30,6 +30,15 @@
         "commonConfig": "./json/peizhi.json",
         "filter": "./json/douban.json"
       }
+    },
+
+     {
+            "key": "lf_js_search",
+            "name": "🕸路飞导航┃20250208V1🕸",
+            "searchable": 0,
+            "changeable": 0,
+            "quickSearch": 0,
+            "api": "https://gitee.com/xyzjhe/test/raw/master/json/lf_search3_domestic_min.js"
     },
 
     {
@@ -58,13 +67,23 @@
                 "ratio": 1.597
             }
      },
+
+     {
+            "key": "配置",
+            "name": "⚙️小米┃配置中心",
+            "type": 3,
+            "changeable": 0,
+            "searchable": 0,
+            "api": "csp_Config",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6" 
+     },
 	  
      {
             "key": "影视配置",
             "name": "天翼专用｜配置中心",
             "type": 3,
             "api": "csp_Wexconfig",
-	     "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585",
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
@@ -122,15 +141,7 @@
             "ext": "https://www.hkybqufgh.com"
     },
 
-    {
-            "key": "配置",
-            "name": "⚙️小米┃配置中心",
-            "type": 3,
-            "changeable": 0,
-            "searchable": 0,
-            "api": "csp_Config",
-	          "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6" 
-    },
+    
 
     {
       "key": "机器人弹幕",
