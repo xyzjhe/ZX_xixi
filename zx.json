@@ -1,8 +1,14 @@
 
 {
+  
+
+  "spider": "./Yoursmile250207.jar;md5;4fc8a585da010b0f34eb4cdad1ef922b",
+
   //"spider": "./custom_spider1221.jar",
 
-  "spider": "./custom_spider.jar;md5;bfa32232fc06f5d26174174bf92c373a",
+  //"spider": "https://gitee.com/xyzjhe/test/raw/master/jar/Yoursmile250207.txt;md5;4fc8a585da010b0f34eb4cdad1ef922b",
+
+  //"spider": "./custom_spider.jar;md5;bfa32232fc06f5d26174174bf92c373a",
 
    "wallpaper": "https://bing.img.run/rand.php",
 
@@ -20,7 +26,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250209V2🔍",
+      "name":"🔍真心豆瓣┃250209V3🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -34,7 +40,7 @@
 
     {
             "key": "lf_js_search",
-            "name": "🕸路飞导航┃20250209V2🕸",
+            "name": "🕸路飞导航┃20250209V3🕸",
             "searchable": 0,
             "changeable": 0,
             "quickSearch": 0,
