@@ -1190,7 +1190,7 @@
     
     {
       "key": "盘Ta",
-      "name": "盘Ta",
+      "name": "盘Ta┃天翼",
       "type": 3,
       "api": "csp_PanTa",
       "searchable": 1,
@@ -1207,7 +1207,7 @@
       "key": "小雷",
       "name": "小雷",
       "type": 3,
-      "api": "csp_PanTa",
+      "api": "csp_PanTa┃天翼",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
@@ -1220,7 +1220,7 @@
 	  
     {
       "key": "网盘-片库",
-      "name": "网盘-片库",
+      "name": "网盘┃片库",
       "type": 3,
       "api": "csp_Qiwei",
       "searchable": 1,
@@ -1242,18 +1242,7 @@
       "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
     },
     
-    {
-      "key": "push_agent",
-      "name": "推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "commonConfig": "./json/peizhi.json"
-      }
-    },
+   
 
     {
       "key": "360资源",
@@ -1376,6 +1365,18 @@
         "网球",
         "斯诺克"
       ]
+    },
+   {
+      "key": "push_agent",
+      "name": "推送",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "commonConfig": "./json/peizhi.json"
+      }
     }
   ],
   "rules": [
