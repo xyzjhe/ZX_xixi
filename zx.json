@@ -1064,9 +1064,9 @@
 	  
     {
       "key": "小雷",
-      "name": "小雷",
+      "name": "小雷┃天翼",
       "type": 3,
-      "api": "csp_PanTa┃天翼",
+      "api": "csp_PanTa",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
