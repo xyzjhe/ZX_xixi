@@ -20,7 +20,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250209V1🔍",
+      "name":"🔍真心豆瓣┃250209V2🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -34,7 +34,7 @@
 
     {
             "key": "lf_js_search",
-            "name": "🕸路飞导航┃20250209V1🕸",
+            "name": "🕸路飞导航┃20250209V2🕸",
             "searchable": 0,
             "changeable": 0,
             "quickSearch": 0,
