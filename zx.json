@@ -398,6 +398,18 @@
     },
 
     {
+            "key": "素白白XBPQ2",
+            "name": "素白白2┃XBPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://gitee.com/xyzjhe/test/raw/master/json/素白白XBPQ.json"
+    },
+
+    {
       "key": "机器人弹幕",
       "name": "爱看机器人┃弹幕",
       "type": 3,
