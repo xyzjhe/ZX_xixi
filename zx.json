@@ -130,18 +130,6 @@
     
     {"key":"csp_TgYunPan9","name":"TgYunPan┃fish2018","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://tgsou.fish2018.us.kg","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,cloudtianyi,tianyirigeng,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},
     {"key":"csp_TgYunPan10","name":"TgYunPan┃651156","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://tgsou.651156.xyz/","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,cloudtianyi,tianyirigeng,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},
-    
-
-    {
-            "key": "csp_SuBaiBai",
-            "name": "☁️白白┃1080P",
-            "type": 3,
-            "searchable": 1,
-            "api": "csp_SuBaiBai",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
-            "playerType": 2,
-            "ext": "https://www.subaibaiys.com/"
-    },
 
     {
             "key": "csp_Wwys",
@@ -155,24 +143,32 @@
 	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
             "ext": "https://www.wwgz.cn/"
     },
-
+    {
+            "key": "csp_SuBaiBai",
+            "name": "☁️白白┃1080P",
+            "type": 3,
+            "searchable": 1,
+            "api": "csp_SuBaiBai",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi-0207-1.txt;md5;a21873a6b978627f12aa58f57b26b9b0",
+            "playerType": 2,
+            "ext": "https://www.subaibaiys.com/"
+    },
     {
             "key": "csp_Xlys",
             "name": "🍤哔嘀┃1080P",
             "api": "csp_Xlys",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi-0207-1.txt;md5;a21873a6b978627f12aa58f57b26b9b0",
             "searchable": 1,
             "quickSearch": 1,
             "type": 3,
             "playerType": 2
     },
-
     {
             "key": "wencai",
             "name": "🥭文采┃1080P",
             "type": 3,
             "api": "csp_Jpys",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi-0207-1.txt;md5;a21873a6b978627f12aa58f57b26b9b0",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -180,21 +176,19 @@
             "changeable": 0,
             "ext": "https://www.hkybqufgh.com"
     },
-
     {
             "key": "瓜子",
             "name": "🍉瓜子┃1080P",
             "type": 3,
             "api": "csp_Gz360",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi-0207-1.txt;md5;a21873a6b978627f12aa58f57b26b9b0",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
             "order_num": 0,
             "changeable": 0
      },
-
-     {
+        {
             "key": "csp_AppDrama2",
             "name": "🐯虎虎┃1080P",
             "type": 3,
@@ -299,7 +293,7 @@
 
     {
       "key": "机器人弹幕",
-      "name": "机器人｜弹幕",
+      "name": "爱看机器人┃弹幕",
       "type": 3,
       "api": "csp_Ikanbot",
       "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -313,55 +307,13 @@
 
     {
       "key": "采集之王",
-      "name": "采集｜合集",
+      "name": "采集┃合集",
       "type": 3,
       "api": "https://bitbucket.org/mytvbox2025/four-d/raw/master/js/drpy2.min.js",
       "ext": "https://bitbucket.org/mytvbox2025/four-d/raw/master/movie/js/CJZW.js?type=url&params=https://bitbucket.org/mytvbox2025/four-d/raw/master/movie/json/CJJT.json$1$1"
     },
 
-    {
-      "key": "阿里",
-      "name": "🌼小橙子┃采集",
-      "type": 1,
-      "api": "http://aliys.cn:90/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playurl": "https://jx.nnxv.cn/tv.php?url=",
-      "categories": [
-        "电视剧",
-        "电影",
-        "综艺",
-        "动漫",
-        "哔哩哔哩",
-        "短剧",
-        "备用2",
-        "记录片",
-        "国产剧",
-        "欧美剧",
-        "香港剧",
-        "韩国剧",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺"
-      ]
-    },
-
-
-    
-   
-
-    
-    /*{
+ /*{
       "key": "TgYunPan┃本地",
       "name": "TgYunPan┃本地",
       "type": 3,
@@ -390,15 +342,7 @@
             }
     },*/
     
-
-
-    
-   
-    
-
-   
-    
-    {
+   {
       "key": "网盘集合",
       "name": "网盘集合┃4K",
       "type": 3,
@@ -597,7 +541,7 @@
 
     {
       "key": "玩偶弹幕",
-      "name": "玩偶｜4K弹幕",
+      "name": "玩偶┃4K弹幕",
       "type": 3,
       "api": "csp_Wogg",
       "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -614,7 +558,7 @@
     },
     {
       "key": "夸克肥猫弹幕",
-      "name": "肥猫｜4K弹幕",
+      "name": "肥猫┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
       "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -632,7 +576,7 @@
     },
     {
       "key": "夸克欧歌弹幕",
-      "name": "欧哥｜4K弹幕",
+      "name": "欧哥┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
       "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -650,7 +594,7 @@
     },
     {
       "key": "夸克小米弹幕",
-      "name": "小米｜4K弹幕",
+      "name": "小米┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
       "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -667,7 +611,7 @@
     },
     {
       "key": "夸克多多弹幕",
-      "name": "多多｜4K弹幕",
+      "name": "多多┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
       "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -684,7 +628,7 @@
     },
     {
       "key": "夸克蜡笔弹幕",
-      "name": "蜡笔｜4K弹幕",
+      "name": "蜡笔┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
       "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -701,7 +645,7 @@
     },
     {
       "key": "夸克至臻弹幕",
-      "name": "至臻｜4K弹幕",
+      "name": "至臻┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
       "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -718,7 +662,7 @@
     },
     {
       "key": "夸克土豆弹幕",
-      "name": "土豆｜4K弹幕",
+      "name": "土豆┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
       "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -735,7 +679,7 @@
     },
     {
       "key": "夸克木偶弹幕",
-      "name": "木偶｜4K弹幕",
+      "name": "木偶┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
       "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -752,7 +696,7 @@
     },
     {
       "key": "夸克六趣弹幕",
-      "name": "六趣｜4K弹幕",
+      "name": "六趣┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
       "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -772,7 +716,7 @@
     
     {
             "key": "夸克奥秘弹幕",
-            "name": "奥秘｜4K弹幕",
+            "name": "奥秘┃4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
             "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -790,7 +734,7 @@
    },
    {
             "key": "夸克白嫖弹幕",
-            "name": "白嫖｜4K弹幕",
+            "name": "白嫖┃4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
             "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -808,7 +752,7 @@
     
     {
             "key": "夸克虎斑弹幕",
-            "name": "虎斑｜4K弹幕",
+            "name": "虎斑┃4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
             "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -826,7 +770,7 @@
     
     {
             "key": "夸克特下饭弹幕",
-            "name": "下饭｜4K弹幕",
+            "name": "下饭┃4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
             "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -844,7 +788,7 @@
 
     {
             "key": "移动云盘",
-            "name": "移动4K｜免扫",
+            "name": "移动4K┃免扫",
             "type": 3,
             "api": "csp_YDjisu",
             "searchable": 1,
