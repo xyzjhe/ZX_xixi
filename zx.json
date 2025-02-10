@@ -26,7 +26,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250209V5🔍",
+      "name":"🔍真心豆瓣┃250210V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -40,7 +40,7 @@
 
     {
             "key": "lf_js_search",
-            "name": "🕸路飞导航┃20250209V5🕸",
+            "name": "🕸路飞导航┃20250210V1🕸",
             "searchable": 0,
             "changeable": 0,
             "quickSearch": 0,
@@ -360,7 +360,7 @@
             }
     },
 
-    {"key":"drpy_js_素白白影视","name":"素白白┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/素白白.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+    {"key":"drpy_js_素白白影视","name":"素白白┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/素白白xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
 
     {
             "key": "素白白XBPQ",
@@ -404,15 +404,52 @@
     },
 
     {
-            "key": "素白白XBPQ2",
-            "name": "素白白2┃XBPQ",
+            "key": "西瓜视频",
+            "name": "西瓜｜视频",
             "type": 3,
-            "api": "csp_XBPQ",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+            "api": "csp_AmuXiguaV2",
+	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar;md5;8031490ad02cd16d75c333730c5ebe98",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+    },
+
+   
+    {
+            "key": "南瓜影视",
+            "name": "南瓜｜影视",
+            "type": 3,
+            "api": "csp_NanGua",
+	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar;md5;8031490ad02cd16d75c333730c5ebe98",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://gitee.com/xyzjhe/test/raw/master/json/素白白XBPQ.json"
+            "filterable": 1
+    },
+    {
+            "key": "低端影视",
+            "name": "低端｜影视",
+            "type": 3,
+            "api": "csp_Ddys",
+	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar;md5;8031490ad02cd16d75c333730c5ebe98",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },
+
+     {
+            "key": "爱看机器人",
+            "name": "爱看｜影视",
+            "type": 3,
+            "api": "csp_IkanBot",
+	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar;md5;8031490ad02cd16d75c333730c5ebe98",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
     },
 
     {
@@ -428,6 +465,13 @@
         "danmu": true
       }
     },
+
+   
+
+    {"key":"drpy_js_爱看机器人","name":"爱看机器人┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/爱看机器人xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+	  
+    {"key":"drpy_js_瓜子影视","name":"瓜子影视┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/瓜子影视xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+
 
     {
       "key": "采集之王",
@@ -969,7 +1013,7 @@
             }
         },
     
-    {
+    /*{
       "key": "115",
       "name": "115｜4K",
       "type": 3,
@@ -982,7 +1026,7 @@
       },
       "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585"
 
-    },
+    },*/
     {
       "key": "雷鲸",
       "name": "雷鲸｜4K",
