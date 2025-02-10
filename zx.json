@@ -562,7 +562,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "siteUrl": "http://www.mucpan.cc",
+        "siteUrl": "http://ucmi.fun",
         "filter": "./json/wogg.json"
       }
     },
@@ -627,7 +627,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "siteUrl": "https://vip.omii.to",
+        "siteUrl": "https://vip.omii.top",
         "filter": "./json/wogg.json"
       }
     },
@@ -653,7 +653,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "siteUrl": "http://www.xn--ghqy10g1w0a.xyz",
+        "siteUrl": "http://txfpan.top/",
         "filter": "./json/wogg.json"
       }
     },
@@ -679,7 +679,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "siteUrl": "http://45.207.212.215:12121",
+        "siteUrl": "http://103.45.162.207:20720",
         "filter": "./json/wogg.json"
       }
     },
@@ -936,7 +936,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://45.207.212.215:12121",
+                "site": "http://103.45.162.207:20720",
                 "danmu": true
             }
     },
