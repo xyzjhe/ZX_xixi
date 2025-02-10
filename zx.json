@@ -134,9 +134,9 @@
             }
     },
 
-     {
+    {
       "key": "Tg┃豆瓣651156",
-      "name": "Tg┃豆瓣651156",
+      "name": "Tg┃豆瓣_651156",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -151,7 +151,7 @@
     },
     {
       "key": "Tg┃豆瓣fish2018",
-      "name": "Tg┃豆瓣fish2018",
+      "name": "Tg┃豆瓣_fish2018",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
