@@ -49,7 +49,7 @@
 
     {
       "key": "ConfigCenter",
-      "name": "真心｜配置中心",
+      "name": "真心┃配置中心",
       "type": 3,
       "api": "csp_ConfigCenter",
       "searchable": 0,
@@ -61,7 +61,7 @@
 
     {
             "key": "配置中心",
-            "name": "潇洒｜配置中心",
+            "name": "潇洒┃配置中心",
             "type": 3,
             "api": "csp_Config",
             "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -86,7 +86,7 @@
 	  
      {
             "key": "影视配置",
-            "name": "天翼专用｜配置中心",
+            "name": "天翼&移动┃配置中心",
             "type": 3,
             "api": "csp_Wexconfig",
 	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585",
@@ -100,8 +100,8 @@
     },
 
      {
-      "key": "Tg┃豆瓣1",
-      "name": "Tg┃豆瓣1",
+      "key": "Tg┃豆瓣651156",
+      "name": "Tg┃豆瓣651156",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -115,8 +115,8 @@
       }
     },
     {
-      "key": "Tg┃豆瓣2",
-      "name": "Tg┃豆瓣2",
+      "key": "Tg┃豆瓣fish2018",
+      "name": "Tg┃豆瓣fish2018",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -137,6 +137,7 @@
     {"key":"csp_TgYunPan9","name":"TgYunPan┃fish2018","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://tgsou.fish2018.us.kg","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,cloudtianyi,tianyirigeng,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},
     {"key":"csp_TgYunPan10","name":"TgYunPan┃651156","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://tgsou.651156.xyz/","channelUsername":"leoziyuan,tgsearchers,ucpanpan,ydypzyfx,tianyi_pd2,cloudtianyi,tianyirigeng,hao115,guaguale115,dianyingshare,XiangxiuNB,yunpanpan,kuakeyun,zaihuayun,Quark_Movies,alyp_4K_Movies,vip115hot,yunpanshare,ucwangpan,Quark_Share_Channel,Aliyundrive_Share_Channel,shareAliyun,ikiviyyp,wanwansubchat,wangpanziyuan2021,alyp_1,quanziyuanshe","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},
 
+    // from 小米JAR
     {
             "key": "csp_Wwys",
             "name": "👨农民┃1080P",
@@ -146,7 +147,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "api": "csp_Wwys",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaom250102.jar;md5;a3df7f0e4c407a28548fdc68b5e213b6",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi-0207-1.txt;md5;a21873a6b978627f12aa58f57b26b9b0",
             "ext": "https://www.wwgz.cn/"
     },
     {
@@ -159,6 +160,15 @@
             "playerType": 2,
             "ext": "https://www.subaibaiys.com/"
     },
+    
+    {
+            "key": "csp_LiteApple",
+            "name": "🍎苹果┃1080P",
+            "type": 3,
+            "api": "csp_LiteApple",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi-0207-1.txt;md5;a21873a6b978627f12aa58f57b26b9b0",
+            "playerType": 2
+    },
     {
             "key": "csp_Xlys",
             "name": "🍤哔嘀┃1080P",
@@ -168,6 +178,13 @@
             "quickSearch": 1,
             "type": 3,
             "playerType": 2
+    },
+    {
+			"key": "csp_Wetv",
+			"name": "🚗尘落┃1080P",
+			"type": 3,
+			"api": "csp_Wetv",
+	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi-0207-1.txt;md5;a21873a6b978627f12aa58f57b26b9b0"
     },
     {
             "key": "wencai",
@@ -194,6 +211,18 @@
             "order_num": 0,
             "changeable": 0
      },
+     {
+			"key": "追剧",
+			"name": "📺追剧┃1080P",
+			"type": 3,
+			"api": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/drpy_libs/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"order_num": 0,
+			"changeable": 0,
+			"ext": "https://gitee.com/smallmi1007/mimi/raw/master/wencai.js"
+    },
         {
             "key": "csp_AppDrama2",
             "name": "🐯虎虎┃1080P",
@@ -270,18 +299,6 @@
 	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi-0207-1.txt;md5;a21873a6b978627f12aa58f57b26b9b0",
             "ext": "sHR2rlsfjI4L3t4RXQMkn64XzcQ7xvStB8jMisBReTIxM41ceZBHTzUgk3r/HwfaQHDZorN0nnVVuvE2MPKn8MPxE7ylJqasRuICMIOVVttRnHTeArnRbQHtOtv9F+MUHJKlwhy6U0meUqFlwIn7psnaR3hGPEBEsJYJsPp76XBU5Prcv6yXYl+buEHnrog7tDJv0Oruu3XbWiSeYcmXyu0bWlgyI7I+ExxK+yX2Fm4="
         },
-
-    {
-			"key": "修罗影视",
-			"name": "修罗影视┃XBPQ",
-			"type": 3,
-			"api": "csp_XBPQ",
-	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "https://gitee.com/xyzjhe/test/raw/master/json/xlys.json"
-    },
 
     {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
     
@@ -404,6 +421,18 @@
     },
 
     {
+			"key": "修罗影视",
+			"name": "修罗影视┃XBPQ",
+			"type": 3,
+			"api": "csp_XBPQ",
+	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "https://gitee.com/xyzjhe/test/raw/master/json/xlys.json"
+    },
+
+    {
             "key": "西瓜视频",
             "name": "西瓜｜视频",
             "type": 3,
@@ -418,8 +447,6 @@
                 "ratio": 1.597
             }
     },
-
-   
     {
             "key": "南瓜影视",
             "name": "南瓜｜影视",
@@ -481,24 +508,13 @@
       "ext": "https://bitbucket.org/mytvbox2025/four-d/raw/master/movie/js/CJZW.js?type=url&params=https://bitbucket.org/mytvbox2025/four-d/raw/master/movie/json/CJJT.json$1$1"
     },
 
-
+   
+    //from 真心 JAR 玩偶系列
     
-   {
-      "key": "网盘集合",
-      "name": "网盘集合┃4K",
-      "type": 3,
-      "api": "csp_网盘集合",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "share": "./json/网盘集合.json"
-      }
-    },
+   
     {
       "key": "玩偶┃蜡笔",
-      "name": "玩偶┃蜡笔4K",
+      "name": "📀玩偶┃蜡笔4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -511,7 +527,7 @@
     },
     {
       "key": "玩偶┃木偶",
-      "name": "玩偶┃木偶4K",
+      "name": "📀玩偶┃木偶4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -524,7 +540,7 @@
     },
     {
       "key": "玩偶┃至臻",
-      "name": "玩偶┃至臻4K",
+      "name": "📀玩偶┃至臻4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -537,7 +553,7 @@
     },
     {
       "key": "玩偶┃小米",
-      "name": "玩偶┃小米4K",
+      "name": "📀玩偶┃小米4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -550,7 +566,7 @@
     },
     {
       "key": "玩偶┃多多",
-      "name": "玩偶┃多多4K",
+      "name": "📀玩偶┃多多4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -563,7 +579,7 @@
     },
     {
       "key": "玩偶┃讴歌",
-      "name": "玩偶┃讴歌4K",
+      "name": "📀玩偶┃讴歌4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -576,7 +592,7 @@
     },
     {
       "key": "玩偶┃闪电",
-      "name": "玩偶┃闪电4K",
+      "name": "📀玩偶┃闪电4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -589,7 +605,7 @@
     },
     {
       "key": "玩偶┃六趣",
-      "name": "玩偶┃六趣4K",
+      "name": "📀玩偶┃六趣4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -602,7 +618,7 @@
     },
     {
       "key": "玩偶┃奥秘",
-      "name": "玩偶┃奥秘4K",
+      "name": "📀玩偶┃奥秘4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -615,7 +631,7 @@
     },
     {
       "key": "玩偶┃白嫖",
-      "name": "玩偶┃白嫖4K",
+      "name": "📀玩偶┃白嫖4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -628,7 +644,7 @@
     },
     {
       "key": "玩偶┃下饭",
-      "name": "玩偶┃下饭4K",
+      "name": "📀玩偶┃下饭4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -641,7 +657,7 @@
     },
     {
       "key": "玩偶┃土豆",
-      "name": "玩偶┃土豆4K",
+      "name": "📀玩偶┃土豆4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -654,7 +670,7 @@
     },
     {
       "key": "玩偶┃虎斑",
-      "name": "玩偶┃虎斑4K",
+      "name": "📀玩偶┃虎斑4K",
       "type": 3,
       "api": "csp_kongbai",
       "searchable": 1,
@@ -667,7 +683,7 @@
     },
     {
       "key": "玩偶gg",
-      "name": "玩偶┃饭饭4K",
+      "name": "📀玩偶┃饭饭4K",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
@@ -676,6 +692,19 @@
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
         "siteUrl": "https://www.wogg.net/",
         "filter": "./json/wogg.json"
+      }
+    },
+    {
+      "key": "网盘集合",
+      "name": "网盘集合┃4K",
+      "type": 3,
+      "api": "csp_网盘集合",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
+        "share": "./json/网盘集合.json"
       }
     },
 
@@ -950,6 +979,7 @@
                     "http://woggpan.333232.xyz/",
                     "http://wogg.xxooo.cf/",
                     "http://woggapi.888484.xyz/",
+		    "http://www.wogg.lol",
                     "http://www.wogg.net"
                 ],
                 "threadinfo": {
