@@ -16,7 +16,7 @@ console.log(JSON.stringify(GM_info));
         GMSpiderArgs.fName = args.shift();
         GMSpiderArgs.fArgs = args;
     } else {
-        GMSpiderArgs.fName = "categoryContent";
+        GMSpiderArgs.fName = "detailContent";
         GMSpiderArgs.fArgs = ["tags"];
     }
     Object.freeze(GMSpiderArgs);
@@ -201,11 +201,21 @@ console.log(JSON.stringify(GM_info));
                         from: "123AV",
                         media: [{
                             name: "720P",
-                            type: "match"
+                            type: "webview",
+                            ext: {
+                                replace: {
+                                    vod_id: ids[0]
+                                }
+                            }
                         }]
                     }]
                 };
                 return {list: [vod]};
+            },
+            playerContent: function (flag, id, vipFlags) {
+                return {
+                    type: "match"
+                };
             },
             searchContent: function (key, quick, pg) {
                 const result = {
@@ -227,7 +237,7 @@ console.log(JSON.stringify(GM_info));
         } else {
             result = GmSpider[GMSpiderArgs.fName](...GMSpiderArgs.fArgs);
         }
-        console.log(result);
+        console.log(JSON.stringify(result));
         if (typeof GmSpiderInject !== 'undefined') {
             GmSpiderInject.SetSpiderResult(JSON.stringify(result));
         }
