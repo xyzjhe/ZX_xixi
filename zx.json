@@ -75,14 +75,14 @@
 
     {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250211V2🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
-    {
+    /*{
             "key": "lf_js_search",
             "name": "🕸路飞导航┃20250211V2🕸",
             "searchable": 0,
             "changeable": 0,
             "quickSearch": 0,
             "api": "https://10087.kstore.space/lf_search3_domestic_min.js"
-    },
+    },*/
 
     {
       "key": "ConfigCenter",
@@ -566,30 +566,13 @@
             "filterable": 1
     },
 
-    /*{
-      "key": "机器人弹幕",
-      "name": "爱看机器人┃弹幕",
-      "type": 3,
-      "api": "csp_Ikanbot",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },*/
-
-   
+      
 
     {"key":"drpy_js_爱看机器人","name":"爱看机器人┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/爱看机器人xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
 	  
     {"key":"drpy_js_瓜子影视","name":"瓜子影视┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/瓜子影视xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
 
 
-    
-
-   
     //from 真心 JAR 玩偶系列
     
    
@@ -775,20 +758,7 @@
         "filter": "./json/wogg.json"
       }
     },
-    /*{
-      "key": "网盘集合",
-      "name": "网盘集合┃4K",
-      "type": 3,
-      "api": "csp_网盘集合",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "share": "./json/网盘集合.json"
-      }
-    },*/
-
+   
     //from 潇洒&OK 玩偶系列
 	  
     {
@@ -1001,7 +971,6 @@
                 "danmu": true
             }
     },
-    
     {
             "key": "夸克虎斑弹幕",
             "name": "🌏虎斑┃4K弹幕",
@@ -1019,7 +988,6 @@
                 "danmu": true
             }
     },
-    
     {
             "key": "夸克特下饭弹幕",
             "name": "🌏下饭┃4K弹幕",
@@ -1124,21 +1092,8 @@
             "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/YD1231.jar"
         },
 
+    //from 王二小网盘系列
     
-    /*{
-      "key": "115",
-      "name": "115｜4K",
-      "type": 3,
-      "api": "csp_Wex115share",
-      "searchable": 1,
-      "changeable": 1,
-      "timeout": 50,
-      "style": {
-        "type": "list"
-      },
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585"
-
-    },*/
     {
       "key": "雷鲸",
       "name": "雷鲸┃4K",
@@ -1192,8 +1147,6 @@
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
       }
     },
-    
-    
     {
       "key": "盘Ta",
       "name": "网盘┃盘Ta",
@@ -1220,7 +1173,6 @@
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
       }
     },
-
     {
       "key": "易搜",
       "name": "易搜┃4K",
@@ -1256,7 +1208,6 @@
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
       }
     },
-
     {
       "key": "星剧社",
       "name": "网盘┃星剧社",
@@ -1287,7 +1238,6 @@
         "cookie": ""
       }
     },
-	  
     {
       "key": "网盘-片库",
       "name": "网盘┃片库",
@@ -1302,140 +1252,7 @@
       }
     },
    
-    /*{
-      "key": "賤賤",
-      "name": "荐片┃2K",
-      "type": 3,
-      "api": "csp_Jianpian",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
-    },*/
-    
    
-
-    /*{
-      "key": "360资源",
-      "name": "360zy┃采集",
-      "type": 1,
-      "api": "https://360zy.com/api.php/seaxml/vod/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "国产动漫",
-        "日韩动漫",
-        "国产剧",
-        "韩国剧",
-        "日本剧",
-        "电影片",
-        "连续剧",
-        "综艺片",
-        "动漫片",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "香港剧",
-        "欧美剧",
-        "记录片",
-        "台湾剧",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫"
-      ]
-    },*/
-    /*{
-      "key": "非凡",
-      "name": "非凡┃采集",
-      "type": 1,
-      "api": "http://api.ffzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "国产动漫",
-        "日韩动漫",
-        "国产剧",
-        "韩国剧",
-        "日本剧",
-        "电影片",
-        "连续剧",
-        "综艺片",
-        "动漫片",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "香港剧",
-        "欧美剧",
-        "记录片",
-        "台湾剧",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫"
-      ]
-    },*/
-    /*{
-      "key": "量子",
-      "name": "量子┃采集",
-      "type": 1,
-      "api": "https://cj.lziapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "国产动漫",
-        "日韩动漫",
-        "国产剧",
-        "韩国剧",
-        "日本剧",
-        "电影片",
-        "连续剧",
-        "综艺片",
-        "动漫片",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "台湾剧",
-        "香港剧",
-        "欧美剧",
-        "记录片",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "体育",
-        "足球",
-        "篮球",
-        "网球",
-        "斯诺克"
-      ]
-    },*/
    {
       "key": "TgYunPan|本地",
       "name": "TgYunPan | 本地",
@@ -1453,7 +1270,7 @@
 
    {
             "key": "push_agent",
-            "name": "潇洒|手机｜推送",
+            "name": "潇洒|推送",
             "type": 3,
             "api": "csp_Push",
 	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
@@ -1470,7 +1287,7 @@
   
    {
       "key": "push_agent",
-      "name": "推送",
+      "name": "真心|推送",
       "type": 3,
       "api": "csp_Push",
       "searchable": 1,
