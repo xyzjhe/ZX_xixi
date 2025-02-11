@@ -61,7 +61,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250211V3🔍",
+      "name":"🔍真心豆瓣┃250211V5🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -73,7 +73,7 @@
       }
     },
 
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250211V3🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250211V5🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
     {
       "key": "ConfigCenter",
@@ -102,7 +102,7 @@
      },
      {
             "key": "配置",
-            "name": "⚙️小米┃配置中心",
+            "name": "小米┃配置中心",
             "type": 3,
             "changeable": 0,
             "searchable": 0,
@@ -183,7 +183,6 @@
             "playerType": 2,
             "ext": "https://www.subaibaiys.com/"
     },
-    
     {
             "key": "csp_LiteApple",
             "name": "🍎苹果┃1080P",
@@ -524,7 +523,7 @@
     },
     {
             "key": "低端影视",
-            "name": "低端｜影视",
+            "name": "低端┃影视",
             "type": 3,
             "api": "csp_Ddys",
 	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar;md5;8031490ad02cd16d75c333730c5ebe98",
@@ -543,7 +542,7 @@
 
     {
             "key": "爱看机器人",
-            "name": "爱看｜影视",
+            "name": "IkanBot┃影视",
             "type": 3,
             "api": "csp_IkanBot",
 	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar;md5;8031490ad02cd16d75c333730c5ebe98",
@@ -994,7 +993,6 @@
 
     //from 小米 玩偶系列
 
-    
     {
             "key": "csp_Wogg",
             "name": "🧸玩偶┃4K弹幕",
@@ -1082,7 +1080,7 @@
     
     {
       "key": "雷鲸",
-      "name": "雷鲸┃4K",
+      "name": "Wex雷鲸┃4K",
       "type": 3,
       "api": "csp_Wexleijing",
       "searchable": 1,
@@ -1092,7 +1090,7 @@
     },
     {
       "key": "天翼",
-      "name": "天翼┃4K",
+      "name": "Wex天翼┃4K",
       "type": 3,
       "api": "csp_Wextyso",
       "searchable": 1,
@@ -1101,7 +1099,7 @@
     },
     {
       "key": "盘他",
-      "name": "盘他┃4K‍",
+      "name": "Wex盘他┃4K‍",
       "type": 3,
       "api": "csp_WexYDpanta",
       "searchable": 1,
@@ -1110,7 +1108,7 @@
     },
     {
       "key": "Emby",
-      "name": "Emby┃4K",
+      "name": "WexEmby┃4K",
       "type": 3,
       "api": "csp_Wexemby",
       "searchable": 1,
@@ -1122,7 +1120,7 @@
     
      {
       "key": "盤搜天意",
-      "name": "网盘┃盤搜天意",
+      "name": "网盘┃天意搜",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
@@ -1159,22 +1157,10 @@
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
       }
     },
-    {
-      "key": "易搜",
-      "name": "易搜┃4K",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "filterable": 0,
-      "switchable": 0,
-      "ext": {
-        "cookie": "",
-        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
-      }
-    },
+    
     {
       "key": "盤搜索",
-      "name": "网盘┃盤搜索",
+      "name": "网盘┃盘搜索",
       "type": 3,
       "api": "csp_PanSearch",
       "searchable": 1,
@@ -1185,7 +1171,7 @@
     },
     {
       "key": "紙條搜",
-      "name": "网盘┃紙條搜",
+      "name": "网盘┃纸条搜",
       "type": 3,
       "api": "csp_XiaoZhiTiao",
       "searchable": 1,
@@ -1208,6 +1194,20 @@
       }
     },
     {
+      "key": "易搜",
+      "name": "易搜┃4K",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "cookie": "",
+        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
+      }
+    },
+	  
+    /*{
       "key": "Youtube",
       "name": "Youtube┃YTB",
       "type": 3,
@@ -1223,7 +1223,7 @@
         "json": "./json/youtube.json",
         "cookie": ""
       }
-    },
+    },*/
     {
       "key": "网盘-片库",
       "name": "网盘┃片库",
@@ -1240,8 +1240,8 @@
    
    
    {
-      "key": "TgYunPan|本地",
-      "name": "TgYunPan | 本地",
+      "key": "TgYunPan┃本地",
+      "name": "TgYunPan┃本地",
       "type": 3,
       "api": "csp_TgYunPanLocal",
       "searchable": 1,
@@ -1254,7 +1254,7 @@
       }
    },
 
-   {
+   /*{
             "key": "push_agent",
             "name": "潇洒|推送",
             "type": 3,
@@ -1269,7 +1269,7 @@
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "danmu": true
             }
-   },
+   },*/
   
    {
       "key": "push_agent",
