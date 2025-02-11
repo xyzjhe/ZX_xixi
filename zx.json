@@ -322,6 +322,164 @@
             "ext": "sHR2rlsfjI4L3t4RXQMkn64XzcQ7xvStB8jMisBReTIxM41ceZBHTzUgk3r/HwfaQHDZorN0nnVVuvE2MPKn8MPxE7ylJqasRuICMIOVVttRnHTeArnRbQHtOtv9F+MUHJKlwhy6U0meUqFlwIn7psnaR3hGPEBEsJYJsPp76XBU5Prcv6yXYl+buEHnrog7tDJv0Oruu3XbWiSeYcmXyu0bWlgyI7I+ExxK+yX2Fm4="
         },
 
+    /*{
+      "key": "csp_夜猫",
+      "name": "🔭夜猫┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cHM6Ly95bS1ycmNkbi1hb21lbmNsb3VkLnlteXMxLnh5ei9hcGkucGhwfDF2ZmZzZGFzZGFzZGFzZDJ8MXZmZnNkYXNkYXNkYXNkMg=="
+    },*/
+    {
+      "key": "csp_多多",
+      "name": "🔭多多┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovLzIxMS45OS45OC40Nzo5OTk5L2FwaS5waHB8ZTQ2MWM3YzBlZjBiNmNkMXxlNDYxYzdjMGVmMGI2Y2Qx"
+    },
+    {
+      "key": "csp_电影",
+      "name": "🔭电影┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5L2FwaS5waHB8ZHl5enR2YXBpYXBweXlkc3xkeXl6dHZhcGlhcHB5eWRz"
+    },
+    {
+      "key": "csp_良人",
+      "name": "🔭良人┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovLzExMC40Mi4zLjE5NTo4OTg5L2FwaS5waHB8RDZxN2hqYjg3RkowOUY3N3xENnE3aGpiODdGSjA5Rjc3"
+    },
+    {
+      "key": "csp_麻花",
+      "name": "🔭麻花┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovLzEyMy4yMDcuMjIxLjgwOjU1NS9hcGkucGhwfHE3Z2o0ZjlicjNmbHM2bmh8cTdnajRmOWJyM2ZsczZuaA=="
+    },
+    {
+      "key": "csp_现代",
+      "name": "🔭现代┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cHM6Ly9nZXQuYnJvdm9kLmNvbS9hcGkucGhwfHN6ZGp3ZGFwcHdjbm1kaGJ8c3pkandkYXBwd2NubWRoYg=="
+    },
+    {
+      "key": "csp_雨滴",
+      "name": "🔭雨滴┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovL2M4dzJvdjd1NXdnMnoxbzhwMjFjLmFsaXl1bmNzLmNsaWNrL2FwaS5waHB8azlvM3AyYzhiN20zejBvOHxrOW8zcDJjOGI3bTN6MG84"
+    },
+    {
+      "key": "csp_客星",
+      "name": "🔭客星┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovLzIxMS45OS45OC40Nzo5OTk5L2FwaS5waHB8ZTQ2MWM3YzBlZjBiNmNkMXxlNDYxYzdjMGVmMGI2Y2Qx"
+    },
+    {
+      "key": "csp_人人",
+      "name": "🔭人人┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovLzU5LjE1My4xNjQuMTI0OjY2NTUvamoucGhwfEY1MUY1RDUyRDIzQ0JGMjd8RjUxRjVENTJEMjNDQkYyNw=="
+    },
+    {
+      "key": "csp_duofun",
+      "name": "🔭duofun动漫┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cHM6Ly9qaWVrb3UuNTZ1eGkuY29tL2FwaS5waHB8c2E1ZDRzNWE2NGQ1cXc2MXxzYTVkNHM1YTY0ZDVxdzYx"
+    },
+    {
+      "key": "csp_次元派对",
+      "name": "🔭次元派对动漫┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cHM6Ly9hcHBjbXMuYWNnLnBhcnR5L2FwaS5waHB8ZjY2NjYwM2IyMjA3MGVhM3xmNjY2NjAzYjIyMDcwZWEz"
+    },
+    {
+      "key": "csp_MiFun",
+      "name": "🔭MiFun┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cDovL2dldC5vcGVuLm1pZnVuLm9yZy9hcGkucGhwfEdFVE1JRlVOR0VJTUlGVU58R0VUTUlGVU5HRUlNSUZVTg=="
+    },
+    {
+      "key": "csp_酷云",
+      "name": "🔭酷云┃App",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "api": "https://gitee.com/xyzjhe/test/raw/master/Appapi.js",
+      "playerType": 2,
+      "filterable": 1,
+      "ext": "aHR0cHM6Ly9zYzEwODAudG9wL2FwaS5waHB8ZTU5ZDQ0YjJlZWYwM2JhMnxlNTlkNDRiMmVlZjAzYmEy"
+    },
+
+
     {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
     
     {
