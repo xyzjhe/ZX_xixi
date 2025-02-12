@@ -1,8 +1,9 @@
 
 {
   
-
-  "spider": "./Yoursmile250207.jar;md5;4fc8a585da010b0f34eb4cdad1ef922b",
+  "spider": "./zx250211.jar",
+	
+  //"spider": "./Yoursmile250207.jar;md5;4fc8a585da010b0f34eb4cdad1ef922b",
 
   //"spider": "./custom_spider1221.jar",
 
@@ -61,7 +62,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250211V7🔍",
+      "name":"🔍真心豆瓣┃250212V1元宵节快乐🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -73,7 +74,7 @@
       }
     },
 
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250211V7🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250212V1元宵节快乐🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
     {
       "key": "ConfigCenter",
