@@ -246,7 +246,7 @@
             "name": "🚗尘落┃1080P",
 	    "type": 3,
 	    "api": "csp_Wetv",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0212.jar;md5;b0cfff328a31396accdf2388d5cc2cb0",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0212.jar;md5;b0cfff328a31396accdf2388d5cc2cb0"
     },
     {
             "key": "wencai",
@@ -1325,24 +1325,6 @@
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
       }
    },
-
-   /*{
-            "key": "push_agent",
-            "name": "潇洒|推送",
-            "type": 3,
-            "api": "csp_Push",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "danmu": true
-            }
-   },*/
-  
    {
       "key": "push_agent",
       "name": "真心|推送",
