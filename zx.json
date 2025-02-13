@@ -3,7 +3,9 @@
 
 {
 
- "spider": "./zx250212.jar;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
+"spider": "https://gitee.com/xyzjhe/test/raw/master/jar/zx250212.jar;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
+	
+   //"spider": "./zx250212.jar;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
   
    //"spider": "./zx250211.jar",
 	
@@ -66,7 +68,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250213V1🔍",
+      "name":"🔍真心豆瓣┃250213V2🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -78,7 +80,7 @@
       }
     },
 
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250213V1🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250213V2🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
     {
       "key": "ConfigCenter",
@@ -96,7 +98,7 @@
             "name": "潇洒┃配置中心",
             "type": 3,
             "api": "csp_Config",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+            "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
@@ -580,11 +582,67 @@
     {"key": "csp_XYQHiker_修罗影视","name":"🧲修罗影视┃XYQH","type":3,"api":"csp_XYQHiker","jar": "https://ghfast.top/https://github.com/xyzjhe/ZX_xixi/raw/main/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/xyzjhe/test/raw/master/json/哔嘀影视XYQH0210.json"},
 
     {
+            "key": "天天弹幕",
+            "name": "天天｜弹幕",
+            "type": 3,
+            "api": "csp_TianTian",
+	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true,
+                "site": "aHR0cDovL29wLnlzZHFqcy5jbg=="
+     }
+     },
+     {
+            "key": "热播弹幕",
+            "name": "热播｜弹幕",
+            "type": 3,
+            "api": "csp_TianTian",
+	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true,
+                "site": "aHR0cDovL3YucmJvdHYuY24="
+            }
+     },
+     {
+            "key": "浪酷弹幕",
+            "name": "浪酷｜弹幕",
+            "type": 3,
+            "api": "csp_TianTian",
+	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true,
+                "site": "aHR0cDovL3YubGt1eXMuY24="
+            }
+     },
+     {
+            "key": "糯米弹幕",
+            "name": "糯米｜弹幕",
+            "type": 3,
+            "api": "csp_Nmys",
+	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            }
+     },
+
+    {
             "key": "西瓜视频",
             "name": "西瓜｜视频",
             "type": 3,
             "api": "csp_AmuXiguaV2",
-	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar;md5;8031490ad02cd16d75c333730c5ebe98",
+	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -599,7 +657,7 @@
             "name": "南瓜｜影视",
             "type": 3,
             "api": "csp_NanGua",
-	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar;md5;8031490ad02cd16d75c333730c5ebe98",
+	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -609,7 +667,7 @@
             "name": "低端┃影视",
             "type": 3,
             "api": "csp_Ddys",
-	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar;md5;8031490ad02cd16d75c333730c5ebe98",
+	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -628,7 +686,7 @@
             "name": "IkanBot┃影视",
             "type": 3,
             "api": "csp_IkanBot",
-	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar;md5;8031490ad02cd16d75c333730c5ebe98",
+	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -666,7 +724,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "siteUrl": "http://www.muoupan.top/",
+        "siteUrl": "http://www.mogg.top",
         "filter": "./json/wogg.json"
       }
     },
@@ -895,7 +953,7 @@
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
         "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "http://ucmi.fun",
+        "site": "http://milvdou.fun",
         "danmu": true
       }
     },
@@ -980,7 +1038,7 @@
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
         "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "http://www.muoupan.top",
+        "site": "http://www.mogg.top",
         "danmu": true
       }
     },
@@ -1002,8 +1060,6 @@
         "danmu": true
       }
     },
-    
-    
     {
             "key": "夸克奥秘弹幕",
             "name": "🌏奥秘┃4K弹幕",
