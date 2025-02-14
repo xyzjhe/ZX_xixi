@@ -3,7 +3,7 @@
 
 {
 
-"spider": "https://gitee.com/xyzjhe/test/raw/master/jar/zx250212.jar;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
+"spider": "https://gitee.com/xyzjhe/test/raw/master/jar/zx.txt",
 	
    //"spider": "./zx250212.jar;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
   
@@ -68,7 +68,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250214V1🔍",
+      "name":"🔍真心豆瓣┃250214V3🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -80,7 +80,7 @@
       }
     },
 
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250214V1🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250214V3🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
     {
       "key": "ConfigCenter",
@@ -98,7 +98,7 @@
             "name": "潇洒┃配置中心",
             "type": 3,
             "api": "csp_Config",
-            "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
@@ -114,14 +114,14 @@
             "changeable": 0,
             "searchable": 0,
             "api": "csp_Config",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb" 
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt" 
      },
      {
             "key": "影视配置",
             "name": "天翼&移动┃配置中心",
             "type": 3,
             "api": "csp_Wexconfig",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex.txt",
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
@@ -167,14 +167,14 @@
     {"key":"csp_TgYunPan9","name":"TgYunPan┃fish2018","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://tgsou.fish2018.us.kg","channelUsername":"leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},
     {"key":"csp_TgYunPan10","name":"TgYunPan┃651156","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://tgsou.651156.xyz/","channelUsername":"leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},
 
-    // from 肥猫JAR-2025014  
+    // from 肥猫JAR-20250214  
 
     {
       "key": "csp_FeiMaoUC",
       "name": "⚡┃闪电┃优汐",
       "type": 3,
       "api": "csp_Duopan",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739347341648/PandaQ250212.txt;md5;2ce1c06d0582d9dca3496f00a37ade6c",  
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PandaQ.txt",  
       "filterable": 1,
       "ext": {
         "site_urls": [
@@ -188,7 +188,7 @@
       "name": "🖍︎┃蜡笔┃影视",
       "type": 3,
       "api": "csp_Duopan",
-      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739347341648/PandaQ250212.txt;md5;2ce1c06d0582d9dca3496f00a37ade6c",     
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PandaQ.txt",     
       "filterable": 1,
       "ext": {
         "site_urls": [
@@ -209,14 +209,14 @@
           "name": "✈️上头┃短剧",
           "type": 3,
           "api": "csp_AppXY",
-	  "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb"   
+	  "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt"   
    },
    {
       "key": "csp_LaoBaiBook",
       "name": "📚听书┃BOOK",
       "type": 3,
       "api": "csp_LaoBaiBook",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",   
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",   
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 0,
@@ -231,7 +231,7 @@
 			"type": 3,
 			"searchable": 1,
 			"api": "csp_XiaoYi",
-	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
 			"changeable": 0
     },
     {
@@ -240,7 +240,7 @@
 			"type": 3,
 			"searchable": 1,
 			"api": "csp_MiSou",
-	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
 			"changeable": 0
    },
    {
@@ -248,7 +248,7 @@
             "name": "🎃南瓜┃1080P",
             "type": 3,
             "api": "csp_AppNG",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb"
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt"
     },
     
     {
@@ -256,14 +256,14 @@
             "name": "🏔来看┃1080P",
             "type": 3,
             "api": "csp_Lkdy",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb"
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt"
     },
     {
 	    "key": "csp_Wetv",
             "name": "🚗尘落┃1080P",
 	    "type": 3,
 	    "api": "csp_Wetv",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb"
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt"
     },
     {
 	    "key": "追剧",
@@ -286,7 +286,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "api": "csp_Wwys",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "ext": "https://www.wwgz.cn/"
     },
     {
@@ -295,7 +295,7 @@
             "type": 3,
             "searchable": 1,
             "api": "csp_SuBaiBai",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "playerType": 2,
             "ext": "https://www.subaibaiys.com/"
     },
@@ -304,14 +304,14 @@
             "name": "🍎苹果┃1080P",
             "type": 3,
             "api": "csp_LiteApple",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "playerType": 2
     },
     {
             "key": "csp_Xlys",
             "name": "🍤哔嘀┃1080P",
             "api": "csp_Xlys",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "searchable": 1,
             "quickSearch": 1,
             "type": 3,
@@ -322,7 +322,7 @@
             "name": "🥭文采┃1080P",
             "type": 3,
             "api": "csp_Jpys",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -335,7 +335,7 @@
             "name": "🍉瓜子┃1080P",
             "type": 3,
             "api": "csp_Gz360",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -349,7 +349,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppDrama",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "ext": "dZyf/FE+KyNozU1BJTipIlQwV9Exzgodak8HaPQS3+zONEYCA2iEg3LraoCo2u5+6rn3VmrCG6H/XvFKSMzGrev5JV2DZOVsAQxLXRNRbxFUFKM1SEJpngJgi7Fj/n1DfJU3XaJt/aV+5tEC4C+/K7Bx/k1Kz08b1iyW0f8Ghf/NH5BnTsoFeiXrPUjRIyi1oIQh1RUF0aQHwI/DPqGAMHE+KK9efsb7FTDKW7TXastSWVcfpizheTXfXFdRtX+qjWkii8PMPPizDUAlTR3Ptg=="
         },
         {
@@ -358,7 +358,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_AppDrama",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "ext": "dZyf/FE+KyNozU1BJTipIo9iSIwfIqdHlpvuwJw09AVmwEOfCxMwqLVMJhfLimSVcQK/l703QANc8WIkB/uW5sUdZSeZIU9+8Rk+3N6ehNBRUUbdXwHB/6h1j5nm+yHTh+KNx2kJ25BR77lheSHLwTnAU6VXLKSspVz/FQx8qOP8w0hfCMh1ephwsEIF24MCgXWhiAzL92YSEph0y0FlAqwP2rvfW8v3juUbcw47E+M="
         },
         {
@@ -367,7 +367,7 @@
             "type": 3,
             "quickSearch": 0,
             "api": "csp_AppTuTu",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "ext": "Y9HVFX/3Xv3H8WDNt7slhd3wv+DhnpU4QLQlUTmjMGR+PJXzUY62jwnLs6t8o5mR0nQpWwC1JZ99zgAyyv5tTJInWiNY5F4BELLEUmiKyRI9Iyh8EeIXpqXudXvU2S1ay4nEGqto/bgVHjFGm+EGivs2bgf5VuLExc4pVhK9Ki81Hjscnu33chFz+BDHv+9ceOU5RYrzC1w3fI+8qCHyUJSdf/Dm8GDXKwi9elnc0jKEl80KitszUAn47kH9UIyScZUMV6ATtvVVQPj7K/UiugEU3NOKPrEi4r3CGbw32nXjoXq0qTwoCP5KBScuWpl4V4kXpDaAK/oIa4133vXYR6Kh8cBJDsf672JuLovnTSSh24ye1cXPMBkA+U2bZDCyMpHOR+2V8aAuKNSpeOsY1P++pswAHNLilFRai5+1JzQft2GSu43rH413nB1Ta9etbpOV3EhamOlnffOzVs02IyfkR01ELq+JrHXDfKtOLiUbLsE2ZhTFYbk6t22Y1/zc1dIlU3+sxN09qT8Twqp1LPEneGxMAcmp5Eg9lBcu4nfGqAm6BA5qcBx40h2E8xWpIPWqLuvsvl6SM+UvYBCh/IE0h/0l7ho97myKfLEJd5FGpPkC8MarPmIj3eHkPJDfUWQnpInHbJyM2O6XPnWQ4Hp/LVrjyg5/QdPgGFQ1pQhW0hmWxCiWFsz3KO0rqbmZQs92wAS7Q2OpAnRbf2aotCdYC06+Qg7jughVm6WTkS3jsQP7RMucvhr0yfYtKjTnUJUZ2n6D4C5sMCmQHhrbn3uFJ0Sdf+7OOlaMC9eD7S2GF2AtDZcZ+wmW9pSpgVCQtG8++VzCw9dt5ZWVTWves1MiqY9dx9wbNwNs+wqFJr6P24m/GuZGoiRFP5SEJOtQSbD067ig7Whcg8Drre/ekPhqY7A6K9hGt+T99rxNAfmqjFXZp7/J6tYwiVK7DrrPtFxu4HlcvX4EJUAfm8jBl3s1gTxl9Swnj2QhAvWX08EVgZ/e2cb9vUEzfRfgfz/Cq/eB3lv1a8RFQSPgOvVptrSznCf6exilsEPz9vKKL+7lWmprawj0YciUnDGhdpTfOIEpmv/N/jRiOcK8OH8JMwrmx+OvBoOh7gk37pFjI+oOxm0g4Y/qUtZddp2ZzofP7N9NZKJqiR2ONdnwsk9moDrjHsZ7FCIBdCjpW676Jul1TEwNl5gkPeCH08suybvYe+1XfLPQO3G6Tol+yg5ie5bAbxDZJfysQilt+nI+2q5mlw1253yIFGhvQvEp5H7TDv5wnrCNJ4hc6EpLZHH3wBxym1aVgx6Giw8mm+0Jq8RQ5RDoGf3/QhUVzD93vsxCLDoD/f7280SoYTEbgHsaS3LEOAph2kSyF2soRUA9QIAZS7f3EIJQ03bx1YdW44jhL7KtkNYbXvEt8InI0fXdWv6DVHau76X6P/3vrx8+8gikvU1M3BnXWirsaslhvz86EQgNXb7rIva6BuS2R4cDwVmW95Ry/pn1tX8IHc6uzdMXnKHXv5Pmz+sOwQcHk0xZ0wM4S1hBwC8EDLXCS/xsiL06f1byiKSGzOGp3Yyu+rrSUqPgPrXQ1JLWmEyf8NnZUyiw2O4foRHu4+wTNNoW3K7blFMMwOYGJOsfmw/9Bhewvq5W2JbLnhpdNP35lwbFMMRnnsDWTXlcFrh9TmZwqOYA5ew24NMzv0Z5w9z6O3qxWDoRy0s4pDvQOYIxvbOkK9a+y5fOr1vPG9fetRKkTHLxeBgK0ofjb+XP+HgCjLaBAGp1cXThv7T1lvA7ggRxdQzm/NU29afW/o4K4XXqBPvpPSrtDU3GP9+hE4s20lrqhD6HDcpg93waHN2Kf1h8cIa0bN4QljLE9oj6acXCCaa3LWJJFJ2K1UYopuqbwPn4JBa7fJBFYZn11z3u+h/yyiPhtfv7njnUCvnD5u68Aq8AKxPyPo+Ac/uhvZhkPMZPy81G6cEZFateIxnAXFIOjHPfyPfeHsl1x2sqLzGeIqCwrPqW0r1Md8AecWS3OUMM/8Tuy1QDI+9X2Xqx39Huf781YuwLbPAVwBflkB0MvqJrtJnRO2UyEcOy9h0gmVxK3lSt8YK/RIie0NEor/P8tQRK8QF1HI8+Q4JGfmJ8JY+boOST7WRteVXyExk/b3+kagnfyYL9Cx9SEHBDhvzNL4IFTvuwkAkTdQOGUww1P+WXXQpXOBpYWemxKKsI4F+jpZ2hvgl6Y98wYTSbbHlXnoKFOiRf4SmoYIJe7JdxObMA5KjUGpaJCFblRGGqZn1W1q516MREQbdjT6vIwAW/QKhXRh9/mKOEmnPjXP+HYyDvilKpPtwj1nQ33HrMahd04Ryqmk3vK2YHjDSfkn58TQ18jAf/sYOCml6p4ZPtnzSCUEngInTEfil4UpULgHqg+GR4IDPsf+z7TmFN0Dk7+VLS1i2u8gTBUE8Tw/g/XbGCizuFg6kVYzwM6BV85soDf6QL3me5YOfNtpapVYuF"
         },
 	{
@@ -376,7 +376,7 @@
             "type": 3,
             "quickSearch": 0,
             "api": "csp_MiTuApp",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "ext": "sHR2rlsfjI4L3t4RXQMkn1xFjIix0m8Cj9X8OUrGrK4fl4xu1EDS3cPpLFW/FctyWeOV755l/zvJzsf4Rq5dH82tGLii5o2Wvz3PcDGX7hgkjVxwZEyPqNUMRYFbQpmgyLVzYt4LYN1N1hC91NEscnCu4djQ0sa9TGuk4FO9yXzddgCJ2lWF9cJPVFd9ro6QI83NqCw0yBUcmhyF6YeEF4vM0+Q34Ku2OHQ2EQM2Kuo="
         },
 	{
@@ -386,7 +386,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "api": "csp_MiTuApp",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "ext": "s1/kf8dfHZAgs5H4ledT0oVFC1n/KhNfQfc0onBTauGjjbKin/VdMFrfJlKKnt/ClccntSyJqzbI1hHzGUUmZg7v02l1fvcdAH0iCUzGlopNgnI3rkeQtAwS54GySfRT0IRokasLwr5Rr6pm8/lTNJXMTEkq+9mzK976Dvv80seU9riYmFeBD+EBp8RzurdP02PNc0S2aZPlMbdm5yTIQfI8QeSRJGz+0AIsFOyBoPr4LDptq0AAc37KMhnWDCXF"
         },
         {
@@ -396,7 +396,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "api": "csp_MiTuApp",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "ext": "s1/kf8dfHZAgs5H4ledT0gNpK7vQhd67t79FMOlp/3hon97gPN02BO+erk3EBCNXM6SamStX8E1N/eOSW8iHnh/V/WWXQik712AKDkDyClacr4JX917KX00fvnFi+PAJCJmEjfkTIInNogcntp+7cErzTorQY87aZkXQz64jcMNBTxpU+OGhfwZ2WqemvRRoQcF3TRFQdK9yVcAPrcKlPHxNivbPun5GntvfOIbWqYyWQSzU7f8y5TSHoXNt3Ag7WpEtt5DdeFwKFlYQ/RcwUw=="
         },
         {
@@ -405,7 +405,7 @@
             "type": 3,
             "quickSearch": 1,
             "api": "csp_MiTuApp",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "ext": "sHR2rlsfjI4L3t4RXQMkn9Eir6RzAIaQXa7PAZzZhsYO7tEfOCUAO2ipKyX1sxqAYggPt4M4DNHWCnz414Yfuh19nNi3k0dkJGtsOqEQzKCgcf9wGo4XmYWuIzgVworYxXRSYBQb2oLBmTl1W7hxxhfer8LsRYZB6ALfwu2bInzh3EENDkFkaHYb1olDPUR1EqpMaZLpMW0oSOW9zzMF5WIDfKUOvd7q2bKD4uZ8/oc="
         },
         {
@@ -415,7 +415,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "api": "csp_MiTuApp",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "ext": "sHR2rlsfjI4L3t4RXQMkn+pzOh0GsJJgcwHHxDs8FcBDGD81qAZtun78VAJxzshCbStdXIlQiksUvc2b5fXyuxJO9KBNp5LzL/pYLLOs1V3R3WOh90eVpJGxxXWEZtoq+F7Cq4CbQ3J1TTXahpYpeXXeevwPopQutGBNaxYkdBgBL6rCgov0BCUWOXriRXNndZJYNJohfwIzBP+iTuz6C8FWXazDuKfwSS4BfeyQuGM="
         },
         {
@@ -425,7 +425,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "api": "csp_YuDi",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "ext": "sHR2rlsfjI4L3t4RXQMkn64XzcQ7xvStB8jMisBReTIxM41ceZBHTzUgk3r/HwfaQHDZorN0nnVVuvE2MPKn8MPxE7ylJqasRuICMIOVVttRnHTeArnRbQHtOtv9F+MUHJKlwhy6U0meUqFlwIn7psnaR3hGPEBEsJYJsPp76XBU5Prcv6yXYl+buEHnrog7tDJv0Oruu3XbWiSeYcmXyu0bWlgyI7I+ExxK+yX2Fm4="
         },
 	{
@@ -449,7 +449,7 @@
       "name": "旺旺影视┃XYQH",
       "type": 3,
       "api": "csp_XYQHiker",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -461,7 +461,7 @@
 			"name": "旺旺影视w┃XBPQ",
 			"type": 3,
 			"api": "csp_XBPQ",
-	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -492,7 +492,7 @@
             "name": "旺旺影视m┃XBPQ",
             "type": 3,
             "api": "csp_XBPQ",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -526,7 +526,7 @@
             "name": "素白白┃XBPQ",
             "type": 3,
             "api": "csp_XBPQ",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -567,7 +567,7 @@
 			"name": "修罗影视┃XBPQ",
 			"type": 3,
 			"api": "csp_XBPQ",
-	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -621,7 +621,7 @@
             "name": "天天｜弹幕",
             "type": 3,
             "api": "csp_TianTian",
-	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -635,7 +635,7 @@
             "name": "热播｜弹幕",
             "type": 3,
             "api": "csp_TianTian",
-	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -649,7 +649,7 @@
             "name": "浪酷｜弹幕",
             "type": 3,
             "api": "csp_TianTian",
-	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -663,7 +663,7 @@
             "name": "糯米｜弹幕",
             "type": 3,
             "api": "csp_Nmys",
-	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -677,7 +677,7 @@
             "name": "西瓜｜视频",
             "type": 3,
             "api": "csp_AmuXiguaV2",
-	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -692,7 +692,7 @@
             "name": "南瓜｜影视",
             "type": 3,
             "api": "csp_NanGua",
-	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -702,7 +702,7 @@
             "name": "低端┃影视",
             "type": 3,
             "api": "csp_Ddys",
-	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -721,7 +721,7 @@
             "name": "IkanBot┃影视",
             "type": 3,
             "api": "csp_IkanBot",
-	    "jar": "https://ghfast.top/https://github.com/xyzjhe/PizazzGY/raw/main/tvbox/spider.jar",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -927,7 +927,7 @@
       "name": "🌏玩偶┃4K弹幕",
       "type": 3,
       "api": "csp_Wogg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -944,7 +944,7 @@
       "name": "🌏肥猫┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -962,7 +962,7 @@
       "name": "🌏欧哥┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -980,7 +980,7 @@
       "name": "🌏小米┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -997,7 +997,7 @@
       "name": "🌏多多┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -1014,7 +1014,7 @@
       "name": "🌏蜡笔┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -1031,7 +1031,7 @@
       "name": "🌏至臻┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -1048,7 +1048,7 @@
       "name": "🌏土豆┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -1065,7 +1065,7 @@
       "name": "🌏木偶┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -1082,7 +1082,7 @@
       "name": "🌏六趣┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1100,7 +1100,7 @@
             "name": "🌏奥秘┃4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -1118,7 +1118,7 @@
             "name": "🌏白嫖┃4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -1135,7 +1135,7 @@
             "name": "🌏虎斑┃4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -1152,7 +1152,7 @@
             "name": "🌏下饭┃4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PGspider250111.txt;md5;9bec13821a07b616e14f510ab6da8281",
+            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -1172,7 +1172,7 @@
             "name": "🧸玩偶┃4K弹幕",
             "type": 3,
             "api": "csp_Wogg",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "changeable": 0,
             "searchable": 1,
             "filterable": 1,
@@ -1195,7 +1195,7 @@
             "name": "💯至臻┃4K4K",
             "type": 3,
             "api": "csp_Duopan",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "changeable": 0,
             "filterable": 1,
             "ext": {
@@ -1221,7 +1221,7 @@
             "name": "💌UCUC┃4K4K",
             "type": 3,
             "api": "csp_Duopan",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi0213.jar;md5;70effefd63a42d7a2e7857101e7e99fb",
+            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
             "filterable": 1,
             "ext": {
                 "site_urls": [
@@ -1259,7 +1259,7 @@
       "api": "csp_Wexleijing",
       "searchable": 1,
       "changeable": 1,
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585"
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex.txt"
 
     },
     {
@@ -1269,7 +1269,7 @@
       "api": "csp_Wextyso",
       "searchable": 1,
       "changeable": 0,
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585"
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex.txt"
     },
     {
       "key": "盘他",
@@ -1278,7 +1278,7 @@
       "api": "csp_WexYDpanta",
       "searchable": 1,
       "changeable": 1,
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585"
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex.txt"
     },
     {
       "key": "Emby",
@@ -1287,7 +1287,7 @@
       "api": "csp_Wexemby",
       "searchable": 1,
       "changeable": 1,
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex250111.txt;md5;0bdf3db594923c2d8d1ebad3db8c6585"
+      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex.txt"
     },
     
     
