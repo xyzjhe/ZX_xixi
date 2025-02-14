@@ -68,7 +68,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250213V2🔍",
+      "name":"🔍真心豆瓣┃250214V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -80,7 +80,7 @@
       }
     },
 
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250213V2🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250214V1🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
     {
       "key": "ConfigCenter",
@@ -167,6 +167,41 @@
     {"key":"csp_TgYunPan9","name":"TgYunPan┃fish2018","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://tgsou.fish2018.us.kg","channelUsername":"leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},
     {"key":"csp_TgYunPan10","name":"TgYunPan┃651156","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://tgsou.651156.xyz/","channelUsername":"leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},
 
+    // from 肥猫JAR-2025014  
+
+    {
+      "key": "csp_FeiMaoUC",
+      "name": "⚡┃闪电┃优汐",
+      "type": 3,
+      "api": "csp_Duopan",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739347341648/PandaQ250212.txt;md5;2ce1c06d0582d9dca3496f00a37ade6c",  
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
+      }
+    },
+    {
+      "key": "csp_Duopan",
+      "name": "🖍︎┃蜡笔┃影视",
+      "type": 3,
+      "api": "csp_Duopan",
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1739347341648/PandaQ250212.txt;md5;2ce1c06d0582d9dca3496f00a37ade6c",     
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "https://duopan.fun",
+          "http://labipan.com",
+          "http://feimaoai.site",
+          "https://mihdr.top"
+        ],
+        "url_key": "Duopan2"
+      }
+    },
+	  
+	  
     // from 小米JAR
 
    {
