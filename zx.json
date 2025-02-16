@@ -4,20 +4,24 @@
 {
 
 "spider": "https://gitee.com/xyzjhe/test/raw/master/jar/zx.txt",
-	
-   //"spider": "./zx250212.jar;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
+
+	//"spider": "https://10087.kstore.space/jar/zx.txt",
+
+	//"spider": "https://gitee.com/xyzjhe/test/raw/master/jar/Yoursmile0215.jar",
+
+	//"spider": "https://10087.kstore.space/jar/Yoursmile0215.jar",
+
+	//"spider": "./custom_spider.jar",
+
+        //"spider": "./zx250212.jar",
   
-   //"spider": "./zx250211.jar",
+        //"spider": "./zx250211.jar",
 	
-  //"spider": "./Yoursmile250207.jar;md5;4fc8a585da010b0f34eb4cdad1ef922b",
+        //"spider": "./Yoursmile250207.jar",
 
-  //"spider": "./custom_spider1221.jar",
+        //"spider": "./custom_spider1221.jar",
 
-  //"spider": "https://gitee.com/xyzjhe/test/raw/master/jar/Yoursmile250207.txt;md5;4fc8a585da010b0f34eb4cdad1ef922b",
-
-  //"spider": "./custom_spider.jar;md5;bfa32232fc06f5d26174174bf92c373a",
-
-   "wallpaper": "https://bing.img.run/rand.php",
+  "wallpaper": "https://bing.img.run/rand.php",
 
   "logo":"https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
   
@@ -80,7 +84,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250215V5🔍",
+      "name":"🔍真心豆瓣┃250216V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -92,7 +96,7 @@
       }
     },
 
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250215V5🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250216V1🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
     {
       "key": "ConfigCenter",
