@@ -3,9 +3,9 @@
 
 {
 
-"spider": "https://gitee.com/xyzjhe/test/raw/master/jar/zx.txt",
+//"spider": "https://gitee.com/xyzjhe/test/raw/master/jar/zx.txt",
 
-	//"spider": "https://10087.kstore.space/jar/zx.txt",
+	"spider": "https://10087.kstore.space/jar/zx.txt",
 
 	//"spider": "https://gitee.com/xyzjhe/test/raw/master/jar/Yoursmile0215.jar",
 
