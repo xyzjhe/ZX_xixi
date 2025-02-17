@@ -84,7 +84,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250216V1🔍",
+      "name":"🔍真心豆瓣┃250217V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -96,7 +96,7 @@
       }
     },
 
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250216V1🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250217V1🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
     {
       "key": "ConfigCenter",
@@ -211,6 +211,19 @@
                 "share": "https://10087.kstore.space/网盘集合zx.json"
             }
       },
+
+     //from 香雅晴
+
+     {"key": "csp_Mp4Mov","name": "🧲Mp4电影(XYQH)","type": 3,"api": "csp_Mp4Mov","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.momp4.cc"},
+     {"key": "csp_New6v","name": "🧲新6V(XYQH)","type": 3,"api": "csp_New6v","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.xb6v.com"},
+     {"key":"csp_SeedHub","name":"🧲SeedHub(XYQH)","type":3,"api":"csp_SeedHub","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.seedhub.cc"},
+     {"key":"csp_MeijuTT","name":"🧲美剧天堂(XYQH)","type":3,"api":"csp_MeijuTT","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.meijutt.net"},
+     {"key":"csp_Xunlei8","name":"🧲迅雷吧(XYQH)","type":3,"api":"csp_Xunlei8","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1},
+     {"key": "csp_XYQHiker_兔小贝","name":"兔小贝(XYQH)","type":3,"api":"csp_XYQHiker","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/xyzjhe/test/raw/master/json/兔小贝.json"},
+     {"key": "csp_XYQHiker_兔小贝2","name":"兔小贝2(XYQH)","type":3,"api":"csp_XYQHiker","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":0,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/xyzjhe/test/raw/master/json/兔小贝2.json"},
+     {"key": "csp_XYQHiker_播视童趣","name":"播视童趣(XYQH)","type":3,"api":"csp_XYQHiker","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://gitee.com/xyzjhe/test/raw/master/json/播视童趣.json"},
+     {"key": "csp_XYQHiker_樱花动漫","name":"樱花动漫(XYQH)","type":3,"api":"csp_XYQHiker","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/xyzjhe/test/raw/master/json/樱花动漫.json"},
+     {"key": "csp_XYQHiker_骚火电影VIP","name": "骚火电影VIP(XYQH)","type": 3,"api": "csp_XYQHiker","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://gitee.com/xyzjhe/test/raw/master/json/骚火电影VIP.json"},
 	  
     // from 肥猫JAR-20250214  
 
