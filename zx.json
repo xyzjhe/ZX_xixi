@@ -1,27 +1,10 @@
-
-
-
 {
 
-//"spider": "https://gitee.com/xyzjhe/test/raw/master/jar/zx.txt",
+       "spider": "./jar/zx.txt",
 
-	"spider": "https://10087.kstore.space/jar/zx.txt",
+	//"spider": "https://10087.kstore.space/jar/zx.txt",
 
-	//"spider": "https://gitee.com/xyzjhe/test/raw/master/jar/Yoursmile0215.jar",
-
-	//"spider": "https://10087.kstore.space/jar/Yoursmile0215.jar",
-
-	//"spider": "./custom_spider.jar",
-
-        //"spider": "./zx250212.jar",
-  
-        //"spider": "./zx250211.jar",
-	
-        //"spider": "./Yoursmile250207.jar",
-
-        //"spider": "./custom_spider1221.jar",
-
-  "wallpaper": "https://bing.img.run/rand.php",
+	"wallpaper": "https://bing.img.run/rand.php",
 
   "logo":"https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
   
@@ -84,7 +67,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250217V3🔍",
+      "name":"🔍真心豆瓣┃250218V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -96,7 +79,7 @@
       }
     },
 
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250217V3🅱","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250218V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
     {
       "key": "ConfigCenter",
@@ -114,7 +97,7 @@
             "name": "潇洒┃配置中心",
             "type": 3,
             "api": "csp_Config",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+            "jar": "./jar/spider.txt",
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
@@ -130,14 +113,14 @@
             "changeable": 0,
             "searchable": 0,
             "api": "csp_Config",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt" 
+	    "jar": "./jar/xiaomi.txt" 
      },
      {
             "key": "影视配置",
             "name": "天翼&移动┃配置中心",
             "type": 3,
             "api": "csp_Wexconfig",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex.txt",
+	    "jar": "./jar/wex.txt",
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
@@ -214,16 +197,16 @@
 
      //from 香雅晴
 
-     {"key": "csp_Mp4Mov","name": "🧲Mp4电影(XYQH)","type": 3,"api": "csp_Mp4Mov","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.momp4.cc"},
-     {"key": "csp_New6v","name": "🧲新6V(XYQH)","type": 3,"api": "csp_New6v","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.xb6v.com"},
-     {"key":"csp_SeedHub","name":"🧲SeedHub(XYQH)","type":3,"api":"csp_SeedHub","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.seedhub.cc"},
-     {"key":"csp_MeijuTT","name":"🧲美剧天堂(XYQH)","type":3,"api":"csp_MeijuTT","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.meijutt.net"},
-     {"key":"csp_Xunlei8","name":"🧲迅雷吧(XYQH)","type":3,"api":"csp_Xunlei8","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1},
-     {"key": "csp_XYQHiker_兔小贝","name":"兔小贝(XYQH)","type":3,"api":"csp_XYQHiker","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/xyzjhe/test/raw/master/json/兔小贝.json"},
-     {"key": "csp_XYQHiker_兔小贝2","name":"兔小贝2(XYQH)","type":3,"api":"csp_XYQHiker","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":0,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/xyzjhe/test/raw/master/json/兔小贝2.json"},
-     {"key": "csp_XYQHiker_播视童趣","name":"播视童趣(XYQH)","type":3,"api":"csp_XYQHiker","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":0,"quickSearch":0,"filterable":1,"ext":"https://gitee.com/xyzjhe/test/raw/master/json/播视童趣.json"},
-     {"key": "csp_XYQHiker_樱花动漫","name":"樱花动漫(XYQH)","type":3,"api":"csp_XYQHiker","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/xyzjhe/test/raw/master/json/樱花动漫.json"},
-     {"key": "csp_XYQHiker_骚火电影VIP","name": "骚火电影VIP(XYQH)","type": 3,"api": "csp_XYQHiker","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://gitee.com/xyzjhe/test/raw/master/json/骚火电影VIP.json"},
+     {"key": "csp_Mp4Mov","name": "🧲Mp4电影(XYQH)","type": 3,"api": "csp_Mp4Mov","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.momp4.cc"},
+     {"key": "csp_New6v","name": "🧲新6V(XYQH)","type": 3,"api": "csp_New6v","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.xb6v.com"},
+     {"key":"csp_SeedHub","name":"🧲SeedHub(XYQH)","type":3,"api":"csp_SeedHub","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.seedhub.cc"},
+     {"key":"csp_MeijuTT","name":"🧲美剧天堂(XYQH)","type":3,"api":"csp_MeijuTT","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.meijutt.net"},
+     {"key":"csp_Xunlei8","name":"🧲迅雷吧(XYQH)","type":3,"api":"csp_Xunlei8","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1},
+     {"key": "csp_XYQHiker_兔小贝","name":"兔小贝(XYQH)","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/兔小贝.json"},
+     {"key": "csp_XYQHiker_兔小贝2","name":"兔小贝2(XYQH)","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":0,"quickSearch":1,"filterable":1,"ext":"./json/兔小贝2.json"},
+     {"key": "csp_XYQHiker_播视童趣","name":"播视童趣(XYQH)","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":0,"quickSearch":0,"filterable":1,"ext":"./json/播视童趣.json"},
+     {"key": "csp_XYQHiker_樱花动漫","name":"樱花动漫(XYQH)","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/樱花动漫.json"},
+     {"key": "csp_XYQHiker_骚火电影VIP","name": "骚火电影VIP(XYQH)","type": 3,"api": "csp_XYQHiker","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./json/骚火电影VIP.json"},
 	  
     // from 肥猫JAR-20250214  
 
@@ -232,7 +215,7 @@
       "name": "⚡┃闪电┃优汐",
       "type": 3,
       "api": "csp_Duopan",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PandaQ.txt",  
+      "jar": "./jar/PandaQ.txt",  
       "filterable": 1,
       "ext": {
         "site_urls": [
@@ -246,7 +229,7 @@
       "name": "🖍︎┃蜡笔┃影视",
       "type": 3,
       "api": "csp_Duopan",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/PandaQ.txt",     
+      "jar": "./jar/PandaQ.txt",     
       "filterable": 1,
       "ext": {
         "site_urls": [
@@ -268,14 +251,14 @@
           "name": "✈️上头┃短剧",
           "type": 3,
           "api": "csp_AppXY",
-	  "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt"   
+	  "jar": "./jar/xiaomi.txt"   
    },
    {
       "key": "csp_LaoBaiBook",
       "name": "📚老白┃听书",
       "type": 3,
       "api": "csp_LaoBaiBook",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",   
+      "jar": "./jar/xiaomi.txt",   
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 0,
@@ -285,43 +268,43 @@
       }
    },
    {
-			"key": "小怡",
-			"name": "🔍易搜┃夸克",
-			"type": 3,
-			"searchable": 1,
-			"api": "csp_XiaoYi",
-	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
-			"changeable": 0
+	"key": "小怡",
+	"name": "🔍易搜┃夸克",
+	"type": 3,
+	"searchable": 1,
+	"api": "csp_XiaoYi",
+	"jar": "./jar/xiaomi.txt",
+	"changeable": 0
     },
     {
-			"key": "米搜",
-			"name": "🔍米搜┃夸克",
-			"type": 3,
-			"searchable": 1,
-			"api": "csp_MiSou",
-	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
-			"changeable": 0
+	"key": "米搜",
+	"name": "🔍米搜┃夸克",
+	"type": 3,
+	"searchable": 1,
+	"api": "csp_MiSou",
+	"jar": "./jar/xiaomi.txt",
+	"changeable": 0
    },
    {
       "key": "csp_Lgyy",
       "name": "⏳️️流光┃1080P",
       "type": 3,
       "api": "csp_Lgyy",  
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt"   
+      "jar": "./jar/xiaomi.txt"   
     },
     {
       "key": "csp_Jpys",
       "name": "🥇金牌┃1080P",
       "type": 3,
       "api": "csp_Jpys", 
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt"    
+      "jar": "./jar/xiaomi.txt"    
     },
     {
             "key": "csp_AppNG",
             "name": "🎃南瓜┃1080P",
             "type": 3,
             "api": "csp_AppNG",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt"
+	    "jar": "./jar/xiaomi.txt"
     },
     
     {
@@ -329,7 +312,7 @@
             "name": "🏔来看┃1080P",
             "type": 3,
             "api": "csp_Lkdy",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt"
+	    "jar": "./jar/xiaomi.txt"
     },
     
     {
@@ -341,7 +324,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "api": "csp_Wwys",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+	    "jar": "./jar/xiaomi.txt",
             "ext": "https://www.wwgz.cn/"
     },
     {
@@ -350,7 +333,7 @@
             "type": 3,
             "searchable": 1,
             "api": "csp_SuBaiBai",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+	    "jar": "./jar/xiaomi.txt",
             "playerType": 2,
             "ext": "https://www.subaibaiys.com/"
     },
@@ -359,14 +342,14 @@
             "name": "🍎苹果┃1080P",
             "type": 3,
             "api": "csp_LiteApple",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+	    "jar": "./jar/xiaomi.txt",
             "playerType": 2
     },
     {
             "key": "csp_Xlys",
             "name": "🍤哔嘀┃1080P",
             "api": "csp_Xlys",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+	    "jar": "./jar/xiaomi.txt",
             "searchable": 1,
             "quickSearch": 1,
             "type": 3,
@@ -378,7 +361,7 @@
             "name": "🍉瓜子┃1080P",
             "type": 3,
             "api": "csp_Gz360",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+	    "jar": "./jar/xiaomi.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -390,13 +373,13 @@
 		"key": "吃饱",
 		"name": "🪴吃饱┃1080P",
 		"type": 3,
-		"api": "https://gitee.com/zj521jj/little-tiger-spot/raw/master/drpy_libs/drpy2.min.js",
+		"api": "/drpy_libs/drpy2.min.js",
 		"searchable": 1,
 		"quickSearch": 1,
 		"filterable": 1,
 		"order_num": 0,
 		"changeable": 0,
-		"ext": "https://gitee.com/smallmi1007/mimi/raw/master/wencai.js"
+		"ext": "./drpy_js/wencai.js"
      },
      
      {
@@ -405,7 +388,7 @@
 		"type": 3,
 		"quickSearch": 1,
 		"api": "csp_MiTuApp",
-	        "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+	        "jar": "./jar/xiaomi.txt",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn64XzcQ7xvStB8jMisBReTIxM41ceZBHTzUgk3r/HwfaQHDZorN0nnVVuvE2MPKn8MPxE7ylJqasRuICMIOVVttRnHTeArnRbQHtOtv9F+MUHJKlwhy6U0meUqFlwIn7psnaR3hGPEBEsJYJsPp76XCOFyL1bvM3tTLekJMN0bE6C8wUUmg83iijAB1Xb6BFY0SFjRkJUBqkeUVtwAx1KA1QQjwUVBpGjtQEZ08jK7hLlREWx4foeg01L1aMK+viow=="
 	}, 
 	{
@@ -415,7 +398,7 @@
 		"searchable": 1,
 		"quickSearch": 1,
 		"api": "csp_MiTuApp",
-		"jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+		"jar": "./jar/xiaomi.txt",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn+pzOh0GsJJgcwHHxDs8FcBDGD81qAZtun78VAJxzshCbStdXIlQiksUvc2b5fXyuxJO9KBNp5LzL/pYLLOs1V3R3WOh90eVpJGxxXWEZtoq+F7Cq4CbQ3J1TTXahpYpecvphwmIcDJBAufEtnAznmjxxk6qVoA6w/eypA9oHqhDmy914I15LE2N8YnLptcACiTzTT1iakLVXE0Tyc1UhQT4AJ3fQ31m2DKm0pdhPTyT"
 	},
 	{
@@ -424,7 +407,7 @@
 		"type": 3,
 		"quickSearch": 1,
 		"api": "csp_MiTuApp",
-		"jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+		"jar": "./jar/xiaomi.txt",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn/5M8HcHgek+Ooq1I/D7QwiKWuFuH+GgIBIVVLdQZft6Mk9Fka1EbHxTztWHQiNgHXHiVvk+ejCBjD0BSR7r/OQwRXL/hnWvB8cCuPH3bAlRsZq1yhTb0zSRe2x+RTMdYfwvn+DcgXmgQUv3onmUYi/m3QjlolWtutbTn4SlOrjxkhOqN1iBdPJ37o3/6zKuYuEx9lEF8Vwgc6SSDnjuQ4O3nhZ4IkkS5Le3RdRoVDwe"
 	}, 
 	{
@@ -433,7 +416,7 @@
 		"type": 3,
 		"quickSearch": 0,
 		"api": "csp_MiTuApp",
-		"jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+		"jar": "./jar/xiaomi.txt",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn9pXqDDJVVS6pwdk2S4nTvU6TUFngKGexyvHMXSXO57AN6M4LsBHwZ1tcHnPZ2gPH1m7qu7r1zc7CkawgqunMPxZznGnqtbiv5NVOliQUr2NK4Pee7PFE2+BCvbGUPd3IR9Hiub1wBkbrfqjptJFLEpVXeR1pgeGp6pPUjADtyQPuXHj4azaFzDrobUCcdcn7KM6ZC4rjkupd5HlbdqhOJTRBv917h5RUlXs1sgRU1+EWkMXuNopX+18VjWwSrFYPw=="
 	}, 
 	{
@@ -442,7 +425,7 @@
 		"type": 3,
 		"quickSearch": 1,
 		"api": "csp_MiTuApp",
-		"jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+		"jar": "./jar/xiaomi.txt",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn35bf/1LEoRwqTXcrC7IQ0LqkJ9uquhjeheQXMJ/1jcyl7dTdYTs2tmJx3JQfbM+sLOHa3gv0n6rwfqf5gycuzU7dkNLItKvRFx3Cc438fy/s56XVJJZXZczLxopwnsmcYwYi1Ry6merfTK6wL78+y09P00Emc+qYY6cbo9/0p3aoyI75hXhhWfgk2fsdhl/CJ63tm0h5nu8u2sR6MVAG9bXBLHLiasPCrBhIBKlseXE"
 	},
 	{
@@ -451,22 +434,22 @@
 		"type": 3,
 		"quickSearch": 0,
 		"api": "csp_MiTuApp",
-		"jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+		"jar": "./jar/xiaomi.txt",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn9vBxsiZMC9mEjdFHy1b0JxMI9e9kwLyaPtpomLvf/SELlR2tG4av7VLVOnJfhzo9ctafjyVzyG8mJz6OMXeHP7ApPRdTfqKs9a3vBioIdqaC4SFZmteBwEWgHRwJv8Eecn5qIoxur3gmurN6cdUqIwRj8TAAm0asiETQ4b9bq0OXuO6Att6+aOM406026kk7qswMkcs8TxRXUyvexxaQgk="
 	}, 
    
-    {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+    {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
     
     {
       "key": "csp_XYQHiker_旺旺影视",
       "name": "旺旺影视┃XYQH",
       "type": 3,
       "api": "csp_XYQHiker",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+      "jar": "./jar/spider.txt",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitee.com/xyzjhe/test/raw/master/json/农民影视XYQH.json"
+      "ext": "./json/农民影视XYQH.json"
     },
 
     {
@@ -474,7 +457,7 @@
 			"name": "旺旺影视w┃XBPQ",
 			"type": 3,
 			"api": "csp_XBPQ",
-	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+	                "jar": "./jar/spider.txt",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -505,7 +488,7 @@
             "name": "旺旺影视m┃XBPQ",
             "type": 3,
             "api": "csp_XBPQ",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+	    "jar": "./jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -532,14 +515,14 @@
             }
     },
 
-    {"key":"drpy_js_素白白影视","name":"素白白┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/素白白xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+    {"key":"drpy_js_素白白影视","name":"素白白┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/素白白xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
 
     {
             "key": "素白白XBPQ",
             "name": "素白白┃XBPQ",
             "type": 3,
             "api": "csp_XBPQ",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+	    "jar": "./jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -580,7 +563,7 @@
 			"name": "修罗影视┃XBPQ",
 			"type": 3,
 			"api": "csp_XBPQ",
-	                "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+	                "jar": "./jar/spider.txt",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 1,
@@ -625,16 +608,16 @@
 			}
     },
 
-    {"key":"csp_Bdys","name":"🐞哔嘀影视┃XYQH","type":3,"api":"csp_Bdys","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.xlys01.com"},
+    {"key":"csp_Bdys","name":"🐞哔嘀影视┃XYQH","type":3,"api":"csp_Bdys","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.xlys01.com"},
 	  
-    {"key": "csp_XYQHiker_修罗影视","name":"🧲修罗影视┃XYQH","type":3,"api":"csp_XYQHiker","jar": "https://10087.kstore.space/jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://gitee.com/xyzjhe/test/raw/master/json/哔嘀影视XYQH0210.json"},
+    {"key": "csp_XYQHiker_修罗影视","name":"🧲修罗影视┃XYQH","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/哔嘀影视XYQH0210.json"},
 
     {
             "key": "天天弹幕",
             "name": "天天｜弹幕",
             "type": 3,
             "api": "csp_TianTian",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+	    "jar": "./jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -648,7 +631,7 @@
             "name": "热播｜弹幕",
             "type": 3,
             "api": "csp_TianTian",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+	    "jar": "./jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -662,7 +645,7 @@
             "name": "浪酷｜弹幕",
             "type": 3,
             "api": "csp_TianTian",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+	    "jar": "./jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -676,7 +659,7 @@
             "name": "糯米｜弹幕",
             "type": 3,
             "api": "csp_Nmys",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+	    "jar": "./jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -690,7 +673,7 @@
             "name": "西瓜｜视频",
             "type": 3,
             "api": "csp_AmuXiguaV2",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+	    "jar": "./jar/spider.txt",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -705,7 +688,7 @@
             "name": "南瓜｜影视",
             "type": 3,
             "api": "csp_NanGua",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+	    "jar": "./jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -715,7 +698,7 @@
             "name": "低端┃影视",
             "type": 3,
             "api": "csp_Ddys",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+	    "jar": "./jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -734,7 +717,7 @@
             "name": "IkanBot┃影视",
             "type": 3,
             "api": "csp_IkanBot",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+	    "jar": "./jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -742,9 +725,9 @@
 
       
 
-    {"key":"drpy_js_爱看机器人","name":"爱看机器人┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/爱看机器人xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+    {"key":"drpy_js_爱看机器人","name":"爱看机器人┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/爱看机器人xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
 	  
-    {"key":"drpy_js_瓜子影视","name":"瓜子影视┃drpyJS","type":3,"api":"https://gitee.com/xyzjhe/test/raw/master/drpy_libs/drpy2.min.js","ext":"https://gitee.com/xyzjhe/test/raw/master/drpy_js/瓜子影视xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+    {"key":"drpy_js_瓜子影视","name":"瓜子影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/瓜子影视xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
 
 
     //from 真心 JAR 玩偶系列
@@ -940,7 +923,7 @@
       "name": "🌏玩偶┃4K弹幕",
       "type": 3,
       "api": "csp_Wogg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+      "jar": "./jar/spider.txt",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -957,7 +940,7 @@
       "name": "🌏肥猫┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+      "jar": "./jar/spider.txt",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -975,7 +958,7 @@
       "name": "🌏欧哥┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+      "jar": "./jar/spider.txt",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -993,7 +976,7 @@
       "name": "🌏小米┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+      "jar": "./jar/spider.txt",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -1010,7 +993,7 @@
       "name": "🌏多多┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+      "jar": "./jar/spider.txt",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -1027,7 +1010,7 @@
       "name": "🌏蜡笔┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+      "jar": "./jar/spider.txt",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -1044,7 +1027,7 @@
       "name": "🌏至臻┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+      "jar": "./jar/spider.txt",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -1061,7 +1044,7 @@
       "name": "🌏土豆┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+      "jar": "./jar/spider.txt",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -1078,7 +1061,7 @@
       "name": "🌏木偶┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+      "jar": "./jar/spider.txt",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -1095,7 +1078,7 @@
       "name": "🌏六趣┃4K弹幕",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+      "jar": "./jar/spider.txt",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1113,7 +1096,7 @@
             "name": "🌏奥秘┃4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+            "jar": "./jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -1131,7 +1114,7 @@
             "name": "🌏白嫖┃4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+            "jar": "./jar/spider.txt",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -1148,7 +1131,7 @@
             "name": "🌏虎斑┃4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+            "jar": "./jar/spider.txt",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -1165,7 +1148,7 @@
             "name": "🌏下饭┃4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/spider.txt",
+            "jar": "./jar/spider.txt",
             "quickSearch": 1,
             "changeable": 1,
             "filterable": 1,
@@ -1185,7 +1168,7 @@
             "name": "🧸玩偶┃4K弹幕",
             "type": 3,
             "api": "csp_Wogg",
-	    "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+	    "jar": "./jar/xiaomi.txt",
             "changeable": 0,
             "searchable": 1,
             "filterable": 1,
@@ -1205,7 +1188,7 @@
             "name": "💯至臻┃4K弹幕",
             "type": 3,
             "api": "csp_Duopan",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+            "jar": "./jar/xiaomi.txt",
             "changeable": 0,
             "filterable": 1,
             "ext": {
@@ -1231,7 +1214,7 @@
             "name": "🍚小米┃UC4K4K",
             "type": 3,
             "api": "csp_Duopan",
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/xiaomi.txt",
+            "jar": "./jar/xiaomi.txt",
             "filterable": 1,
             "ext": {
                 "site_urls": ["http://www.54271.fun/", "https://www.milvdou.fun", "http://www.54271.fun/", "https://www.mucpan.cc/", "https://mucpan.cc/", "http://milvdou.fun"],
@@ -1252,7 +1235,7 @@
             "api": "csp_YDjisu",
             "searchable": 1,
             "changeable": 1,
-            "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/YD1231.jar"
+            "jar": "./jar/YD1231.jar"
         },
 
     //from 王二小网盘系列
@@ -1264,7 +1247,7 @@
       "api": "csp_Wexleijing",
       "searchable": 1,
       "changeable": 1,
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex.txt"
+      "jar": "./jar/wex.txt"
 
     },
     {
@@ -1274,7 +1257,7 @@
       "api": "csp_Wextyso",
       "searchable": 1,
       "changeable": 0,
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex.txt"
+      "jar": "./jar/wex.txt"
     },
     {
       "key": "盘他",
@@ -1283,7 +1266,7 @@
       "api": "csp_WexYDpanta",
       "searchable": 1,
       "changeable": 1,
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex.txt"
+      "jar": "./jar/wex.txt"
     },
     {
       "key": "Emby",
@@ -1292,7 +1275,7 @@
       "api": "csp_Wexemby",
       "searchable": 1,
       "changeable": 1,
-      "jar": "https://gitee.com/xyzjhe/test/raw/master/jar/wex.txt"
+      "jar": "./jar/wex.txt"
     },
     
     
