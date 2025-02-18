@@ -1,0 +1,199 @@
+
+{
+  "servers": [
+    {
+      "disable_filter": 0,
+      "name": "🎋丨天南 筑",
+      "server": "ms_f55637008e2d46fb881ce47b0ea28702"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🐹丨土拨 鼠",
+      "server": "ms_a4078fca6e9c4628bd6280b27a2af862"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🙈丨不给 看",
+      "server": "ms_5bb0a97ccf444483bf7a342d9fa7ec2a"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🍄丨见手 青",
+      "server": "ms_478a1850b1d64f0ea1f79ff62ed8a2cb"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🍺丨阿尔 法",
+      "proxy": "",
+      "server": "ms_3373a92223b9418a86198e5d69d314e1"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🍉丨水果 摊",
+      "server": "ms_93f2020d055d41dfaf0a60733b9d7320"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🪅丨垃圾 服",
+      "server": "ms_61f27d276b0144929abf1190e3efb100"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🖌️丨墨白 服",
+      "proxy": "",
+      "server": "ms_bc9176bb957742a3ae2c9d834cff4f57"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🕊️丨非越 服",
+      "server": "ms_fcad294b9e094adbb970fa590a428f0d"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🍩丨天鹅 服",
+      "server": "ms_1199551e5b00427486fa1fb0dd4605a5"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🦚丨琴鸟 服",
+      "server": "ms_725be6f0a8764a08a30c0afbfbcdabdf"
+    },
+    {
+      "disable_filter": 0,
+      "name": "♈丨大V  服",
+      "server": "ms_67d54bee67f74176a16f8e8944afe7b9"
+    },
+    {
+      "disable_filter":0,
+      "name": "✈️丨飞跃 服",
+      "proxy":"",
+      "server":"ms_9d5810dbb7884ebe96a9b50db5919b32"
+    },
+    {
+      "disable_filter": 1,
+      "name": "✨丨卡戎 服",
+      "proxy": "http://127.0.0.1:10079/p/0/proxy/",
+      "server": "ms_ceea716cd3f84d1dbb4f49a96eb8b03e"
+    },
+    {
+      "disable_filter": 0,
+      "name": "📽️丨放映 厅",
+      "proxy": "http://127.0.0.1:10079/p/0/proxy/",
+      "server": "ms_1b320bed20ee4b97bc918dd118f7098e"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🚁丨直升 机",
+      "proxy": "http://127.0.0.1:10079/p/0/proxy/",
+      "server": "ms_da2f68edc0da44f2b2986f375fb684fc"
+    },
+    {
+      "disable_filter": 1,
+      "name": "🐭丨卷毛 鼠",
+      "proxy": "http://127.0.0.1:10079/p/0/proxy/",
+      "server": "ms_7d41c4103f944135be5fecade08bc978"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🧸丨纸片 人",
+      "proxy": "http://127.0.0.1:10079/p/0/proxy/",
+      "server": "ms_8dadfe68e9b34f5fb0c34c5050999ccc"
+    },
+    {
+      "disable_filter": 1,
+      "name": "🐼丨熊猫 服",
+      "proxy": "http://127.0.0.1:10079/p/0/proxy/",
+      "server": "ms_4bebf0c2c79c49b5bae5966099bd93bd"
+    },
+    {
+      "disable_filter": 1,
+      "name": "⭐丨星云 服",
+      "proxy": "http://127.0.0.1:10079/p/0/proxy/",
+      "server": "ms_5dbe31f0fdc942fe9ecd72ac0dcd0285"
+    },
+    {
+      "disable_filter": 1,
+      "name": "🅿️丨普拉 斯",
+      "proxy": "http://127.0.0.1:10079/p/0/proxy/",
+      "server": "ms_e37bf55d7b2b466baeca78104defcd35"
+    },
+    {
+      "disable_filter": 0,
+      "name": "💢丨C C  服",
+      "server": "ms_62412c64e94a46d7a85910db56ae17f5"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🅰️丨ACA  服",
+      "server": "ms_49fa1a0c30c54d998cceb9619b11f075"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🦄丨NYA  服",
+      "server": "ms_da0784d174f54f8db13acfbc0caf6a21"
+    },
+    {
+      "disable_filter": 0,
+      "name": "💫丨AWA  服",
+      "server": "ms_cc02883d34d444cc94195fc4c4da2da9"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🐥丨HKA  服",
+      "server": "ms_430c687847d14b589d0c6cf45fb253fe"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🔆丨PILI 服",
+      "server": "ms_56e5e11c3c4e4f149f8145ebcf1108e2"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🌸丨LILY 服",
+      "server": "ms_47fad6d8fcb34add8d9915c50c1e0864"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🔰丨POLO 服",
+      "server": "ms_bff91d6554a4411391624a1281b87575"
+    },
+    {
+      "disable_filter": 1,
+      "name": "🌾丨Misty",
+      "proxy": "http://127.0.0.1:10079/p/0/proxy/",
+      "server": "ms_7f5e20725e1b4bb4ba74ca444d1bac3e"
+    },
+    {
+      "disable_filter": 1,
+      "name": "🍑丨Peach",
+      "proxy": "http://127.0.0.1:10079/p/0/proxy/",
+      "server": "ms_bf4fff0a9525437d90bb5c78db3395a7"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🎈丨houyinx",
+      "proxy": "http://127.0.0.1:10079/p/0/proxy/",
+      "server": "ms_f4b544b06fe347399b18eb5bb6bb36c5"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🍭丨9clubs",
+      "proxy": "",
+      "server": "ms_aa8d7bb09afa4aea87aeeb337747bb20"
+    },
+    {
+      "disable_filter": 0,
+      "name": "🍰丨custom",
+      "proxy": "",
+      "server": "ms_267c42df76704de79b47ba5dfed8da96"
+    },
+    {
+      "disable_filter":0,
+      "name":"🍡丨SIESTA",
+      "proxy":"",
+      "server":"ms_db19d19588ea46ba85e1b3961efe80c5"
+    }
+   
+    
+  ]
+}
