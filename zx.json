@@ -67,7 +67,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250218V1🔍",
+      "name":"🔍真心豆瓣┃250218V3🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -79,7 +79,7 @@
       }
     },
 
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250218V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250218V3🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
     {
       "key": "ConfigCenter",
@@ -113,7 +113,7 @@
             "changeable": 0,
             "searchable": 0,
             "api": "csp_Config",
-	    "jar": "./jar/xiaomi.txt" 
+	    "jar": "./jar/0126.jar" 
      },
      {
             "key": "影视配置",
@@ -251,14 +251,14 @@
           "name": "✈️上头┃短剧",
           "type": 3,
           "api": "csp_AppXY",
-	  "jar": "./jar/xiaomi.txt"   
+	  "jar": "./jar/0126.jar"   
    },
    {
       "key": "csp_LaoBaiBook",
       "name": "📚老白┃听书",
       "type": 3,
       "api": "csp_LaoBaiBook",
-      "jar": "./jar/xiaomi.txt",   
+      "jar": "./jar/0126.jar",   
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 0,
@@ -273,7 +273,7 @@
 	"type": 3,
 	"searchable": 1,
 	"api": "csp_XiaoYi",
-	"jar": "./jar/xiaomi.txt",
+	"jar": "./jar/0126.jar",
 	"changeable": 0
     },
     {
@@ -282,7 +282,7 @@
 	"type": 3,
 	"searchable": 1,
 	"api": "csp_MiSou",
-	"jar": "./jar/xiaomi.txt",
+	"jar": "./jar/0126.jar",
 	"changeable": 0
    },
    {
@@ -290,21 +290,21 @@
       "name": "⏳️️流光┃1080P",
       "type": 3,
       "api": "csp_Lgyy",  
-      "jar": "./jar/xiaomi.txt"   
+      "jar": "./jar/0126.jar"   
     },
     {
       "key": "csp_Jpys",
       "name": "🥇金牌┃1080P",
       "type": 3,
       "api": "csp_Jpys", 
-      "jar": "./jar/xiaomi.txt"    
+      "jar": "./jar/0126.jar"    
     },
     {
             "key": "csp_AppNG",
             "name": "🎃南瓜┃1080P",
             "type": 3,
             "api": "csp_AppNG",
-	    "jar": "./jar/xiaomi.txt"
+	    "jar": "./jar/0126.jar"
     },
     
     {
@@ -312,7 +312,7 @@
             "name": "🏔来看┃1080P",
             "type": 3,
             "api": "csp_Lkdy",
-	    "jar": "./jar/xiaomi.txt"
+	    "jar": "./jar/0126.jar"
     },
     
     {
@@ -324,7 +324,7 @@
             "quickSearch": 1,
             "changeable": 1,
             "api": "csp_Wwys",
-	    "jar": "./jar/xiaomi.txt",
+	    "jar": "./jar/0126.jar",
             "ext": "https://www.wwgz.cn/"
     },
     {
@@ -333,7 +333,7 @@
             "type": 3,
             "searchable": 1,
             "api": "csp_SuBaiBai",
-	    "jar": "./jar/xiaomi.txt",
+	    "jar": "./jar/0126.jar",
             "playerType": 2,
             "ext": "https://www.subaibaiys.com/"
     },
@@ -342,14 +342,14 @@
             "name": "🍎苹果┃1080P",
             "type": 3,
             "api": "csp_LiteApple",
-	    "jar": "./jar/xiaomi.txt",
+	    "jar": "./jar/0126.jar",
             "playerType": 2
     },
     {
             "key": "csp_Xlys",
             "name": "🍤哔嘀┃1080P",
             "api": "csp_Xlys",
-	    "jar": "./jar/xiaomi.txt",
+	    "jar": "./jar/0126.jar",
             "searchable": 1,
             "quickSearch": 1,
             "type": 3,
@@ -361,7 +361,7 @@
             "name": "🍉瓜子┃1080P",
             "type": 3,
             "api": "csp_Gz360",
-	    "jar": "./jar/xiaomi.txt",
+	    "jar": "./jar/0126.jar",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -388,7 +388,7 @@
 		"type": 3,
 		"quickSearch": 1,
 		"api": "csp_MiTuApp",
-	        "jar": "./jar/xiaomi.txt",
+	        "jar": "./jar/0126.jar",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn64XzcQ7xvStB8jMisBReTIxM41ceZBHTzUgk3r/HwfaQHDZorN0nnVVuvE2MPKn8MPxE7ylJqasRuICMIOVVttRnHTeArnRbQHtOtv9F+MUHJKlwhy6U0meUqFlwIn7psnaR3hGPEBEsJYJsPp76XCOFyL1bvM3tTLekJMN0bE6C8wUUmg83iijAB1Xb6BFY0SFjRkJUBqkeUVtwAx1KA1QQjwUVBpGjtQEZ08jK7hLlREWx4foeg01L1aMK+viow=="
 	}, 
 	{
@@ -398,7 +398,7 @@
 		"searchable": 1,
 		"quickSearch": 1,
 		"api": "csp_MiTuApp",
-		"jar": "./jar/xiaomi.txt",
+		"jar": "./jar/0126.jar",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn+pzOh0GsJJgcwHHxDs8FcBDGD81qAZtun78VAJxzshCbStdXIlQiksUvc2b5fXyuxJO9KBNp5LzL/pYLLOs1V3R3WOh90eVpJGxxXWEZtoq+F7Cq4CbQ3J1TTXahpYpecvphwmIcDJBAufEtnAznmjxxk6qVoA6w/eypA9oHqhDmy914I15LE2N8YnLptcACiTzTT1iakLVXE0Tyc1UhQT4AJ3fQ31m2DKm0pdhPTyT"
 	},
 	{
@@ -407,7 +407,7 @@
 		"type": 3,
 		"quickSearch": 1,
 		"api": "csp_MiTuApp",
-		"jar": "./jar/xiaomi.txt",
+		"jar": "./jar/0126.jar",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn/5M8HcHgek+Ooq1I/D7QwiKWuFuH+GgIBIVVLdQZft6Mk9Fka1EbHxTztWHQiNgHXHiVvk+ejCBjD0BSR7r/OQwRXL/hnWvB8cCuPH3bAlRsZq1yhTb0zSRe2x+RTMdYfwvn+DcgXmgQUv3onmUYi/m3QjlolWtutbTn4SlOrjxkhOqN1iBdPJ37o3/6zKuYuEx9lEF8Vwgc6SSDnjuQ4O3nhZ4IkkS5Le3RdRoVDwe"
 	}, 
 	{
@@ -416,7 +416,7 @@
 		"type": 3,
 		"quickSearch": 0,
 		"api": "csp_MiTuApp",
-		"jar": "./jar/xiaomi.txt",
+		"jar": "./jar/0126.jar",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn9pXqDDJVVS6pwdk2S4nTvU6TUFngKGexyvHMXSXO57AN6M4LsBHwZ1tcHnPZ2gPH1m7qu7r1zc7CkawgqunMPxZznGnqtbiv5NVOliQUr2NK4Pee7PFE2+BCvbGUPd3IR9Hiub1wBkbrfqjptJFLEpVXeR1pgeGp6pPUjADtyQPuXHj4azaFzDrobUCcdcn7KM6ZC4rjkupd5HlbdqhOJTRBv917h5RUlXs1sgRU1+EWkMXuNopX+18VjWwSrFYPw=="
 	}, 
 	{
@@ -425,7 +425,7 @@
 		"type": 3,
 		"quickSearch": 1,
 		"api": "csp_MiTuApp",
-		"jar": "./jar/xiaomi.txt",
+		"jar": "./jar/0126.jar",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn35bf/1LEoRwqTXcrC7IQ0LqkJ9uquhjeheQXMJ/1jcyl7dTdYTs2tmJx3JQfbM+sLOHa3gv0n6rwfqf5gycuzU7dkNLItKvRFx3Cc438fy/s56XVJJZXZczLxopwnsmcYwYi1Ry6merfTK6wL78+y09P00Emc+qYY6cbo9/0p3aoyI75hXhhWfgk2fsdhl/CJ63tm0h5nu8u2sR6MVAG9bXBLHLiasPCrBhIBKlseXE"
 	},
 	{
@@ -434,7 +434,7 @@
 		"type": 3,
 		"quickSearch": 0,
 		"api": "csp_MiTuApp",
-		"jar": "./jar/xiaomi.txt",
+		"jar": "./jar/0126.jar",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn9vBxsiZMC9mEjdFHy1b0JxMI9e9kwLyaPtpomLvf/SELlR2tG4av7VLVOnJfhzo9ctafjyVzyG8mJz6OMXeHP7ApPRdTfqKs9a3vBioIdqaC4SFZmteBwEWgHRwJv8Eecn5qIoxur3gmurN6cdUqIwRj8TAAm0asiETQ4b9bq0OXuO6Att6+aOM406026kk7qswMkcs8TxRXUyvexxaQgk="
 	}, 
    
@@ -1168,7 +1168,7 @@
             "name": "🧸玩偶┃4K弹幕",
             "type": 3,
             "api": "csp_Wogg",
-	    "jar": "./jar/xiaomi.txt",
+	    "jar": "./jar/0126.jar",
             "changeable": 0,
             "searchable": 1,
             "filterable": 1,
@@ -1188,7 +1188,7 @@
             "name": "💯至臻┃4K弹幕",
             "type": 3,
             "api": "csp_Duopan",
-            "jar": "./jar/xiaomi.txt",
+            "jar": "./jar/0126.jar",
             "changeable": 0,
             "filterable": 1,
             "ext": {
@@ -1214,7 +1214,7 @@
             "name": "🍚小米┃UC4K4K",
             "type": 3,
             "api": "csp_Duopan",
-            "jar": "./jar/xiaomi.txt",
+            "jar": "./jar/0126.jar",
             "filterable": 1,
             "ext": {
                 "site_urls": ["http://www.54271.fun/", "https://www.milvdou.fun", "http://www.54271.fun/", "https://www.mucpan.cc/", "https://mucpan.cc/", "http://milvdou.fun"],
