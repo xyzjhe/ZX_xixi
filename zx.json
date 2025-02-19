@@ -221,6 +221,104 @@
      {"key": "csp_XYQHiker_酷奇MV","name":"酷奇MV(XYQH)","type":3,"api":"csp_XYQHiker","searchable":0,"quickSearch":0,"filterable":1,"ext":"./XYQHiker/酷奇MV.json"},
      {"key": "csp_XYQHiker_短剧屋","name":"短剧屋(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/短剧屋.json"},
 
+
+     {
+      "key": "yfsp",
+      "name": "🎯|爱壹帆",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 0.75
+      },
+      "api": "csp_GM",
+      "jar": "https://ghproxy.cn/https://raw.githubusercontent.com/CatVodSpider-GM/Spiders-Lib/main/jar/GM.jar",
+      "ext": {
+        "userScript": "https://ghproxy.cn/https://github.com/CatVodSpider-GM/SFW-Spiders/raw/main/userScripts/ysfp.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "*.png*",
+            "*.mp3*",
+            "*.css*",
+            "https://*.googletagmanager.com/*",
+            "https://*.google-analytics.com/*"
+          ]
+        },
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://m.yfsp.tv/"
+          },
+          "categoryContent": {
+            "loadUrl": "https://m.yfsp.tv/list/${tid}?type=${index-0:-0}${index-1:-,0}${index-2:-,0}${index-3:-,0}${index-4:-,0}${index-5:-}"
+          },
+          "detailContent": {
+            "loadUrl": "https://m.yfsp.tv/play/${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://m.yfsp.tv/play/${mediaKey}?id=${episodeKey}"
+          },
+          "searchContent": {
+            "loadUrl": "https://m.yfsp.tv/search"
+          }
+        }
+      }
+    },
+    
+    
+    
+    {
+      "key": "gaze",
+      "name": "🎯|注视影视",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 0.66
+      },
+      "api": "csp_GM",
+      "jar": "https://ghproxy.cn/https://raw.githubusercontent.com/CatVodSpider-GM/Spiders-Lib/main/jar/GM.jar",
+      "ext": {
+        "userScript": "https://ghproxy.cn/https://github.com/CatVodSpider-GM/SFW-Spiders/raw/main/userScripts/gaze.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [
+            "https://*.bytecdntp.com/cdn/expire-1-M/font-awesome/*",
+            "https://*.clarity.ms/*",
+            "https://gaze.run/visitorslog.php*",
+            "*.css*"
+          ]
+        },
+        "playUrlMatch": [
+          "https://dl-b.cloud.189.cn/corp/downloadFile.action?*",
+          "https://gaze.run/gaze_filey/pb/*.m3u8",
+          "https://*/obj/tos*"
+        ],
+        "spider": {
+          "homeContent": {
+            "loadUrl": "https://gaze.run/filter"
+          },
+          "categoryContent": {
+            "loadUrl": "https://gaze.run/filter"
+          },
+          "detailContent": {
+            "loadUrl": "https://gaze.run/play/${id}"
+          },
+          "playerContent": {
+            "loadUrl": "https://gaze.run/play/${mcid}#${path}"
+          },
+          "searchContent": {
+            "loadUrl": "https://gaze.run/filter"
+          }
+        }
+      }
+    },
+	  
+
      // from 肥猫JAR-20250214  
 
     {
