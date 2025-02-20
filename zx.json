@@ -67,7 +67,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250219V5🔍",
+      "name":"🔍真心豆瓣┃250220V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -79,7 +79,7 @@
       }
     },
 
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250219V5🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250220V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
     {
       "key": "ConfigCenter",
@@ -233,9 +233,9 @@
         "ratio": 0.75
       },
       "api": "csp_GM",
-      "jar": "https://ghproxy.cn/https://raw.githubusercontent.com/CatVodSpider-GM/Spiders-Lib/main/jar/GM.jar",
+      "jar": "./jar/GM.jar",
       "ext": {
-        "userScript": "https://ghproxy.cn/https://github.com/CatVodSpider-GM/SFW-Spiders/raw/main/userScripts/ysfp.user.js",
+        "userScript": "./userScripts/ysfp.user.js",
         "debug": false,
         "webViewSettings": {
           "blockNetworkImage": true,
@@ -280,9 +280,9 @@
         "ratio": 0.66
       },
       "api": "csp_GM",
-      "jar": "https://ghproxy.cn/https://raw.githubusercontent.com/CatVodSpider-GM/Spiders-Lib/main/jar/GM.jar",
+      "jar": "./jar/GM.jar",
       "ext": {
-        "userScript": "https://ghproxy.cn/https://github.com/CatVodSpider-GM/SFW-Spiders/raw/main/userScripts/gaze.user.js",
+        "userScript": "./userScripts/gaze.user.js",
         "debug": false,
         "webViewSettings": {
           "blockNetworkImage": true,
@@ -548,78 +548,25 @@
 		"jar": "./jar/0126.jar",
 		"ext": "sHR2rlsfjI4L3t4RXQMkn9vBxsiZMC9mEjdFHy1b0JxMI9e9kwLyaPtpomLvf/SELlR2tG4av7VLVOnJfhzo9ctafjyVzyG8mJz6OMXeHP7ApPRdTfqKs9a3vBioIdqaC4SFZmteBwEWgHRwJv8Eecn5qIoxur3gmurN6cdUqIwRj8TAAm0asiETQ4b9bq0OXuO6Att6+aOM406026kk7qswMkcs8TxRXUyvexxaQgk="
 	}, 
-   
-    {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
-    {"key":"drpy_js_素白白影视","name":"素白白┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/素白白xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
-    {"key":"drpy_js_爱看机器人","name":"爱看机器人┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/爱看机器人xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
-    {"key":"drpy_js_瓜子影视","name":"瓜子影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/瓜子影视xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
 
-    
-
-    /*{
-			"key": "旺旺影视w",
-			"name": "旺旺影视w┃XBPQ",
-			"type": 3,
-			"api": "csp_XBPQ",
-	                "jar": "./jar/spider.txt",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": {
-				"请求头": "User-Agent$MOBILE_UA",
-				"编码": "UTF-8",
-				"主页url": "https://www.wwgz.cn/",
-				"二次截取": "resize_list\"&&</ul>",
-				"数组": "<li&&/li>",
-				"标题": "title=\"&&\"",
-				"图片": "src=\"&&\"",
-				"副标题": "<span>&&</em>",
-				"链接": "href=\"&&\"",
-				"播放数组": "class=\"numList\"&&</ul>",
-				"播放列表": "<a&&a>",
-				"播放链接": "href=\"&&\"",
-				"播放标题": ">&&</",
-				"线路数组": "<li><a href=\"javascript:;&&</li>",
-				"线路标题": "\">&&</a>",
-				"分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class-{class}-year-{year}-letter-{letter}-area-{area}-lang-{lang}.html",
-				"分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$26",
-				"类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#剧情片$10#战争片$11#惊悚片$16#奇幻片$17||国产剧#12港台泰#13日韩剧#14欧美剧#15||空||动漫剧#18动漫片#19||空"
-			}
-    },*/
-    
-    {
-            "key": "旺旺影视m",
-            "name": "旺旺影视m┃XBPQ",
-            "type": 3,
-            "api": "csp_XBPQ",
-	    "jar": "./jar/spider.txt",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "主页url": "https://m.wwgz.cn/",
-                "二次截取": "class=\"resize_list\"&&</ul>",
-                "数组": "<li>&&</li>",
-                "图片": "src=\"&&\"",
-                "标题": "title=\"&&\"",
-                "副标题": "<span>&&<em>",
-                "链接": "href=\"&&\"",
-                "播放数组": "class=\"numList\"&&</ul>",
-                "播放列表": "<a&&a>",
-                "播放链接": "href=\"&&\"",
-                "播放标题": ">&&</",
-                "线路数组": "href=\"javascript:;&&</li>",
-                "线路标题": ">&&</a>",
-                "简介": "<p>简*介：&&</p>",
-                "分类url": "https://m.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class-{class}-year-{year}-letter-{letter}-area-{area}-lang-{lang}.html",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$26",
-                "类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#剧情片$10#战争片$11#惊悚片$16#奇幻片$17||国产剧#12港台泰#13日韩剧#14欧美剧#15||空||动漫剧#18动漫片#19||空"
-            }
+	{ 
+                "key": "旺旺影视XBPQ",  
+                "name": "旺旺影视┃XBPQ", 
+                "type": 3,
+                "api": "csp_XBPQ", 
+                "ext":
+                      {
+                        "请求头": "手机",
+                        "编码": "UTF-8",
+                        "简介":"剧情介绍:+简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介：&&</p>",
+                        "线路数组":"javascript:;\">&&</a>", 
+                        "数组":"<li>&&</li>",
+                        "图片": "data-echo=\"&&\"",
+                        "分类url":"https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-time-class-0-year-{year}-letter--area-{area}-lang-.html",
+                        "分类":"短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"
+                      }
     },
 
-    
     {
             "key": "素白白XBPQ",
             "name": "素白白┃XBPQ",
@@ -660,6 +607,79 @@
                      "播放链接": "href=\"&&\""
                   } 
     },
+   
+    {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+    {"key":"drpy_js_素白白影视","name":"素白白┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/素白白xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+    {"key":"drpy_js_爱看机器人","name":"爱看机器人┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/爱看机器人xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+    {"key":"drpy_js_瓜子影视","name":"瓜子影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/瓜子影视xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+
+    
+
+    /*{
+			"key": "旺旺影视w",
+			"name": "旺旺影视w┃XBPQ",
+			"type": 3,
+			"api": "csp_XBPQ",
+	                "jar": "./jar/spider.txt",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": {
+				"请求头": "User-Agent$MOBILE_UA",
+				"编码": "UTF-8",
+				"主页url": "https://www.wwgz.cn/",
+				"二次截取": "resize_list\"&&</ul>",
+				"数组": "<li&&/li>",
+				"标题": "title=\"&&\"",
+				"图片": "src=\"&&\"",
+				"副标题": "<span>&&</em>",
+				"链接": "href=\"&&\"",
+				"播放数组": "class=\"numList\"&&</ul>",
+				"播放列表": "<a&&a>",
+				"播放链接": "href=\"&&\"",
+				"播放标题": ">&&</",
+				"线路数组": "<li><a href=\"javascript:;&&</li>",
+				"线路标题": "\">&&</a>",
+				"分类url": "https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class-{class}-year-{year}-letter-{letter}-area-{area}-lang-{lang}.html",
+				"分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$26",
+				"类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#剧情片$10#战争片$11#惊悚片$16#奇幻片$17||国产剧#12港台泰#13日韩剧#14欧美剧#15||空||动漫剧#18动漫片#19||空"
+			}
+    },*/
+    
+    /*{
+            "key": "旺旺影视m",
+            "name": "旺旺影视m┃XBPQ",
+            "type": 3,
+            "api": "csp_XBPQ",
+	    "jar": "./jar/spider.txt",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "请求头": "User-Agent$MOBILE_UA",
+                "编码": "UTF-8",
+                "主页url": "https://m.wwgz.cn/",
+                "二次截取": "class=\"resize_list\"&&</ul>",
+                "数组": "<li>&&</li>",
+                "图片": "src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "<span>&&<em>",
+                "链接": "href=\"&&\"",
+                "播放数组": "class=\"numList\"&&</ul>",
+                "播放列表": "<a&&a>",
+                "播放链接": "href=\"&&\"",
+                "播放标题": ">&&</",
+                "线路数组": "href=\"javascript:;&&</li>",
+                "线路标题": ">&&</a>",
+                "简介": "<p>简*介：&&</p>",
+                "分类url": "https://m.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class-{class}-year-{year}-letter-{letter}-area-{area}-lang-{lang}.html",
+                "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$26",
+                "类型": "动作片$5#喜剧片$6#爱情片$7#科幻片$8#恐怖片$9#剧情片$10#战争片$11#惊悚片$16#奇幻片$17||国产剧#12港台泰#13日韩剧#14欧美剧#15||空||动漫剧#18动漫片#19||空"
+            }
+    },*/
+
+    
+    
 
     /*{
 			"key": "修罗影视",
@@ -827,7 +847,19 @@
       
     //from 真心 JAR 玩偶系列
     
-   
+    {
+      "key": "玩偶gg",
+      "name": "📀玩偶┃饭饭4K",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
+        "siteUrl": "https://www.wogg.net/",
+        "filter": "./json/wogg.json"
+      }
+    },
     {
       "key": "玩偶┃蜡笔",
       "name": "📀玩偶┃蜡笔4K",
@@ -850,7 +882,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "siteUrl": "http://www.mogg.top",
+        "siteUrl": "tv.91muou.icu",
         "filter": "./json/wogg.json"
       }
     },
@@ -932,19 +964,7 @@
         "filter": "./json/wogg.json"
       }
     },
-    {
-      "key": "玩偶┃奥秘",
-      "name": "📀玩偶┃奥秘4K",
-      "type": 3,
-      "api": "csp_kongbai",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "siteUrl": "https://vip.omii.top",
-        "filter": "./json/wogg.json"
-      }
-    },
+    
     {
       "key": "玩偶┃白嫖",
       "name": "📀玩偶┃白嫖4K",
@@ -955,32 +975,6 @@
       "ext": {
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
         "siteUrl": "https://smdyo.top",
-        "filter": "./json/wogg.json"
-      }  
-    },
-    {
-      "key": "玩偶┃下饭",
-      "name": "📀玩偶┃下饭4K",
-      "type": 3,
-      "api": "csp_kongbai",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "siteUrl": "http://txfpan.top/",
-        "filter": "./json/wogg.json"
-      }
-    },
-    {
-      "key": "玩偶┃土豆",
-      "name": "📀玩偶┃土豆4K",
-      "type": 3,
-      "api": "csp_kongbai",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "siteUrl": "https://dcyun.cc",
         "filter": "./json/wogg.json"
       }  
     },
@@ -998,18 +992,48 @@
       }
     },
     {
-      "key": "玩偶gg",
-      "name": "📀玩偶┃饭饭4K",
+      "key": "玩偶┃下饭",
+      "name": "📀玩偶┃下饭4K",
       "type": 3,
-      "api": "csp_Wogg",
+      "api": "csp_kongbai",
       "searchable": 1,
       "changeable": 0,
       "ext": {
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "siteUrl": "https://www.wogg.net/",
+        "siteUrl": "http://txfpan.top/",
         "filter": "./json/wogg.json"
       }
     },
+
+	  
+    /*{
+      "key": "玩偶┃奥秘",
+      "name": "📀玩偶┃奥秘4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
+        "siteUrl": "https://vip.omii.top",
+        "filter": "./json/wogg.json"
+      }
+    },*/
+   /* {
+      "key": "玩偶┃土豆",
+      "name": "📀玩偶┃土豆4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
+        "siteUrl": "https://dcyun.cc",
+        "filter": "./json/wogg.json"
+      }  
+    },*/
+    
+    
    
     //from 潇洒&OK 玩偶系列
 	  
@@ -1134,23 +1158,7 @@
         "danmu": true
       }
     },
-    {
-      "key": "夸克土豆弹幕",
-      "name": "🌏土豆┃4K弹幕",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "./jar/spider.txt",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://dcyun.cc",
-        "danmu": true
-      }
-    },
+    
     {
       "key": "夸克木偶弹幕",
       "name": "🌏木偶┃4K弹幕",
@@ -1164,7 +1172,7 @@
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
         "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "http://www.mogg.top",
+        "site": "tv.91muou.icu",
         "danmu": true
       }
     },
@@ -1186,24 +1194,7 @@
         "danmu": true
       }
     },
-    {
-            "key": "夸克奥秘弹幕",
-            "name": "🌏奥秘┃4K弹幕",
-            "type": 3,
-            "api": "csp_Wobg",
-            "jar": "./jar/spider.txt",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://vip.omii.top",
-                "danmu": true
-            }
-   },
+    
    {
             "key": "夸克白嫖弹幕",
             "name": "🌏白嫖┃4K弹幕",
@@ -1255,6 +1246,42 @@
                 "danmu": true
             }
     },
+
+    /*{
+      "key": "夸克土豆弹幕",
+      "name": "🌏土豆┃4K弹幕",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "./jar/spider.txt",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://dcyun.cc",
+        "danmu": true
+      }
+    },*/
+    /*{
+            "key": "夸克奥秘弹幕",
+            "name": "🌏奥秘┃4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "jar": "./jar/spider.txt",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://vip.omii.top",
+                "danmu": true
+            }
+   },*/
 
     //from 小米 玩偶系列
 
