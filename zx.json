@@ -319,39 +319,7 @@
     },
 	  
 
-     // from 肥猫JAR-20250214  
-
-    {
-      "key": "csp_FeiMaoUC",
-      "name": "⚡┃闪电┃优汐",
-      "type": 3,
-      "api": "csp_Duopan",
-      "jar": "./jar/PandaQ.txt",  
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://1.95.79.193/"
-        ],
-        "url_key": "FeiMaoUC"
-      }
-    },
-    {
-      "key": "csp_Duopan",
-      "name": "🖍︎┃蜡笔┃影视",
-      "type": 3,
-      "api": "csp_Duopan",
-      "jar": "./jar/PandaQ.txt",     
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "https://duopan.fun",
-          "http://labipan.com",
-          "http://feimaoai.site",
-          "https://mihdr.top"
-        ],
-        "url_key": "Duopan2"
-      }
-    },
+    
     
 	  
 	  
@@ -1282,6 +1250,42 @@
                 "danmu": true
             }
    },*/
+
+
+     // from 肥猫JAR-20250214  
+
+    {
+      "key": "csp_FeiMaoUC",
+      "name": "⚡┃闪电┃优汐",
+      "type": 3,
+      "api": "csp_Duopan",
+      "jar": "./jar/PandaQ.txt",  
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
+      }
+    },
+    {
+      "key": "csp_Duopan",
+      "name": "🖍︎┃蜡笔┃影视",
+      "type": 3,
+      "api": "csp_Duopan",
+      "jar": "./jar/PandaQ.txt",     
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "https://duopan.fun",
+          "http://labipan.com",
+          "http://feimaoai.site",
+          "https://mihdr.top"
+        ],
+        "url_key": "Duopan2"
+      }
+    },
+	  
 
     //from 小米 玩偶系列
 
