@@ -67,7 +67,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250220V7🔍",
+      "name":"🔍真心豆瓣┃250220V9🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -79,7 +79,7 @@
       }
     },
 
-    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250220V7🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
+    {"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250220V9🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},
 
     {
       "key": "ConfigCenter",
@@ -194,6 +194,127 @@
                 "share": "https://10087.kstore.space/网盘集合zx.json"
             }
       },
+
+     {
+      "key": "玩偶",
+      "name": "玩偶哥哥|Pan",
+      "type": 3,
+      "api": "csp_Wogg",
+      "jar": "./jar/lushunming0218.jar;md5;1307e75cf2f5a1daa8610989c165d707",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"https://www.wogg.net/\",\"https://wogg.xxooo.cf/\"]}"
+    },
+    {
+      "key": "欧歌",
+      "name": "欧歌|Pan",
+      "type": 3,
+      "api": "csp_Mogg",
+      "jar": "./jar/lushunming0218.jar;md5;1307e75cf2f5a1daa8610989c165d707",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "多多影音",
+      "name": "多多影音|Pan",
+      "type": 3,
+      "api": "csp_DuoDuo",
+      "jar": "./jar/lushunming0218.jar;md5;1307e75cf2f5a1daa8610989c165d707",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"https://tv.yydsys.top/\"]}"
+    },
+    {
+      "key": "蜡笔盘盘",
+      "name": "蜡笔盘盘|Pan",
+      "type": 3,
+      "api": "csp_NaBi",
+      "jar": "./jar/lushunming0218.jar;md5;1307e75cf2f5a1daa8610989c165d707",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"https://duopan.fun/\"]}"
+    },
+    {
+      "key": "闪电优汐",
+      "name": "闪电优汐|Pan",
+      "type": 3,
+      "api": "csp_ShanDian",
+      "jar": "./jar/lushunming0218.jar;md5;1307e75cf2f5a1daa8610989c165d707",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"http://1.95.79.193/\"]}"
+    },
+    {
+      "key": "特下饭",
+      "name": "特下饭|Pan",
+      "type": 3,
+      "api": "csp_TeXiaFan",
+      "jar": "./jar/lushunming0218.jar;md5;1307e75cf2f5a1daa8610989c165d707",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"http://www.xn--ghqy10g1w0a.xyz/\",\"http://www.txfyyda.top/\",]}"
+    },
+    {
+      "key": "小米",
+      "name": "小米UC|Pan",
+      "type": 3,
+      "api": "csp_XiaoMi",
+      "jar": "./jar/lushunming0218.jar;md5;1307e75cf2f5a1daa8610989c165d707",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"http://mucpan.cc/\",\"http://milvdou.fun/\"]}"
+    },
+    {
+      "key": "至臻视觉",
+      "name": "至臻视觉|Pan",
+      "type": 3,
+      "api": "csp_ZhiZhen",
+      "jar": "./jar/lushunming0218.jar;md5;1307e75cf2f5a1daa8610989c165d707",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "{\"site\": [\"https://mihdr.top/\"]}"
+    },
+    {
+      "key": "KuaKeBa",
+      "name": "夸克吧",
+      "type": 3,
+      "api": "csp_KuaKeBa",
+      "jar": "./jar/lushunming0218.jar;md5;1307e75cf2f5a1daa8610989c165d707",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "DianYingYunJi",
+      "name": "电影云集",
+      "type": 3,
+      "api": "csp_DianYingYunJi",
+      "jar": "./jar/lushunming0218.jar;md5;1307e75cf2f5a1daa8610989c165d707",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "KuaKeS",
+      "name": "夸克网盘社",
+      "type": 3,
+      "api": "csp_KuaKeS",
+      "jar": "./jar/lushunming0218.jar;md5;1307e75cf2f5a1daa8610989c165d707",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "云盘资源网",
+      "name": "云盘资源网",
+      "type": 3,
+      "api": "csp_YunPanZiYuan",
+      "jar": "./jar/lushunming0218.jar;md5;1307e75cf2f5a1daa8610989c165d707",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": ""
+    },
 
      {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
      {"key":"drpy_js_素白白影视","name":"素白白┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/素白白xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
