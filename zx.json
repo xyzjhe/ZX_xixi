@@ -39,7 +39,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250221V3🔍",
+      "name":"🔍真心豆瓣┃250221V5🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -53,7 +53,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250221V3🅱",
+      "name": "🅱路飞豆瓣┃250221V5🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -63,7 +63,7 @@
       "indexs": 0
     },
 
-    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250221V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
+    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250221V5🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
 
     {
       "key": "ConfigCenter",
@@ -209,8 +209,14 @@
      {"key": "csp_XYQHiker_兔小贝2","name":"兔小贝2(XYQH)","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":0,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/兔小贝2.json"},
      {"key": "csp_XYQHiker_播视童趣","name":"播视童趣(XYQH)","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":0,"quickSearch":0,"filterable":1,"ext":"./XYQHiker/播视童趣.json"},
      {"key": "csp_XYQHiker_樱花动漫","name":"樱花动漫(XYQH)","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250127.jar;md5;8051a43712956883d5ed1ecf9fe8c2ca","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/樱花动漫.json"},
+     {"key": "csp_XYQHiker_去看吧动漫","name":"🔭去看吧动漫(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/去看吧动漫.json"},
+     {"key": "csp_XYQHiker_嗷呜动漫","name":"🙀嗷呜动漫(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/嗷呜动漫.json"},
+     {"key": "csp_XYQHiker_动漫巴士","name":"🚌动漫巴士(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/动漫巴士.json"},
      {"key": "csp_XYQHiker_酷奇MV","name":"酷奇MV(XYQH)","type":3,"api":"csp_XYQHiker","searchable":0,"quickSearch":0,"filterable":1,"ext":"./XYQHiker/酷奇MV.json"},
      {"key": "csp_XYQHiker_短剧屋","name":"短剧屋(XYQH)","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/短剧屋.json"},
+
+     {"key":"柚子资源","name":"🍊柚子资源┃采集","type":0,"api":"https://api.yzzy-api.com/inc/api.php","searchable":1,"quickSearch":1,"categories":["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","国产剧","台湾剧","韩国剧","欧美剧","香港剧","泰国剧","日本剧","福利","记录片","动画片","海外剧","倫理片","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","搞笑","音乐","影视","汽车","短剧大全","预告片","预告片","体育"]},
+        
 
 
    // from 小米JAR20250220  
