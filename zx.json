@@ -9,6 +9,19 @@
   "logo":"https://s1.imagehub.cc/images/2025/01/15/e8b21391c58ed454c13ade26c003e857.gif",
   
  "lives": [
+
+    {
+
+      "name":"ITV在线0221",
+         "url":"https://10087.kstore.space/itv20250221.txt",
+         "epg":"http://epg.51zmt.top:8000/e.xml",
+         "ua":"okhttp/3.15",
+         "catchup":{
+            "type":"append",
+            "replace":"livemode=1,livemode=4",
+            "source":"&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+    },
+	 
     {
             "name": "APTV",
             "type": 0,
@@ -59,7 +72,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250221V5🔍",
+      "name":"🔍真心豆瓣┃250221V7🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -73,7 +86,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250221V5🅱",
+      "name": "🅱路飞豆瓣┃250221V7🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -1465,6 +1478,7 @@
   ],
 
   "hosts": [
+    "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
     "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
     "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
     "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
