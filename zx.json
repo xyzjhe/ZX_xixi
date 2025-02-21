@@ -25,7 +25,7 @@
 
       "name": "黑龙江PLTV",
       "type": 0,
-      "url": "https://10087.kstore.space/黑龙江PLTV移动+CDN.m3u",
+      "url": "https://10087.kstore.space/HLJPLTV.m3u",
       "epg": "http://epg.51zmt.top:8000/e.xml",
       "ua": "okhttp/3.15,AptvPlayer/1.4.0",
       "timeout": "3",
@@ -39,7 +39,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250221V1🔍",
+      "name":"🔍真心豆瓣┃250221V3🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -53,7 +53,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250221V1🅱",
+      "name": "🅱路飞豆瓣┃250221V3🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
