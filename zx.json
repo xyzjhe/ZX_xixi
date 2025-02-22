@@ -11,6 +11,28 @@
  "lives": [
 
     {
+            "name": "APTV",
+            "type": 0,
+            "url": "https://wget.la/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": 10,
+            "playerType": 2
+    },
+
+    {
+            "name": "myIPTV",
+            "type": 0,
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/xyzjhe/myIPTV/refs/heads/main/ipv4.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": 10,
+            "playerType": 2
+    },
+
+    {
 
          "name":"ITV在线0221",
          "url":"https://10087.kstore.space/itv20250221.txt",
@@ -21,27 +43,6 @@
             "replace":"livemode=1,livemode=4",
             "source":"&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
 	}
-    },
-	 
-    {
-            "name": "APTV",
-            "type": 0,
-            "url": "https://wget.la/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 10,
-            "playerType": 2
-    },
-    {
-            "name": "myIPTV",
-            "type": 0,
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/xyzjhe/myIPTV/refs/heads/main/ipv4.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 10,
-            "playerType": 2
     },
 	 
     {
