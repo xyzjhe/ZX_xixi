@@ -1,8 +1,8 @@
 {
 
-       "spider": "./jar/zx.txt;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
+       //"spider": "./jar/zx.txt;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
 
-	//"spider": "https://10087.kstore.space/jar/zx.txt;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
+	"spider": "https://10087.kstore.space/jar/zx.txt;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
 
 	"wallpaper": "https://bing.img.run/rand.php",
 
