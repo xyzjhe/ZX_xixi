@@ -76,7 +76,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250222V3🔍",
+      "name":"🔍真心豆瓣┃250223V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -90,7 +90,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250222V3🅱",
+      "name": "🅱路飞豆瓣┃250223V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -100,7 +100,7 @@
       "indexs": 0
     },
 
-    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250222V3🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
+    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250223V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
 
     {
       "key": "ConfigCenter",
@@ -216,7 +216,18 @@
             }
       },
 
-    
+
+     ##PY源系列
+     {"key": "芒","name": "🥭┃百忙无果┃TV","type": 3,"api": "./py/py_芒.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
+     {"key": "腾","name": "🐧┃腾云驾雾┃TV","type": 3,"api": "./py/py_腾.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
+     {"key": "爱","name": "🥝┃奇珍异兽┃TV","type": 3,"api": "./py/py_爱.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
+     {"key": "py_光速","name": "💡┃光速┃影视","type": 3,"api": "./py/py_光速.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
+     {"key": "mp","name": "🐠┃MP┃影视","type": 3,"api": "./py/py_mp.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
+     //{"key": "cntv央视","name": "🦆┃CNTV央视┃TV","type": 3,"api": "./py/py_cntv央视.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},	
+     {"key": "hitv","name": "🎸┃Hitv┃影视","type": 3,"api": "./py/py_hitv.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
+     {"key": "xpg","name": "🐽┃XPG┃影视","type": 3,"api": "./py/py_xpg.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},	
+     {"key": "剧多短剧","name": "🎥┃剧多┃短剧","type": 3,"api": "./py/py_剧多短剧.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
+	
 
      {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
      {"key":"drpy_js_素白白影视","name":"素白白┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/素白白xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
