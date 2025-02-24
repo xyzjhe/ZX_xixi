@@ -1,8 +1,8 @@
 {
 
-	 "spider": "./jar/Yoursmile0220.jar;md5;30efc3079c6e950cf4b2f514b030d75c",
+	 //"spider": "./jar/Yoursmile0220.jar;md5;30efc3079c6e950cf4b2f514b030d75c",
 	
-	//"spider": "./jar/zx.txt;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
+	"spider": "./jar/zx.txt;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
 
 	//"spider": "https://10087.kstore.space/jar/zx.txt;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
 
@@ -76,7 +76,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250223V3🔍",
+      "name":"🔍真心豆瓣┃250224V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -90,7 +90,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250223V3🅱",
+      "name": "🅱路飞豆瓣┃250224V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -100,7 +100,7 @@
       "indexs": 0
     },
 
-    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250223V3🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
+    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250224V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
 
     {
       "key": "ConfigCenter",
@@ -217,16 +217,7 @@
       },
 
 
-     ##PY源系列
-     //{"key": "芒","name": "🥭┃百忙无果┃TV","type": 3,"api": "./py/py_芒.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
-     //{"key": "腾","name": "🐧┃腾云驾雾┃TV","type": 3,"api": "./py/py_腾.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
-     //{"key": "爱","name": "🥝┃奇珍异兽┃TV","type": 3,"api": "./py/py_爱.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
-     //{"key": "py_光速","name": "💡┃光速┃影视","type": 3,"api": "./py/py_光速.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
-     //{"key": "mp","name": "🐠┃MP┃影视","type": 3,"api": "./py/py_mp.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
-     //{"key": "cntv央视","name": "🦆┃CNTV央视┃TV","type": 3,"api": "./py/py_cntv央视.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},	
-     //{"key": "hitv","name": "🎸┃Hitv┃影视","type": 3,"api": "./py/py_hitv.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
-     //{"key": "xpg","name": "🐽┃XPG┃影视","type": 3,"api": "./py/py_xpg.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},	
-     //{"key": "剧多短剧","name": "🎥┃剧多┃短剧","type": 3,"api": "./py/py_剧多短剧.py","searchable": 1,"quickSearch": 1,"changeable": 1,"filterable": 1,"timeout": 60},
+     //from 道长DRPY	  
 	
 
      {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
@@ -457,7 +448,7 @@
 	  
 	  
   
-    /*{ 
+    { 
                 "key": "旺旺影视XBPQ",  
                 "name": "旺旺影视┃XBPQ", 
                 "type": 3,
@@ -473,9 +464,9 @@
                         "分类url":"https://www.wwgz.cn/vod-list-id-{cateId}-pg-{catePg}-order--by-time-class-0-year-{year}-letter--area-{area}-lang-.html",
                         "分类":"短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"
                       }
-    },*/
+    },
 
-    /*{
+    {
             "key": "素白白XBPQ",
             "name": "素白白┃XBPQ",
             "type": 3,
@@ -487,7 +478,7 @@
             "ext": {
                      "作者": "菜妮丝",
                      "站名": "素白白影视",
-                     "主页url": "https://www.subaibaiys.com",
+                     "主页url": "https://www.subaibai.com",
                      "分类": "电影&电视剧&热门电影&国产剧&欧美剧&韩剧&高分电影&动漫电影&香港经典电影&动漫剧",
                      "分类值": "new-movie&tv-drama&hot-month&domestic-drama&american-drama&korean-drama&high-movie&cartoon-movie&hongkong-movie&anime-drama",
                      "分类url": "https://www.subaibaiys.com/{cateId}/page/{catePg}",
@@ -514,7 +505,7 @@
                      "播放标题": ">&&<[替换:立即播放>>空]",
                      "播放链接": "href=\"&&\""
                   } 
-    },*/
+    },
    
     
 
