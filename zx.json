@@ -1,8 +1,13 @@
 {
 
+
+
+
+         "spider": "./zx250224.jar;md5;0956e31454bbaf4b76afdf80587c9d65",
+	
 	 //"spider": "./jar/Yoursmile0220.jar;md5;30efc3079c6e950cf4b2f514b030d75c",
 	
-	"spider": "./jar/zx.txt;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
+	//"spider": "./jar/zx.txt;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
 
 	//"spider": "https://10087.kstore.space/jar/zx.txt;md5;bf393c047070aa7ceb3dcce7b2a13f8e",
 
@@ -76,7 +81,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250224V1🔍",
+      "name":"🔍真心豆瓣┃250225V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -90,7 +95,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250224V1🅱",
+      "name": "🅱路飞豆瓣┃250225V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -100,7 +105,7 @@
       "indexs": 0
     },
 
-    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250224V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
+    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250225V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
 
     {
       "key": "ConfigCenter",
