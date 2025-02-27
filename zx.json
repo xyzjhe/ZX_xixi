@@ -758,7 +758,39 @@
       }
     },
 
+    {
+      "key": "玩偶┃二小",
+      "name": "📀玩偶┃二小4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
+        "siteUrl": "https://xhww.net/",
+        "filter": "./json/wogg.json"
+      }
+    },
+
    //from 潇洒&OK 玩偶系列
+
+    {
+            "key": "夸克二小弹幕",
+            "name": "🌏二小┃4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "jar": "./jar/spider.txt",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "https://xhww.net/",
+                "danmu": true
+            }
+    },
 	  
     {
       "key": "玩偶弹幕",
@@ -970,6 +1002,8 @@
             }
     },
 
+    
+
     // from 肥猫JAR-20250214  
 
     {
@@ -1061,7 +1095,14 @@
             "jar": "./jar/xiaomi.jar",
             "filterable": 1,
             "ext": {
-                "site_urls": ["http://www.54271.fun/", "https://www.milvdou.fun", "http://www.54271.fun/", "https://www.mucpan.cc/", "https://mucpan.cc/", "http://milvdou.fun"],
+            "site_urls": [
+                "http://www.54271.fun/",
+                "https://www.milvdou.fun",
+                "http://www.54271.fun/",
+                "https://www.mucpan.cc/",
+                "https://mucpan.cc/",
+                "http://milvdou.fun"
+                ],
                 "url_key": "UC",
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "ucCookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
