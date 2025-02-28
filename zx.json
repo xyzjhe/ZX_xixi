@@ -1396,23 +1396,7 @@
       }
     },
 	  
-    /*{
-      "key": "Youtube",
-      "name": "Youtube┃YTB",
-      "type": 3,
-      "api": "csp_Youtube",
-      "searchable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.433
-      },
-      "ext": {
-        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "json": "./json/youtube.json",
-        "cookie": ""
-      }
-    },*/
+   
     {
       "key": "网盘-片库",
       "name": "网盘┃片库",
