@@ -24,18 +24,6 @@
             "timeout": 10,
             "playerType": 2
     },
-
-    {
-            "name": "myIPTV",
-            "type": 0,
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/xyzjhe/myIPTV/refs/heads/main/ipv4.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 10,
-            "playerType": 2
-    },
-
     {
 
          "name":"ITV在线0221",
@@ -48,7 +36,6 @@
             "source":"&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
 	}
     },
-	 
     {
 
       "name": "ITV在线0215",
@@ -59,26 +46,24 @@
       "timeout": "3",
       "playerType": 2
     },
-
     {
-
-      "name": "黑龙江PLTV",
-      "type": 0,
-      "url": "https://10087.kstore.space/HLJPLTV.m3u",
-      "epg": "http://epg.51zmt.top:8000/e.xml",
-      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-      "timeout": "3",
-      "playerType": 2
+            "name": "myIPTV",
+            "type": 0,
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/xyzjhe/myIPTV/refs/heads/main/ipv4.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": 10,
+            "playerType": 2
     }
     
-   
-  ],
+ ],
   
   "sites": [
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250228V5🔍",
+      "name":"🔍真心豆瓣┃250301V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -92,7 +77,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250228V5🅱",
+      "name": "🅱路飞豆瓣┃250301V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -102,7 +87,7 @@
       "indexs": 0
     },
 
-    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250228V5🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
+    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250301V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
 
     {
       "key": "ConfigCenter",
