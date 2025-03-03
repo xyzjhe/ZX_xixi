@@ -10,6 +10,16 @@
   
  "lives": [
 
+     {
+            "name": "APTV",
+            "type": 0,
+            "url": "https://wget.la/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": 10,
+            "playerType": 2
+    },
     {
             "name": "doube50001",
             "type": 0,
@@ -32,16 +42,7 @@
             "playerType": 2
     },
 
-    {
-            "name": "APTV",
-            "type": 0,
-            "url": "https://wget.la/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 10,
-            "playerType": 2
-    },
+   
     {
 
          "name":"ITV在线0221",
@@ -81,7 +82,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心豆瓣┃250302V1🔍",
+      "name":"🔍真心在线┃250301V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -95,7 +96,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250302V1🅱",
+      "name": "🅱路飞豆瓣┃250301V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -105,7 +106,7 @@
       "indexs": 0
     },
 
-    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250302V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
+    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250301V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
 
     {
       "key": "ConfigCenter",
@@ -194,39 +195,16 @@
     {"key":"csp_TgYunPan9","name":"TgYunPan┃fish2018","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://tgsou.fish2018.us.kg","channelUsername":"leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},
     {"key":"csp_TgYunPan10","name":"TgYunPan┃651156","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://tgsou.651156.xyz/","channelUsername":"leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},
 
-    {
-            "key": "当前版本",
-            "name": "真心20250224.zip",
-            "zip": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/ZX/main/真心20250224.zip",
-            "type": 3,
-            "api": "csp_TgYunDouBanPan",
-            "searchable": 0,
-            "changeable": 0,
-            "ext": {
-                "siteUrl": "https://tgsou.651156.xyz/",
-                "channelUsername": "tgsearchers",
-                "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-                "filter": "./json/douban.json"
-            }
-     },
-     {
-            "key": "网盘集合",
-            "name": "网盘集合┃4K",
-            "type": 3,
-            "api": "csp_网盘集合",
-            "searchable": 1,
-            "filterable": 0,
-            "switchable": 0,
-            "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-                "share": "https://10087.kstore.space/网盘集合zx.json"
-            }
-      },
+    
+     //from 道长DRPY
+     
 
+     {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+     {"key":"drpy_js_素白白影视","name":"素白白┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/素白白xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+     {"key":"drpy_js_爱看机器人","name":"爱看机器人┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/爱看机器人xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
+     {"key":"drpy_js_瓜子影视","name":"瓜子影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/瓜子影视xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
 
-     //from 道长DRPY	  
-
-      { 
+     { 
                 "key": "旺旺影视XBPQ",  
                 "name": "旺旺影视┃XBPQ", 
                 "type": 3,
@@ -246,48 +224,31 @@
     },
 
     {
-      "key": "素白白XBPQ",
-      "name": "素白白┃XBPQ",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/spider.txt",
-      "ext": {
-        "站名": "素白白影视",
-        "主页url": "https://www.subaibai.com",
-        "图片代理": "0",
-        "头部集合": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36#authority$www.subaibai.com#Referer$https://www.subaibai.com/#Origin$https://www.subaibai.com/",
-        "分类": "国产剧&电影&电视剧&热门电影&高分电影&动漫电影&欧美剧&韩剧&动漫剧",
-        "分类值": "domestic-drama&new-movie&tv-drama&hot-month&high-movie&cartoon-movie&american-drama&korean-drama&anime-drama",
-        "分类url": "https://www.subaibai.com/{cateId}/page/{catePg};;aks2",
-        "二次截取": "<div class=\"bt_img mi_ne_kd mrb\">&&<div class=\"clear\">",
-        "数组": "<li>&&</a>[替换:data-original=\">>图https://images.weserv.nl/?url=#https://www.subaibaiys.com>>https://www.subaibai.com]",
-        "图片": "图&&\"",
-        "副标题": "class=\"jidi\"><span>&&</span>",
-        "搜索模式": "1",
-        "搜索url": "https://www.subaibai.com/?s={wd}",
-        "影片年代": "年份：&&</li>",
-        "影片地区": "地区：&&</li>",
-        "影片类型": "类型：&&</li>",
-        "导演": "导演：&&</li>",
-        "主演": "主演：&&</li>",
-        "简介": "yp_context\">&&</p>",
-        "线路数组": "mi_paly_box\">&&</div>",
-        "线路标题": "ypxingq_t\">&&<span>[替换:在线播放>>素白专线]",
-        "播放数组": "<div class=\"paly_list_btn\">&&</div>[替换:https://www.subaibaiys.com>>https://www.subaibai.com]",
-        "播放列表": "<a&&/a>",
-        "播放标题": ">&&<",
-        "播放链接": "href=\"&&\"",
-        "嗅探词": "wangchuanxin.top#.mp4?#.m3u8#.mp4#.flv#.mp3#.m4a",
-        "过滤词": "data.m3u8.in#51.la#cnzz.com#baidu.com#bilibili.com",
-        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36#authority$wangchuanxin.top#Origin$https://www.subaibai.com/"
-      }
+       "key": "修罗影视┃XBPQ",
+       "name": "修罗影视┃XBPQ",
+       "type": 3,
+       "api": "csp_XBPQ",
+       "jar": "./jar/spider.txt",
+       "timeout": 300,
+       "ext": 
+	    {
+              "主页url": "https://v.xlys.ltd.ua",
+              "请求头": "手机",
+              "分类url": "https://v.xlys.ltd.ua/s/all/{catePg}?type={cateId}",
+              "分类": "电视剧$1#电影$0",                
+              "数组": "class=\"col-lg-8 col-4\"&&</div>",
+              "副标题": "class=\"badge bg-pink position-absolute top-0 start-0 text-red-fg\">&&</span>",
+              "图片": "src=\"&&\"",
+              "标题": "class=\"mb-0 card-title text-truncate\">&&</h3>",
+              "链接": "href=\"&&\"",
+              //"起始页": 2,
+              "倒序": 1,
+              "简介": "剧情简介</h3>&&<div class=\"card mt-3",
+              "播放数组": "<tbody&&</tbody",
+              "播放列表": "<td><a&&</td>"
+             }
+  
     },
-
-
-     {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
-     {"key":"drpy_js_素白白影视","name":"素白白┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/素白白xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
-     {"key":"drpy_js_爱看机器人","name":"爱看机器人┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/爱看机器人xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
-     {"key":"drpy_js_瓜子影视","name":"瓜子影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/瓜子影视xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
 
      //from 香雅晴
 
@@ -1430,7 +1391,22 @@
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
       }
     },
-   
+
+  
+     {
+            "key": "网盘集合",
+            "name": "网盘集合┃4K",
+            "type": 3,
+            "api": "csp_网盘集合",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
+            "ext": {
+                "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
+                "share": "https://10087.kstore.space/网盘集合zx.json"
+            }
+      },
+
    
    {
       "key": "TgYunPan┃本地",
@@ -1447,6 +1423,21 @@
       }
    },
 
+   {
+            "key": "当前版本",
+            "name": "真心20250301.zip",
+            "zip": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/ZX/main/真心20250301.zip",
+            "type": 3,
+            "api": "csp_TgYunDouBanPan",
+	    "searchable": 0,
+            "changeable": 0,
+            "ext": {
+                "siteUrl": "https://tgsou.651156.xyz/",
+                "channelUsername": "tgsearchers",
+                "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
+                "filter": "./json/douban.json"
+            }
+   },
     
    {
       "key": "push_agent",
