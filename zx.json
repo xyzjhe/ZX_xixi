@@ -322,7 +322,7 @@
      {"key":"csp_SeedHub","name":"🧲SeedHub┃XYQH","type":3,"api":"csp_SeedHub","jar": "./jar/xyq250225.jar;md5;e6f46d10150d782fcb10ef179bab3f47","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.seedhub.cc"},
      {"key":"csp_MeijuTT","name":"🧲美剧天堂┃XYQH","type":3,"api":"csp_MeijuTT","jar": "./jar/xyq250225.jar;md5;e6f46d10150d782fcb10ef179bab3f47","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.meijutt.net"},
      
-     {"key": "csp_XYQHiker_戏曲多多","name":"🎻戏曲多多┃XYQH","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250225.jar;md5;e6f46d10150d782fcb10ef179bab3f47","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/戏曲多多.json"},
+     {"key": "csp_XYQHiker_戏曲多多","name":"🎻戏曲多多(XYQH)","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250225.jar;md5;e6f46d10150d782fcb10ef179bab3f47","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/戏曲多多.json"},
      {"key": "csp_XYQHiker_兔小贝","name":"🐰兔小贝(XYQH)","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250225.jar;md5;e6f46d10150d782fcb10ef179bab3f47","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/兔小贝.json"},
      {"key": "csp_XYQHiker_兔小贝2","name":"🐰兔小贝2(XYQH)","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250225.jar;md5;e6f46d10150d782fcb10ef179bab3f47","searchable":0,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/兔小贝2.json"},
      {"key": "csp_XYQHiker_播视童趣","name":"👶🏻播视童趣(XYQH)","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250225.jar;md5;e6f46d10150d782fcb10ef179bab3f47","searchable":0,"quickSearch":0,"filterable":1,"ext":"./XYQHiker/播视童趣.json"},
