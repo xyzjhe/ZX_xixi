@@ -1,10 +1,10 @@
 {
 
-"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1741399467558/zx250301.txt;md5;af357a1a4211553ccb3e11573bdd729e",
+"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1741569146362/zx250309b.jar;md5;af6d47108f9f026b54429a46abcd7700",
 
-//"spider": "./zx250301.jar;md5;af357a1a4211553ccb3e11573bdd729e",
+//"spider": "./zx250309b.jar;md5;af6d47108f9f026b54429a46abcd7700",
 	
- //"spider": "https://10087.kstore.space/jar/zx250228a.jar;md5;43989964965deab2a4b6b48251043412",
+//"spider": "https://10087.kstore.space/jar/zx250309b.jar;md5;af6d47108f9f026b54429a46abcd7700",
 
   "wallpaper": "https://bing.img.run/rand.php",
 
@@ -103,7 +103,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250301V7🔍",
+      "name":"🔍真心在线┃250309bV1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -117,7 +117,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250301V7🅱",
+      "name": "🅱路飞豆瓣┃250309bV1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -127,7 +127,7 @@
       "indexs": 0
     },
 
-    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250301V7🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
+    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250309bV1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
 
     {
       "key": "ConfigCenter",
