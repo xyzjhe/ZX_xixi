@@ -102,7 +102,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250312V2🔍",
+      "name":"🔍真心在线┃250312V3🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -116,7 +116,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2503012V2🅱",
+      "name": "🅱路飞豆瓣┃2503012V3🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -126,7 +126,7 @@
       "indexs": 0
     },
 
-    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250312V2🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
+    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250312V3🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
 
     {
       "key": "ConfigCenter",
@@ -175,6 +175,26 @@
                 "type": "rect",
                 "ratio": 1.597
             }
+    },
+
+    {
+            "key": "巧技",
+            "name": "👣巧技｜2K1080P",
+            "type": 3,
+            "api": "csp_qiao2",
+	    "jar": "./jar/spider.txt",
+            "playerType": 2,
+            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740038979341/cksp.txt"
+    },
+    
+    {
+            "key": "移动",
+            "name": "👣移动｜2K1080P",
+            "type": 3,
+            "api": "csp_YD",
+	    "jar": "./jar/spider.txt",
+            "searchable": 1,
+            "quickSearch": 1
     },
 
     {
