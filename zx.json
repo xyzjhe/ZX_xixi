@@ -1,6 +1,5 @@
 {
 
-//"spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1741569146362/zx250309b.jar;md5;d25e7016c6d25c36e4c4d071c7f212fa",
 
 "spider": "./zx250312b.jar;md5;d0f8ccbac648adae93854a55e86cd1c1",
 	
@@ -225,8 +224,8 @@
       }
     },
     {
-      "key": "Tg┃豆瓣9999",
-      "name": "Tg┃豆瓣_9999",
+      "key": "Tg┃豆瓣630",
+      "name": "Tg┃豆瓣_630",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
