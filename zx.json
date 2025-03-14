@@ -1,9 +1,9 @@
 {
 
 
-"spider": "./zx250312b.jar;md5;d0f8ccbac648adae93854a55e86cd1c1",
+"spider": "./zx250313.jar;md5;ecd0ebbde75ff6c71c59413ae58f3fb7",
 	
-//"spider": "https://10087.kstore.space/jar/zx250312b.jar;md5;d0f8ccbac648adae93854a55e86cd1c1",
+//"spider": "https://10087.kstore.space/jar/zx250313.jar;md5;ecd0ebbde75ff6c71c59413ae58f3fb7",
 
   "wallpaper": "https://bing.img.run/rand.php",
 
@@ -102,7 +102,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250312V3🔍",
+      "name":"🔍真心在线┃250313V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -116,7 +116,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2503012V3🅱",
+      "name": "🅱路飞豆瓣┃2503013V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -126,7 +126,7 @@
       "indexs": 0
     },
 
-    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250312V3🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
+    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250313V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
 
     {
       "key": "ConfigCenter",
