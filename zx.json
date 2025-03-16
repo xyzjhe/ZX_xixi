@@ -102,7 +102,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250313V1🔍",
+      "name":"🔍真心在线┃250313V2🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -116,7 +116,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2503013V1🅱",
+      "name": "🅱路飞豆瓣┃2503013V2🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -126,7 +126,7 @@
       "indexs": 0
     },
 
-    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250313V1🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
+    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250313V2🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
 
     {
       "key": "ConfigCenter",
@@ -214,21 +214,19 @@
    },
 
    {
-            "key": "当前版本",
-            "name": "真心20250313.zip",
-            "zip": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/ZX/main/真心20250313.zip",
+            "key": "网盘集合",
+            "name": "网盘集合┃4K",
             "type": 3,
-            "api": "csp_TgYunDouBanPan",
-	    "searchable": 0,
-            "changeable": 0,
+            "api": "csp_网盘集合",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
             "ext": {
-                "siteUrl": "https://tgsou.651156.xyz/",
-                "channelUsername": "tgsearchers",
                 "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-                "filter": "./json/douban.json"
+                "share": "https://10087.kstore.space/网盘集合zx.json"
             }
-   },
-
+    },
+  
     {
       "key": "Tg┃豆瓣651156",
       "name": "Tg┃豆瓣_651156",
@@ -1497,19 +1495,23 @@
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
       }
     },
+    
     {
-            "key": "网盘集合",
-            "name": "网盘集合┃4K",
+            "key": "当前版本",
+            "name": "真心20250313.zip",
+            "zip": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/ZX/main/真心20250313.zip",
             "type": 3,
-            "api": "csp_网盘集合",
-            "searchable": 1,
-            "filterable": 0,
-            "switchable": 0,
+            "api": "csp_TgYunDouBanPan",
+	    "searchable": 0,
+            "changeable": 0,
             "ext": {
+                "siteUrl": "https://tgsou.651156.xyz/",
+                "channelUsername": "tgsearchers",
                 "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-                "share": "https://10087.kstore.space/网盘集合zx.json"
+                "filter": "./json/douban.json"
             }
    },
+
    {
       "key": "push_agent",
       "name": "真心|推送",
