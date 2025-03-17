@@ -107,7 +107,7 @@
     
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250313V6🔍",
+      "name":"🔍真心在线┃250313V7🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -121,7 +121,7 @@
 
      {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2503013V6🅱",
+      "name": "🅱路飞豆瓣┃2503013V7🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -140,11 +140,11 @@
       "filterable": 0,
       "switchable": 0,
       "ext": {
+	"siteUrl": "http://tgsou.fish2018.ip-ddns.com",
 	"count": 4,
         "channelUsername": "tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1",
-        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-	"siteUrl": "http://tgsou.fish2018.ip-ddns.com"
-      }
+        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
+	}
    },
 
    {
@@ -163,9 +163,7 @@
       }
     },
 
-  
-
-    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250313V6🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
+  /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250313V7🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
 
     {
       "key": "ConfigCenter",
@@ -225,7 +223,6 @@
             "playerType": 2,
             "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740038979341/cksp.txt"
     },
-    
     {
             "key": "移动",
             "name": "👣移动｜2K1080P",
@@ -251,8 +248,6 @@
                 "share": "https://10087.kstore.space/网盘集合zx.json"
             }
     },
-  
-    
     {
       "key": "Tg┃豆瓣630",
       "name": "Tg┃豆瓣_630",
