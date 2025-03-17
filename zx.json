@@ -106,8 +106,8 @@
   "sites": [
 
     {
-      "key": "🦞Tg豆瓣651156┃250313V8",
-      "name": "🦞Tg豆瓣651156┃250313V8",
+      "key": "🦞Tg豆瓣651156",
+      "name": "🦞Tg豆瓣651156┃250313V9",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -116,6 +116,20 @@
         "siteUrl": "https://tgsou.651156.xyz",
         "count":4,
         "channelUsername": "tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1",
+        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
+        "filter": "./json/douban.json"
+      }
+    },
+
+    {
+      "key":"csp_Douban",
+      "name":"🔍真心在线┃250313V9🔍",
+      "type":3,
+      "api":"csp_Douban",
+      "searchable":0,
+      "filterable":1,
+      "changeable":1,
+      "ext":{
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
         "filter": "./json/douban.json"
       }
@@ -137,22 +151,7 @@
 	}
     },
 
-	  
     {
-      "key":"csp_Douban",
-      "name":"🔍真心在线┃250313V8🔍",
-      "type":3,
-      "api":"csp_Douban",
-      "searchable":0,
-      "filterable":1,
-      "changeable":1,
-      "ext":{
-        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "filter": "./json/douban.json"
-      }
-    },
-
-     {
       "key": "lf_js_search",
       "name": "🅱路飞豆瓣┃2503013V8🅱",
       "type": 3,
@@ -163,8 +162,6 @@
       "api": "./lib/路飞豆瓣.js",
       "indexs": 0
     },
-
-    /*{"key":"drpy_js_豆瓣2","name":"🅱豆瓣热播DRPY┃250313V8🅱","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/douban_list.js","searchable": 0,"quickSearch": 0,"filterable": 1},*/
 
     {
       "key": "ConfigCenter",
@@ -234,21 +231,6 @@
             "quickSearch": 1
     },
 
-    
-
-   {
-            "key": "网盘集合",
-            "name": "网盘集合┃4K",
-            "type": 3,
-            "api": "csp_网盘集合",
-            "searchable": 1,
-            "filterable": 0,
-            "switchable": 0,
-            "ext": {
-                "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-                "share": "https://10087.kstore.space/网盘集合zx.json"
-            }
-    },
     {
       "key": "Tg豆瓣┃630",
       "name": "Tg豆瓣┃630",
@@ -264,6 +246,19 @@
         "filter": "./json/douban.json"
       }
     },
+
+    {
+            "key": "移动云盘",
+            "name": "🐾移动4K┃免扫",
+            "type": 3,
+            "api": "csp_YDjisu",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./jar/YD1231.jar"
+    },
+
+    
+    
 
     /*{"key":"csp_TgYunPan6","name":"TgYunPan┃630","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://107.172.201.182:630","channelUsername":"tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},*/
     /*{"key":"csp_TgYunPan9","name":"TgYunPan┃fish2018","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://tgsou.fish2018.ip-ddns.com","channelUsername":"tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},*/
@@ -516,25 +511,8 @@
         "ratio": 1.333
       }
    },
-   {
-	"key": "小怡",
-	"name": "🔍易搜┃夸克",
-	"type": 3,
-	"searchable": 1,
-	"api": "csp_XiaoYi",
-	"jar": "./jar/xiaomi.jar",
-	"changeable": 0
-    },
-    {
-	"key": "米搜",
-	"name": "🔍米搜┃夸克",
-	"type": 3,
-	"searchable": 1,
-	"api": "csp_MiSou",
-	"jar": "./jar/xiaomi.jar",
-	"changeable": 0
-   },
 
+	  
    //from 肥猫0227
 	  
    {
@@ -1234,129 +1212,6 @@
             }
     },
 
-    
-
-    // from 肥猫JAR-20250227 
-
-    {
-      "key": "csp_FeiMaoUC",
-      "name": "⚡┃闪电┃优汐",
-      "type": 3,
-      "api": "csp_Duopan",
-      "jar": "./jar/PandaQ.txt",  
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://1.95.79.193/"
-        ],
-        "url_key": "FeiMaoUC"
-      }
-    },
-    {
-      "key": "csp_Duopan",
-      "name": "🖍︎┃蜡笔┃影视",
-      "type": 3,
-      "api": "csp_Duopan",
-      "jar": "./jar/PandaQ.txt",     
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "https://feimao666.fun",
-          "http://feimao888.fun",
-          "http://feimaoai.site",
-          "http://www.labi88.sbs"
-        ],
-        "url_key": "Duopan2"
-      }
-    },
-
-    
-	  
-
-    //from 小米 玩偶系列
-
-    {
-            "key": "csp_Wogg",
-            "name": "🧸玩偶┃4K弹幕",
-            "type": 3,
-            "api": "csp_Wogg",
-	    "jar": "./jar/xiaomi.jar",
-            "changeable": 0,
-            "searchable": 1,
-            "filterable": 1,
-            "ext": {
-			"site_urls": ["https://wogg.xxooo.cf", "http://www.wogg.bf", "https://www.wogg.net"],
-			"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                        "ucCookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                        "quarkCookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-			"threadinfo": {
-				"chunksize": 400,
-				"threads": 12
-			}
-		}
-    }, 
-    {
-            "key": "csp_Netfixtv",
-            "name": "💯至臻┃4K弹幕",
-            "type": 3,
-            "api": "csp_Duopan",
-            "jar": "./jar/xiaomi.jar",
-            "changeable": 0,
-            "filterable": 1,
-            "ext": {
-                "site_urls": [
-                    "https://mihdr.top",
-                    "http://www.miqk.cc",
-                    "http://www.xhww.net",
-                    "http://xhww.net",
-                    "https://xiaomiai.site"
-                ],
-                "url_key": "Netfixtv",
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "ucCookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "quarkCookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "threadinfo": {
-                    "chunksize": 400,
-                    "threads": 12
-                }
-            }
-        },
-        {
-            "key": "csp_UC",
-            "name": "🍚小米┃UC4K4K",
-            "type": 3,
-            "api": "csp_Duopan",
-            "jar": "./jar/xiaomi.jar",
-            "filterable": 1,
-            "ext": {
-            "site_urls": [
-                "http://www.54271.fun/",
-                "https://www.milvdou.fun",
-                "http://www.54271.fun/",
-                "https://www.mucpan.cc/",
-                "https://mucpan.cc/",
-                "http://milvdou.fun"
-                ],
-                "url_key": "UC",
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "ucCookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "quarkCookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "threadinfo": {
-                    "chunksize": 400,
-                    "threads": 12
-                }
-            }
-        },
-	{
-            "key": "移动云盘",
-            "name": "🐾移动4K┃免扫",
-            "type": 3,
-            "api": "csp_YDjisu",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "./jar/YD1231.jar"
-        },
-
     //from 王二小网盘系列
     
     {
@@ -1502,18 +1357,16 @@
     },
     
     {
-            "key": "当前版本",
-            "name": "真心20250313.zip",
-            "zip": "https://slink.ltd/https://raw.githubusercontent.com/fish2018/ZX/main/真心20250313.zip",
+            "key": "网盘集合",
+            "name": "网盘集合┃4K",
             "type": 3,
-            "api": "csp_TgYunDouBanPan",
-	    "searchable": 0,
-            "changeable": 0,
+            "api": "csp_网盘集合",
+            "searchable": 1,
+            "filterable": 0,
+            "switchable": 0,
             "ext": {
-                "siteUrl": "https://tgsou.651156.xyz/",
-                "channelUsername": "tgsearchers",
                 "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-                "filter": "./json/douban.json"
+                "share": "https://10087.kstore.space/网盘集合zx.json"
             }
    },
 
