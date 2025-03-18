@@ -107,7 +107,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250313V9",
+      "name": "🦞Tg豆瓣651156┃250313V10",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -123,7 +123,7 @@
 
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250313V9🔍",
+      "name":"🔍真心在线┃250313V10🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -153,7 +153,7 @@
 
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2503013V9🅱",
+      "name": "🅱路飞豆瓣┃2503013V10🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -960,6 +960,34 @@
       "ext": {
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
         "siteUrl": "http://cj.jiexi.news",
+        "filter": "./json/wogg.json"
+      }
+    },
+
+    {
+      "key": "玩偶┃大玩偶",
+      "name": "📀玩偶┃大玩偶4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
+        "siteUrl": "http://149.88.87.18:6688",
+        "filter": "./json/wogg.json"
+      }
+    },
+
+    {
+      "key": "玩偶┃叔叔",
+      "name": "📀玩偶┃叔叔4K",
+      "type": 3,
+      "api": "csp_kongbai",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
+        "siteUrl": "https://woss.fenwe.eu.org",
         "filter": "./json/wogg.json"
       }
     },
