@@ -26,6 +26,28 @@
             "timeout": 10,
             "playerType": 2
     },
+     {
+
+         "name":"ITV在线fifastblive",
+         "url":"https://10087.kstore.space/QJ-ITV-fifastblive.m3u",
+         "epg":"http://epg.51zmt.top:8000/e.xml",
+         "ua":"okhttp/3.15",
+         "catchup":{
+            "type":"append",
+            "replace":"livemode=1,livemode=4",
+            "source":"&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
+	}
+    },
+    {
+            "name": "myIPTV",
+            "type": 0,
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/xyzjhe/myIPTV/refs/heads/main/ipv4.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": 10,
+            "playerType": 2
+    },
     {
             "name": "doube50001",
             "type": 0,
@@ -56,7 +78,6 @@
             "timeout": 10,
             "playerType": 2
     },
-
     {
             "name": "ofiii109-wanwan",
             "type": 0,
@@ -66,48 +87,14 @@
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
             "timeout": 10,
             "playerType": 2
-    },
-   
-    {
-
-         "name":"ITV在线0221",
-         "url":"https://10087.kstore.space/QJ-ITV-fifastblive.m3u",
-         "epg":"http://epg.51zmt.top:8000/e.xml",
-         "ua":"okhttp/3.15",
-         "catchup":{
-            "type":"append",
-            "replace":"livemode=1,livemode=4",
-            "source":"&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-	}
-    },
-    {
-
-      "name": "ITV在线0215",
-      "type": 0,
-      "url": "https://10087.kstore.space/ITV.txt",
-      "epg": "http://epg.51zmt.top:8000/e.xml",
-      "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-      "timeout": "3",
-      "playerType": 2
-    },
-    {
-            "name": "myIPTV",
-            "type": 0,
-            "url": "https://ghfast.top/https://raw.githubusercontent.com/xyzjhe/myIPTV/refs/heads/main/ipv4.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 10,
-            "playerType": 2
     }
-    
- ],
+  ],
   
   "sites": [
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250313V10",
+      "name": "🦞Tg豆瓣651156┃250313V11",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -120,10 +107,9 @@
         "filter": "./json/douban.json"
       }
     },
-
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250313V10🔍",
+      "name":"🔍真心在线┃250313V11🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -134,7 +120,17 @@
         "filter": "./json/douban.json"
       }
     },
-
+    {
+      "key": "lf_js_search",
+      "name": "🅱路飞豆瓣┃2503013V11🅱",
+      "type": 3,
+      "searchable": 0,
+      "changeable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "api": "./lib/路飞豆瓣.js",
+      "indexs": 0
+    },
     {
       "key": "🐯TgYunPan┃本地",
       "name": "🐯TgYunPan┃本地",
@@ -151,17 +147,7 @@
 	}
     },
 
-    {
-      "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2503013V10🅱",
-      "type": 3,
-      "searchable": 0,
-      "changeable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "api": "./lib/路飞豆瓣.js",
-      "indexs": 0
-    },
+    
 
     {
       "key": "ConfigCenter",
@@ -257,19 +243,13 @@
             "jar": "./jar/YD1231.jar"
     },
 
-    
-    
-
     /*{"key":"csp_TgYunPan6","name":"TgYunPan┃630","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://107.172.201.182:630","channelUsername":"tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},*/
     /*{"key":"csp_TgYunPan9","name":"TgYunPan┃fish2018","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://tgsou.fish2018.ip-ddns.com","channelUsername":"tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},*/
     /*{"key":"csp_TgYunPan10","name":"TgYunPan┃651156","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://tgsou.651156.xyz/","channelUsername":"tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},*/
     /*{"key":"csp_TgYunPan5","name":"TgYunPan┃uu8","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://tgsou.uu8.pro","channelUsername":"tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},*/
 	  
-    
-    
-     //from 道长DRPY
+    //from 道长DRPY
      
-
      {"key":"drpy_js_旺旺影视","name":"旺旺影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/农民影视.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
      {"key":"drpy_js_素白白影视","name":"素白白┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/素白白xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
      {"key":"drpy_js_爱看机器人","name":"爱看机器人┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/爱看机器人xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
@@ -293,7 +273,6 @@
                         "分类":"短剧$26#电视剧$2#电影$1#动漫$4#综艺$3"
                       }
     },
-
     {
        "key": "修罗影视┃XBPQ",
        "name": "修罗影视┃XBPQ",
@@ -321,7 +300,7 @@
   
     },
 
-     //from 香雅晴20250308
+     //from 香雅晴20250310
 
      {"key":"csp_Bdys","name":"🐞哔嘀影视┃XYQH","type":3,"api":"csp_Bdys","jar": "./jar/xyq250310.jar;md5;8bb2ca1440d7f7105cb8c94710fc25a0","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://v.xlys.ltd.ua"},
      {"key":"csp_JianPian","name":"🔨荐片影视┃XYQH","type":3,"api":"csp_JianPian","jar": "./jar/xyq250310.jar;md5;8bb2ca1440d7f7105cb8c94710fc25a0","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://apijp.rinhome.com"},
