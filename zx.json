@@ -104,7 +104,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250320V1",
+      "name": "🦞Tg豆瓣651156┃250320V1春分",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -120,7 +120,7 @@
     },
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250320V1🔍",
+      "name":"🔍真心在线┃250320V1春分🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -133,7 +133,7 @@
     },
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2503020V1🅱",
+      "name": "🅱路飞豆瓣┃2503020V1春分🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -152,6 +152,7 @@
       "switchable": 0,
       "ext": {
       //"siteUrl": "https://tgsou.651156.xyz",
+      //"siteUrl": "http://107.172.201.182:630",
 	"siteUrl": "http://tgsou.fish2018.ip-ddns.com",
 	"count": 4,
         "channelUsername": "tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1",
@@ -229,21 +230,61 @@
             "quickSearch": 1
     },
 
+   
     {
-      "key": "Tg豆瓣┃630",
-      "name": "Tg豆瓣┃630",
-      "type": 3,
-      "api": "csp_TgYunDouBanPan",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": {
-        "siteUrl": "http://107.172.201.182:630",
-        "count":4,
-        "channelUsername": "tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1",
-        "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json",
-        "filter": "./json/douban.json"
-      }
-    },
+            "key": "csp_Wogg",
+            "name": "🧸玩偶┃4K弹幕",
+            "type": 3,
+            "api": "csp_Wogg",
+	    "jar": "./jar/xiaomi.jar",
+            "changeable": 0,
+            "searchable": 1,
+            "filterable": 1,
+            "ext": {
+	    "site_urls": [
+                    "https://wogg.xxooo.cf",
+                    "https://wogg.333232.xyz",
+                    "https://woggpan.333232.xyz",
+                    "https://wogg.heshiheng.top",
+                    "https://www.wogg.one",
+                    "https://www.wogg.lol"
+                ],
+			"token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                        "ucCookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                        "quarkCookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+			"threadinfo": {
+				"chunksize": 400,
+				"threads": 12
+			}
+		}
+    }, 
+
+    {
+            "key": "csp_UC",
+            "name": "🍚小米┃4K弹幕",
+            "type": 3,
+            "api": "csp_Duopan",
+            "jar": "./jar/xiaomi.jar",
+            "filterable": 1,
+            "ext": {
+            "site_urls": [
+                "http://www.54271.fun/",
+                "https://www.milvdou.fun",
+                "http://www.54271.fun/",
+                "https://www.mucpan.cc/",
+                "https://mucpan.cc/",
+                "http://milvdou.fun"
+                ],
+                "url_key": "UC",
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "ucCookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "quarkCookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "threadinfo": {
+                    "chunksize": 400,
+                    "threads": 12
+                }
+            }
+     },
 
     {
             "key": "移动云盘",
