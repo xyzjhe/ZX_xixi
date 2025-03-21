@@ -213,7 +213,7 @@
 
     {
             "key": "巧技",
-            "name": "👣巧技┃2K1080P",
+            "name": "👣巧技聚合┃2K1080P",
             "type": 3,
             "api": "csp_qiao2",
 	    "jar": "./jar/spider.txt",
@@ -222,7 +222,7 @@
     },
     {
             "key": "移动",
-            "name": "👣移动┃2K1080P",
+            "name": "👣移动云盘┃2K1080P",
             "type": 3,
             "api": "csp_YD",
 	    "jar": "./jar/spider.txt",
@@ -230,6 +230,16 @@
             "quickSearch": 1
     },
 
+
+    {
+            "key": "py_jianpian",
+            "name": "荐片影视┃py",
+            "type": 3,
+            "api": "./py/py_jianpian.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },
 
     {
             "key": "py_LREEOK",
@@ -246,6 +256,16 @@
             "name": "甜圈短剧┃py",
             "type": 3,
             "api": "./py/甜圈短剧.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },
+
+    {
+            "key": "py_红果短剧",
+            "name": "红果短剧┃py",
+            "type": 3,
+            "api": "./py/红果网页.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
