@@ -104,7 +104,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250320V1春分",
+      "name": "🦞Tg豆瓣651156┃250321V1",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -120,7 +120,7 @@
     },
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250320V1春分🔍",
+      "name":"🔍真心在线┃250321V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -133,7 +133,7 @@
     },
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2503020V1春分🅱",
+      "name": "🅱路飞豆瓣┃2503021V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -213,7 +213,7 @@
 
     {
             "key": "巧技",
-            "name": "👣巧技｜2K1080P",
+            "name": "👣巧技┃2K1080P",
             "type": 3,
             "api": "csp_qiao2",
 	    "jar": "./jar/spider.txt",
@@ -222,7 +222,7 @@
     },
     {
             "key": "移动",
-            "name": "👣移动｜2K1080P",
+            "name": "👣移动┃2K1080P",
             "type": 3,
             "api": "csp_YD",
 	    "jar": "./jar/spider.txt",
@@ -230,8 +230,28 @@
             "quickSearch": 1
     },
 
-   
+
     {
+            "key": "py_LREEOK",
+            "name": "LREEOK┃py",
+            "type": 3,
+            "api": "./py/LREEOK.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },
+
+    {
+            "key": "py_甜圈短剧",
+            "name": "甜圈短剧┃py",
+            "type": 3,
+            "api": "./py/甜圈短剧.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },
+
+    /*{
             "key": "csp_Wogg",
             "name": "🧸玩偶┃4K弹幕",
             "type": 3,
@@ -257,9 +277,9 @@
 				"threads": 12
 			}
 		}
-    }, 
+    },*/ 
 
-    {
+    /*{
             "key": "csp_UC",
             "name": "🍚小米┃4K弹幕",
             "type": 3,
@@ -284,7 +304,7 @@
                     "threads": 12
                 }
             }
-     },
+     },*/
 
     {
             "key": "移动云盘",
