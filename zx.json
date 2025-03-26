@@ -1,6 +1,6 @@
 {
 
-"spider": "./zx250313.jar;md5;43989964965deab2a4b6b48251043412",
+"spider": "./zx250325.jar;md5;43989964965deab2a4b6b48251043412",
 
 //"spider": "https://10087.kstore.space/jar/zxplus0316.jar;md5;c6aaf6a9498e1e1d07126779c687bdd8",
 
@@ -104,7 +104,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250321V1",
+      "name": "🦞Tg豆瓣651156┃250325V1",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -120,7 +120,7 @@
     },
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250321V1🔍",
+      "name":"🔍真心在线┃250325V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -133,7 +133,7 @@
     },
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2503021V1🅱",
+      "name": "🅱路飞豆瓣┃2503025V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
