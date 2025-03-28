@@ -1,6 +1,5 @@
 import { Crypto, load, _, html } from 'assets://js/lib/cat.js';
 
-//let siteUrl ='https://www.yjys01.com';
 let siteUrl = 'https://v.xlys.ltd.ua';
 let siteKey = '';
 let siteType = 0;
@@ -73,7 +72,7 @@ async function detail(id) {
     try {
         const html = await request(siteUrl + id);
         let $ = load(html);
-        let content = '该影视由leospring采集分享，公众号【蚂蚁科技杂谈】，请勿传播分享，仅供技术学习使用，请在学习后24小时内删除；由此产生的任何法律风险自行承担，与本作者无关！' + $('#synopsis > div.card-body').text();
+        let content = 'leospring提供' + $('#synopsis > div.card-body').text();
         let director = _.map($('div.col.mb-2 > p:nth-child(2) > a'), (n) => {
             return $(n).text();
         }).join(' ');
@@ -154,32 +153,22 @@ async function play(flag, id, flags) {
             pid = $(n).text().split("var pid = ")[1].split(";")[0];
         }
     }
-    //console.log('pid', pid);
+    
     let dt = new Date().getTime();
-    //dt = 1709977071948;
-    //2ed1ccdea49c0fa7e1af0f8507378f0a
-    //2ed1ccdea49c0fa7e1af0f8507378f0a
     let md5Data = Crypto.MD5(pid + '-' + dt).toString().toLowerCase();
-    //console.log('md5', md5Data);
     let key = Crypto.enc.Utf8.parse(md5Data.substring(0, 16));
-    //console.log('key', key);
     let encData = Crypto.AES.encrypt(pid + '-' + dt, key, {
         mode: Crypto.mode.ECB,
         padding: Crypto.pad.Pkcs7
     });
-    //"+OvtZJce3mznh0+NjhWgl4Nv6KAPToTft1c01+nUYi4="
-    //C0ERRC3eRyA5Q/LbZ6sGyv3K1vxT8EPOIXIqWk8XZEw=
-    //console.log(encData + '');
+    
     let sg = encData.ciphertext.toString(Crypto.enc.Hex).toUpperCase();
-    //console.log('sg', sg);
     let url = `${siteUrl}/lines?t=${dt}&sg=${sg}&pid=${pid}`;
-    //console.log('url', url);
     let res = await req(url, {
         method: 'get',
         headers: headers,
     })
     playUrl = JSON.parse(res.content).data.url3.split(',')[0];
-    //console.log('url', res.content);
     return JSON.stringify({
         parse: 0,
         url: playUrl,
