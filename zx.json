@@ -104,7 +104,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250325V1",
+      "name": "🦞Tg豆瓣651156┃250325V2",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -120,7 +120,7 @@
     },
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250325V1🔍",
+      "name":"🔍真心在线┃250325V2🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -133,7 +133,7 @@
     },
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2503025V1🅱",
+      "name": "🅱路飞豆瓣┃2503025V2🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -230,18 +230,18 @@
             "quickSearch": 1
     },
 
-   {
+    {
        "key": "bdys",
-       "name": "哔滴哔滴|catjs",
+       "name": "哔滴哔滴|CATJS",
        "type": 3,
-       "api": "file://leospring/bdys10_open.js"
-   },
-   {
+       "api": "./bdys10_open.js"
+    },
+    {
         "key": "moli",
-        "name": "魔力影视|catjs",
+        "name": "魔力影视|CATJS",
         "type": 3,
-        "api": "file://leospring/hdmoli_open.js"
-   },
+        "api": "./hdmoli_open.js"
+    },
     {
             "key": "py_jianpian",
             "name": "荐片影视┃py",
