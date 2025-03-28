@@ -20,7 +20,7 @@ async function request(reqUrl, extHeader) {
     return res.content;
 }
 
-// cfg = {skey: siteKey, ext: extend}
+
 async function init(cfg) {
     siteKey = cfg.skey;
     siteType = cfg.stype;
@@ -96,7 +96,7 @@ async function detail(id) {
     let playUrls = [];
     const playList = $('ul.myui-content__list');
     for(let i=0;i<playList.length;i++) {
-        playFroms.push('leospring' + (i+1));
+        playFroms.push('在线播放' + (i+1));
 
         playUrls.push(_.map($(playList[i]).find('a'), item => {
             return $(item).attr('title') + '$' + $(item).attr('href');
@@ -107,7 +107,7 @@ async function detail(id) {
         vod_actor: _.map($('div.myui-content__detail > p:nth-child(5) > a'), item => $(item).text()).join(' '),
         vod_play_from: playFroms.join('$$$'),
         vod_play_url: playUrls.join('$$$'),
-        vod_content: '该影视由leospring采集分享，公众号【蚂蚁科技杂谈】，请勿传播分享，仅供技术学习使用，请在学习后24小时内删除；由此产生的任何法律风险自行承担，与本作者无关！' + $('div.myui-panel-box > p.text-muted:nth-child(1)').text(),
+        vod_content: 'leospring提供' + $('div.myui-panel-box > p.text-muted:nth-child(1)').text(),
     }
     return JSON.stringify({
         list: [vod],
