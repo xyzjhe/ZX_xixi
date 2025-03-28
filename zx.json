@@ -236,12 +236,35 @@
        "type": 3,
        "api": "./bdys10_open.js"
     },
+
+	
+	  
     {
         "key": "moli",
         "name": "魔力影视|CATJS",
         "type": 3,
         "api": "./hdmoli_open.js"
     },
+
+    {
+            "key": "低端影视",
+            "name": "低端SP｜影视",
+            "type": 3,
+            "api": "csp_Ddys",
+	    "jar": "./jar/spider.txt",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },
+
+    {
+            "key": "魔力高清",
+            "name": "魔力JS｜影视",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/魔力高清.js"
+    },
+	  
     {
             "key": "py_jianpian",
             "name": "荐片影视┃py",
@@ -251,7 +274,6 @@
             "quickSearch": 1,
             "filterable": 1
     },
-
     {
             "key": "py_LREEOK",
             "name": "LREEOK┃py",
@@ -261,7 +283,6 @@
             "quickSearch": 1,
             "filterable": 1
     },
-
     {
             "key": "py_甜圈短剧",
             "name": "甜圈短剧┃py",
@@ -271,7 +292,6 @@
             "quickSearch": 1,
             "filterable": 1
     },
-
     {
             "key": "py_红果短剧",
             "name": "红果短剧┃py",
