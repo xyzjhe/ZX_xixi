@@ -232,7 +232,7 @@
 
     {
        "key": "bdys",
-       "name": "哔滴哔滴|CATJS",
+       "name": "哔滴哔滴┃CATJS",
        "type": 3,
        "api": "./bdys10_open.js"
     },
@@ -241,28 +241,46 @@
 	  
     {
         "key": "moli",
-        "name": "魔力影视|CATJS",
+        "name": "魔力影视┃CATJS",
         "type": 3,
         "api": "./hdmoli_open.js"
     },
 
-    {
+    
+
+
+    /*{
             "key": "低端影视",
-            "name": "低端SP｜影视",
+            "name": "低端SP┃影视",
             "type": 3,
             "api": "csp_Ddys",
 	    "jar": "./jar/spider.txt",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-    },
+    },*/
 
     {
             "key": "魔力高清",
-            "name": "魔力JS｜影视",
+            "name": "魔力JS┃影视",
             "type": 3,
             "api": "./drpy_libs/drpy2.min.js",
             "ext": "./drpy_js/魔力高清.js"
+    },
+
+
+    {
+            "key": "金牌",
+            "name": "金牌影视┃py",
+            "type": 3,
+            "api": "./py/金牌.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.567
+            },
+            "ext": {
+                "site": "https://m.fjvtw.com/,https://cqzuoer.com,https://m.hhduc.com,https://www.hellorlgzf7sn.com"
+            }
     },
 
 
