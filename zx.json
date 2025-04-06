@@ -104,7 +104,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250402V1",
+      "name": "🦞Tg豆瓣651156┃250402V3",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -120,7 +120,7 @@
     },
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250402V1🔍",
+      "name":"🔍真心在线┃250402V3🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -133,7 +133,7 @@
     },
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250402V1🅱",
+      "name": "🅱路飞豆瓣┃250402V3🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -268,6 +268,20 @@
             "ext": "./drpy_js/魔力高清.js"
     },
 
+    {
+            "key": "旺旺",
+            "name": "旺旺影视┃py",
+            "type": 3,
+            "api": "./py/旺旺.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.567
+            },
+            "ext": {
+                "site": "https://www.wwgz.cn"
+            }
+    },
+
 
     {
             "key": "金牌",
@@ -283,7 +297,7 @@
             }
     },
 
-
+    
     {
             "key": "py_xpg",
             "name": "苹果影视┃py",
@@ -296,17 +310,6 @@
 
 
     {
-            "key": "py_clicli",
-            "name": "CLIC动漫┃py",
-            "type": 3,
-            "api": "./py/CliCli动漫APP.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-    },
-	  
-	  
-    {
             "key": "py_jianpian",
             "name": "荐片影视┃py",
             "type": 3,
@@ -315,6 +318,20 @@
             "quickSearch": 1,
             "filterable": 1
     },
+
+
+    /*{
+            "key": "py_clicli",
+            "name": "CLIC动漫┃py",
+            "type": 3,
+            "api": "./py/CliCli动漫APP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },*/
+	  
+	  
+    
     {
             "key": "py_LREEOK",
             "name": "LREEOK┃py",
