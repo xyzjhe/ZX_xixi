@@ -120,7 +120,7 @@
     },
 
 
-     {
+    /*{
             "key": "py_db",
             "name": "新豆瓣py┃250406V2",
             "type": 3,
@@ -128,7 +128,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-    },    
+    },*/    
 	  
 	  
     {
@@ -249,30 +249,13 @@
        "type": 3,
        "api": "./bdys10_open.js"
     },
-
-	
-	  
     {
         "key": "moli",
         "name": "魔力影视┃CATJS",
         "type": 3,
         "api": "./hdmoli_open.js"
     },
-
-    
-
-
-    /*{
-            "key": "低端影视",
-            "name": "低端SP┃影视",
-            "type": 3,
-            "api": "csp_Ddys",
-	    "jar": "./jar/spider.txt",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-    },*/
-
+	  
     {
             "key": "魔力高清",
             "name": "魔力JS┃影视",
@@ -280,7 +263,6 @@
             "api": "./drpy_libs/drpy2.min.js",
             "ext": "./drpy_js/魔力高清.js"
     },
-
     {
             "key": "旺旺",
             "name": "旺旺影视┃py",
@@ -294,8 +276,6 @@
                 "site": "https://www.wwgz.cn"
             }
     },
-
-
     {
             "key": "金牌",
             "name": "金牌影视┃py",
@@ -333,7 +313,7 @@
     },
 
 
-    /*{
+    {
             "key": "py_clicli",
             "name": "CLIC动漫┃py",
             "type": 3,
@@ -341,7 +321,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-    },*/
+     },
 	  
 
      {
