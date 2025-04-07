@@ -330,6 +330,18 @@
             "filterable": 1
     },*/
 	  
+
+　　{
+            "key": "m1905",
+            "name": "m1905┃py",
+            "type": 3,
+            "api": "./py/py_1905.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.567
+            }
+            
+    },
 	  
     
     {
