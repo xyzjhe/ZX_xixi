@@ -104,7 +104,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250402V3",
+      "name": "🦞Tg豆瓣651156┃250402V5",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -120,7 +120,7 @@
     },
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250402V3🔍",
+      "name":"🔍真心在线┃250402V5🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -133,7 +133,7 @@
     },
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250402V3🅱",
+      "name": "🅱路飞豆瓣┃250402V5🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -331,16 +331,14 @@
     },*/
 	  
 
-　　{
-            "key": "m1905",
+     {
+            "key": "py_1905",
             "name": "m1905┃py",
             "type": 3,
             "api": "./py/py_1905.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.567
-            }
-            
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
     },
 	  
     
