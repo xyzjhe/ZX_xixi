@@ -26,28 +26,7 @@
             "timeout": 10,
             "playerType": 2
     },
-    {
-            "name": "ku9ITV",
-            "type": 0,
-            "url": "https://10087.kstore.space/itv/itv_ku9_20250319.txt",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 10,
-            "playerType": 2
-    },	 
-    {
 
-         "name":"ITV在线fifastblive",
-         "url":"https://10087.kstore.space/QJ-ITV-fifastblive.m3u",
-         "epg":"http://epg.51zmt.top:8000/e.xml",
-         "ua":"okhttp/3.15",
-         "catchup":{
-            "type":"append",
-            "replace":"livemode=1,livemode=4",
-            "source":"&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-	}
-    },
     {
             "name": "myIPTV",
             "type": 0,
@@ -58,53 +37,25 @@
             "timeout": 10,
             "playerType": 2
     },
+	 
     {
-            "name": "doube50001",
+            "name": "ku9ITV",
             "type": 0,
-            "url": "https://10087.kstore.space/50001.json",
+            "url": "https://10087.kstore.space/itv/itv_ku9_20250319.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.iill.top/logo/{name}.png",
             "ua": "okhttp/3.15,AptvPlayer/1.4.0",
             "timeout": 10,
             "playerType": 2
-    },
-    {
-            "name": "doube50008",
-            "type": 0,
-            "url": "http://192.168.100.54:50008/Sub.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 10,
-            "playerType": 2
-    },
-    {
-            "name": "肥羊35455",
-            "type": 0,
-            "url": "http://192.168.100.54:35455/tv.m3u",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 10,
-            "playerType": 2
-    },
-    {
-            "name": "ofiii109-wanwan",
-            "type": 0,
-            "url": "http://192.168.100.54:50009/Sub?type=txt&sd=1080",
-            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-            "logo": "https://epg.iill.top/logo/{name}.png",
-            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
-            "timeout": 10,
-            "playerType": 2
-    }
+    }	 
+   
   ],
   
   "sites": [
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250406V2",
+      "name": "🦞Tg豆瓣651156┃250406V3",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -122,7 +73,7 @@
 
     /*{
             "key": "py_db",
-            "name": "新豆瓣py┃250406V2",
+            "name": "新豆瓣py┃250406V3",
             "type": 3,
             "api": "./py/db.py",
             "searchable": 1,
@@ -133,7 +84,7 @@
 	  
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250406V2🔍",
+      "name":"🔍真心在线┃250406V3🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -276,6 +227,7 @@
                 "site": "https://www.wwgz.cn"
             }
     },
+	  
     {
             "key": "金牌",
             "name": "金牌影视┃py",
@@ -289,8 +241,6 @@
                 "site": "https://m.fjvtw.com/,https://cqzuoer.com,https://m.hhduc.com,https://www.hellorlgzf7sn.com"
             }
     },
-
-    
     {
             "key": "py_xpg",
             "name": "苹果影视┃py",
@@ -311,8 +261,6 @@
             "quickSearch": 1,
             "filterable": 1
     },
-
-
     {
             "key": "py_clicli",
             "name": "CLIC动漫┃py",
@@ -333,8 +281,6 @@
             "quickSearch": 1,
             "filterable": 1
     },
-	  
-    
     {
             "key": "py_LREEOK",
             "name": "LREEOK┃py",
@@ -344,6 +290,7 @@
             "quickSearch": 1,
             "filterable": 1
     },
+	  
     {
             "key": "py_甜圈短剧",
             "name": "甜圈短剧┃py",
@@ -374,6 +321,34 @@
       "changeable": 0,
       "ext":"https://lemonlive25.pages.dev"
     },
+
+
+    {
+      "key": "超前全网",
+      "name": "全网采集4K",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "./jar/spider.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType":2,
+      "ext": "http://zhangbokeji.top:290/api.php/app/"
+    }, 
+                     {
+      "key": "超前全片源",
+      "name": "超前全网资源",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "./jar/spider.txt",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType":2,
+      "ext": "http://zhangbokeji.top:291/api.php/app/"
+    },
+
+    
 
     
     
@@ -1304,6 +1279,44 @@
                 "share": "https://10087.kstore.space/网盘集合zx.json"
             }
    },
+
+   {
+            "key": "采集影视",
+            "name": "采集┃4K",
+            "type": 1,
+            "api": "https://www.caiji.cyou/api.php/provide/vod/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "综艺",
+                "动漫",
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "剧情片",
+                "战争片",
+                "犯罪片",
+                "国产剧",
+                "欧美剧",
+                "日韩剧",
+                "惊悚片",
+                "冒险片",
+                "悬疑片",
+                "奇幻片",
+                "记录片",
+                "其它片",
+                "其它剧",
+                "bilibili番剧",
+                "bilibili国创",
+                "bilibili电影",
+                "bilibili电视剧",
+                "动画片"
+            ]
+   },
+
+
 
    {
       "key": "push_agent",
