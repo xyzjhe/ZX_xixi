@@ -55,7 +55,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250406V3",
+      "name": "🦞Tg豆瓣651156┃250406V5",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -73,7 +73,7 @@
 
     /*{
             "key": "py_db",
-            "name": "新豆瓣py┃250406V3",
+            "name": "新豆瓣py┃250406V5",
             "type": 3,
             "api": "./py/db.py",
             "searchable": 1,
@@ -84,7 +84,7 @@
 	  
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250406V3🔍",
+      "name":"🔍真心在线┃250406V5🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -309,10 +309,17 @@
             "quickSearch": 1,
             "filterable": 1
     },
-
-
-
-     {
+    
+    {
+            "key": "py_河马短剧",
+            "name": "河马短剧┃py",
+            "type": 3,
+            "api": "./py/py_河马短剧.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },
+    {
       "key": "游戏┃直播",
       "name": "游戏┃直播",
       "type": 3,
