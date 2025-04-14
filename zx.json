@@ -320,6 +320,17 @@
             "filterable": 1
     },
     {
+            "key": "py_国外剧APP",
+            "name": "国外剧APP┃py",
+            "type": 3,
+            "api": "./py/国外剧APP.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },
+
+	  
+    {
       "key": "游戏┃直播",
       "name": "游戏┃直播",
       "type": 3,
