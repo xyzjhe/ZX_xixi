@@ -55,7 +55,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250406V5",
+      "name": "🦞Tg豆瓣651156┃250415V1",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -73,7 +73,7 @@
 
     /*{
             "key": "py_db",
-            "name": "新豆瓣py┃250406V5",
+            "name": "新豆瓣py┃250415V1",
             "type": 3,
             "api": "./py/db.py",
             "searchable": 1,
@@ -84,7 +84,7 @@
 	  
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250406V5🔍",
+      "name":"🔍真心在线┃250415V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -97,7 +97,7 @@
     },
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250406V2🅱",
+      "name": "🅱路飞豆瓣┃250415V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -194,26 +194,9 @@
             "quickSearch": 1
     },
 
-    {
-       "key": "bdys",
-       "name": "哔滴哔滴┃CATJS",
-       "type": 3,
-       "api": "./bdys10_open.js"
-    },
-    {
-        "key": "moli",
-        "name": "魔力影视┃CATJS",
-        "type": 3,
-        "api": "./hdmoli_open.js"
-    },
+    
 	  
-    {
-            "key": "魔力高清",
-            "name": "魔力JS┃影视",
-            "type": 3,
-            "api": "./drpy_libs/drpy2.min.js",
-            "ext": "./drpy_js/魔力高清.js"
-    },
+    
     {
             "key": "旺旺",
             "name": "旺旺影视┃py",
@@ -227,7 +210,6 @@
                 "site": "https://www.wwgz.cn"
             }
     },
-	  
     {
             "key": "金牌",
             "name": "金牌影视┃py",
@@ -250,8 +232,6 @@
             "quickSearch": 1,
             "filterable": 1
     },
-
-
     {
             "key": "py_jianpian",
             "name": "荐片影视┃py",
@@ -262,17 +242,15 @@
             "filterable": 1
     },
     {
-            "key": "py_clicli",
-            "name": "CLIC动漫┃py",
+            "key": "py_国外剧APP",
+            "name": "国外剧APP┃py",
             "type": 3,
-            "api": "./py/CliCli动漫APP.py",
+            "api": "./py/国外剧APP.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-     },
-	  
-
-     {
+    },
+    {
             "key": "py_1905",
             "name": "m1905┃py",
             "type": 3,
@@ -281,30 +259,40 @@
             "quickSearch": 1,
             "filterable": 1
     },
-    {
-            "key": "py_LREEOK",
-            "name": "LREEOK┃py",
-            "type": 3,
-            "api": "./py/LREEOK.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-    },
+
 	  
     {
-            "key": "py_甜圈短剧",
-            "name": "甜圈短剧┃py",
+            "key": "py_clicli",
+            "name": "CLIC动漫┃py",
             "type": 3,
-            "api": "./py/甜圈短剧.py",
+            "api": "./py/CliCli动漫APP.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
     },
+    {
+            "key": "py_嗷呜动漫",
+            "name": "嗷呜动漫┃py",
+            "type": 3,
+            "api": "./py/嗷呜动漫.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    }, 
     {
             "key": "py_红果短剧",
             "name": "红果短剧┃py",
             "type": 3,
             "api": "./py/红果网页.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },
+    {
+            "key": "py_好帅短剧",
+            "name": "好帅短剧┃py",
+            "type": 3,
+            "api": "./py/好帅短剧.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -320,27 +308,34 @@
             "filterable": 1
     },
     {
-            "key": "py_国外剧APP",
-            "name": "国外剧APP┃py",
+            "key": "py_短剧狗",
+            "name": "短剧狗┃py",
             "type": 3,
-            "api": "./py/国外剧APP.py",
+            "api": "./py/py_短剧狗.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
     },
-
-	  
     {
-      "key": "游戏┃直播",
-      "name": "游戏┃直播",
-      "type": 3,
-      "api": "csp_Living",
-      "searchable": 1,
-      "changeable": 0,
-      "ext":"https://lemonlive25.pages.dev"
+            "key": "py_蓝莓短剧",
+            "name": "蓝莓短剧┃py",
+            "type": 3,
+            "api": "./py/py_蓝莓短剧.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
     },
-
-
+    {
+            "key": "py_偷乐短剧",
+            "name": "偷乐短剧┃py",
+            "type": 3,
+            "api": "./py/py_偷乐短剧.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },
+    
+    
     {
       "key": "超前全网",
       "name": "全网采集4K",
@@ -353,7 +348,7 @@
       "playerType":2,
       "ext": "http://zhangbokeji.top:290/api.php/app/"
     }, 
-                     {
+    {
       "key": "超前全片源",
       "name": "超前全网资源",
       "type": 3,
@@ -366,10 +361,6 @@
       "ext": "http://zhangbokeji.top:291/api.php/app/"
     },
 
-    
-
-    
-    
     /*{"key":"csp_TgYunPan6","name":"TgYunPan┃630","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://107.172.201.182:630","channelUsername":"tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},*/
     /*{"key":"csp_TgYunPan9","name":"TgYunPan┃fish2018","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"http://tgsou.fish2018.ip-ddns.com","channelUsername":"tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},*/
     /*{"key":"csp_TgYunPan10","name":"TgYunPan┃651156","type":3,"api":"csp_TgYunPan","searchable":1,"filterable":0,"switchable":0,"ext":{"siteUrl":"https://tgsou.651156.xyz/","channelUsername":"tyypzhpd,cloudtianyi,kuakeclound,yingshifenxiang123, pan123_share, pan123pan,zyzhpd123,zyfb123,xx123pan,leoziyuan,tgsearchers,Q66Share,alyp_TV,ucpanpan,ucquark,tianyirigeng,shares_115,oneonefivewpfx,cloud189_group,tianyi_pd2,hao115,guaguale115,yunpanchat,ydypzyfx,tgsearchers,zaihuayun,PanjClub,NewQuark,Mbox115,yunpanpan,kuakeyun,Quark_Movies,qixingzhenren,alyp_4K_Movies,yunpanshare,shareAliyun,alyp_1","commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"}},*/
@@ -382,7 +373,35 @@
      {"key":"drpy_js_爱看机器人","name":"爱看机器人┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/爱看机器人xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
      {"key":"drpy_js_瓜子影视","name":"瓜子影视┃drpyJS","type":3,"api":"./drpy_libs/drpy2.min.js","ext":"./drpy_js/瓜子影视xs.js","searchable":1,"quickSearch":1,"filterable":1,"timeout":30},
 
-     { 
+     {
+            "key": "魔力高清",
+            "name": "魔力影视┃drpyJS",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/魔力高清.js"
+     },
+     {
+            "key": "金牌影视",
+            "name": "金牌影视┃drpyJS",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/金牌影视.js"
+     }, 
+
+     {
+       "key": "bdys",
+       "name": "哔滴哔滴┃CATJS",
+       "type": 3,
+       "api": "./bdys10_open.js"
+    },
+    {
+        "key": "moli",
+        "name": "魔力影视┃CATJS",
+        "type": 3,
+        "api": "./hdmoli_open.js"
+    },
+
+    { 
                 "key": "旺旺影视XBPQ",  
                 "name": "旺旺影视┃XBPQ", 
                 "type": 3,
@@ -432,7 +451,7 @@
      {"key":"csp_Bdys","name":"🐞哔嘀影视┃XYQH","type":3,"api":"csp_Bdys","jar": "./jar/xyq250330.jar;md5;b198ba5bbeefdb448369b5e32cd93891","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://v.xlys.ltd.ua"},
      {"key": "csp_XYQHiker_修罗影视","name":"🧲修罗影视┃XYQH","type":3,"api":"csp_XYQHiker","jar": "./jar/xyq250330.jar;md5;b198ba5bbeefdb448369b5e32cd93891","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQHiker/哔嘀影视.json"},
 
-     {"key": "csp_Mp4Mov","name": "🧲Mp4电影┃XYQH","type": 3,"api": "csp_Mp4Mov","jar": "./jar/xyq250330.jar;md5;b198ba5bbeefdb448369b5e32cd93891","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.momp4.cc"},
+     {"key": "csp_Mp4Mov","name": "🧲Mp4电影┃XYQH","type": 3,"api": "csp_Mp4Mov","jar": "./jar/xyq250330.jar;md5;b198ba5bbeefdb448369b5e32cd93891","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.skymp4.com"},
      {"key": "csp_New6v","name": "🧲新6V┃XYQH","type": 3,"api": "csp_New6v","jar": "./jar/xyq250330.jar;md5;b198ba5bbeefdb448369b5e32cd93891","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://www.xb6v.com"},
      {"key":"csp_DyGod","name":"🧲电影天堂┃XYQH","type":3,"api":"csp_DyGod","jar": "./jar/xyq250330.jar;md5;b198ba5bbeefdb448369b5e32cd93891","searchable":1,"quickSearch":1,"filterable":1},
      {"key":"csp_QnMp4","name":"🧲七妹┃XYQH","type":3,"api":"csp_QnMp4","jar": "./jar/xyq250330.jar;md5;b198ba5bbeefdb448369b5e32cd93891","searchable":1,"quickSearch":1,"filterable":1},
@@ -1297,6 +1316,17 @@
                 "share": "https://10087.kstore.space/网盘集合zx.json"
             }
    },
+
+   {
+      "key": "游戏┃直播",
+      "name": "游戏┃直播",
+      "type": 3,
+      "api": "csp_Living",
+      "searchable": 1,
+      "changeable": 0,
+      "ext":"https://lemonlive25.pages.dev"
+   },
+
 
    {
             "key": "采集影视",
