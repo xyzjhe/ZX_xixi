@@ -55,7 +55,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250415V3",
+      "name": "🦞Tg豆瓣651156┃250418V1",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -78,7 +78,7 @@
 
     /*{
             "key": "py_db",
-            "name": "新豆瓣py┃250415V3",
+            "name": "新豆瓣py┃250418V1",
             "type": 3,
             "api": "./py/db.py",
             "searchable": 1,
@@ -98,7 +98,7 @@
 	  
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250415V2🔍",
+      "name":"🔍真心在线┃250418V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -111,7 +111,7 @@
     },
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250415V2🅱",
+      "name": "🅱路飞豆瓣┃250418V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -305,10 +305,10 @@
             "filterable": 1
     },
     {
-            "key": "py_好帅短剧",
-            "name": "好帅短剧┃py",
+            "key": "py_toule",
+            "name": "乐乐短剧┃py",
             "type": 3,
-            "api": "./py/好帅短剧.py",
+            "api": "./py/偷乐短剧.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
