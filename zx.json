@@ -277,7 +277,7 @@
             "quickSearch": 1,
             "filterable": 1
     },
-    {
+    /*{
             "key": "py_1905",
             "name": "m1905┃py",
             "type": 3,
@@ -285,8 +285,17 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-    },
+    },*/
 
+    {
+            "key": "py_saohuo",
+            "name": "骚火电影┃py",
+            "type": 3,
+            "api": "./py/骚火电影.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },
 	  
     {
             "key": "py_clicli",
