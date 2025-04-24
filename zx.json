@@ -222,7 +222,7 @@
     },
 
 
-     {
+     /*{
             "key": "py_xingya",
             "name": "星芽短剧┃py",
             "type": 3,
@@ -230,8 +230,18 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
-    },
+    },*/
 
+     {
+            "key": "py_1905",
+            "name": "m1905┃py",
+            "type": 3,
+            "api": "./py/py_1905.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+    },
+	
 
      {
             "key": "星芽短剧js",
