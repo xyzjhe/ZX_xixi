@@ -66,7 +66,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250423V1",
+      "name": "🦞Tg豆瓣651156┃250424V1",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -109,7 +109,7 @@
 	  
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250423V1🔍",
+      "name":"🔍真心在线┃250424V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -122,7 +122,7 @@
     },
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250423V1🅱",
+      "name": "🅱路飞豆瓣┃250424V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -353,10 +353,10 @@
     },
     
     {
-            "key": "py_河马短剧",
-            "name": "河马短剧┃py",
+            "key": "py_小红影视",
+            "name": "小红影视┃py",
             "type": 3,
-            "api": "./py/py_河马短剧.py",
+            "api": "./py/小红影视.py",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
