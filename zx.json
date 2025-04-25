@@ -232,6 +232,52 @@
             "filterable": 1
     },*/
 
+
+     {
+      "key": "芒.py",
+      "name": "芒果(py)",
+      "type": 3,
+      "api": "./py/芒.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "腾.py",
+      "name": "企鹅(py)",
+      "type": 3,
+      "api": "./py/腾.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "优.py",
+      "name": "优库(py)",
+      "type": 3,
+      "api": "./py/优.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+    {
+      "key": "爱.py",
+      "name": "奇异(py)",
+      "type": 3,
+      "api": "./py/爱.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+
      {
             "key": "py_1905",
             "name": "m1905┃py",
