@@ -21,7 +21,7 @@ class Spider(Spider):
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
             "Referer": "https://www.keke7.app/",
         }
-        self.image_domain = "https://vres.wbadl.cn"  # 圖片域名
+        self.image_domain = "https://vres.xenlz.com"  # 圖片域名
 
         self.default_play_url = 'https://sf1-cdn-tos.huoshanstatic.com/obj/media-fe/xgplayer_doc_video/mp4/xgplayer-demo-720p.mp4'
 
