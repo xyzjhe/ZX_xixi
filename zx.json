@@ -278,6 +278,20 @@
       "ext": ""
     },
 
+
+    {
+      "key": "keke2",
+      "name": "可可影音",
+      "type": 3,
+      "api": "./py/py_可可2.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
+	  
+
      {
             "key": "py_1905",
             "name": "m1905┃py",
