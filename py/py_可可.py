@@ -332,7 +332,7 @@ class Spider(Spider):
                     {
                         'vod_id': i.xpath('./@href')[0],
                         'vod_name': i.xpath('.//div[@class="v-item-title"]/text()')[1],
-                        'vod_pic': 'https://vres.wbadl.cn' + i.xpath('.//img/@data-original')[1],
+                        'vod_pic': 'https://vres.xenlz.com' + i.xpath('.//img/@data-original')[1],
                         'vod_remarks': vod_remarks[0].strip() if len(vod_remarks) > 0 else '',
                     }
                 )
