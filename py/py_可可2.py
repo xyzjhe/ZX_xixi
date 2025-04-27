@@ -35,12 +35,12 @@ class Spider(Spider):
     def jsp(self, content):
         return BeautifulSoup(content, "html.parser")
 
-    host = "https://www.kkys02.com"
+    host = "https://www.keke7.app"
     header = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
                       "Chrome/94.0.4606.54 Safari/537.36"
     }
-    phost="https://vres.jxlfl.cn"
+    phost="https://vres.xenlz.com"
     def homeContent(self, filter):
         result = {}
         data = self.fetch(self.host, headers=self.header)
