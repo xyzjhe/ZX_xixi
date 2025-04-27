@@ -267,10 +267,10 @@
       "ext": ""
     },
     {
-      "key": "爱.py",
-      "name": "奇异(py)",
+      "key": "keke",
+      "name": "可可影视",
       "type": 3,
-      "api": "./py/爱.py",
+      "api": "./py/py_可可.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
