@@ -204,16 +204,25 @@
     },
 
 
-     /*{
-            "key": "py_xingya",
-            "name": "星芽短剧┃py",
-            "type": 3,
-            "api": "./py/星芽短剧.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-    },*/
 
+    {
+            "key": "星芽短剧js",
+            "name": "星芽短剧┃drpyJS",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/星芽短剧[优].js"
+     },
+     {
+      "key": "keke",
+      "name": "可可影视┃py",
+      "type": 3,
+      "api": "./py/py_可可.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
 
      {
       "key": "芒.py",
@@ -249,32 +258,6 @@
       "ext": ""
     },
     {
-      "key": "keke",
-      "name": "可可影视",
-      "type": 3,
-      "api": "./py/py_可可.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },
-
-
-    /*{
-      "key": "keke2",
-      "name": "可可影音",
-      "type": 3,
-      "api": "./py/py_可可2.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "ext": ""
-    },*/
-	  
-
-     {
             "key": "py_1905",
             "name": "m1905┃py",
             "type": 3,
@@ -285,15 +268,6 @@
     },
 	
 
-     {
-            "key": "星芽短剧js",
-            "name": "星芽短剧┃drpyJS",
-            "type": 3,
-            "api": "./drpy_libs/drpy2.min.js",
-            "ext": "./drpy_js/星芽短剧[优].js"
-     },
-	  
-    
     {
             "key": "旺旺",
             "name": "旺旺影视┃py",
