@@ -66,7 +66,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250424V1",
+      "name": "🦞Tg豆瓣651156┃250428V1",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -87,29 +87,11 @@
     },
 
 
-    /*{
-            "key": "py_db",
-            "name": "新豆瓣py┃250418V1",
-            "type": 3,
-            "api": "./py/db.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-    },*/    
-
-    /*{
-            "key": "移动云盘",
-            "name": "🐾移动4K┃免扫",
-            "type": 3,
-            "api": "csp_YDjisu",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "./jar/YD1231.jar"
-     },*/
+  
 	  
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250424V1🔍",
+      "name":"🔍真心在线┃250428V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -122,7 +104,7 @@
     },
     {
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃250424V1🅱",
+      "name": "🅱路飞豆瓣┃250428V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -279,7 +261,7 @@
     },
 
 
-    {
+    /*{
       "key": "keke2",
       "name": "可可影音",
       "type": 3,
@@ -289,7 +271,7 @@
       "filterable": 1,
       "order_num": 0,
       "ext": ""
-    },
+    },*/
 	  
 
      {
