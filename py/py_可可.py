@@ -21,7 +21,8 @@ class Spider(Spider):
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
             "Referer": "https://www.keke7.app/",
         }
-        self.image_domain = "https://vres.xenlz.com"  # 圖片域名
+       #self.image_domain = "https://vres.xenlz.com"  # 圖片域名
+        self.image_domain = "https://vres.wbadl.cn"  # 圖片域名
 
         self.default_play_url = 'https://sf1-cdn-tos.huoshanstatic.com/obj/media-fe/xgplayer_doc_video/mp4/xgplayer-demo-720p.mp4'
 
@@ -332,7 +333,7 @@ class Spider(Spider):
                     {
                         'vod_id': i.xpath('./@href')[0],
                         'vod_name': i.xpath('.//div[@class="v-item-title"]/text()')[1],
-                        'vod_pic': 'https://vres.xenlz.com' + i.xpath('.//img/@data-original')[1],
+                        'vod_pic': 'https://vres.wbadl.cn' + i.xpath('.//img/@data-original')[1],
                         'vod_remarks': vod_remarks[0].strip() if len(vod_remarks) > 0 else '',
                     }
                 )
@@ -366,7 +367,7 @@ class Spider(Spider):
                     {
                         'vod_id': i.xpath('./@href')[0],
                         'vod_name': i.xpath('.//div[@class="v-item-title"]/text()')[1],
-                        'vod_pic': 'https://vres.xenlz.com' + i.xpath('.//img/@data-original')[1],
+                        'vod_pic': 'https://vres.wbadl.cn' + i.xpath('.//img/@data-original')[1],
                         'vod_remarks': vod_remarks[0].strip() if len(vod_remarks) > 0 else '',
                     }
                 )
@@ -426,7 +427,7 @@ class Spider(Spider):
                     {
                         'vod_id': i.xpath('./@href')[0],
                         'vod_name': i.xpath('.//div[@class="title"]/text()')[0],
-                        'vod_pic': 'https://vres.xenlz.com' + i.xpath('.//img/@data-original')[0],
+                        'vod_pic': 'https://vres.wbadl.cn' + i.xpath('.//img/@data-original')[0],
                         'vod_remarks': i.xpath('.//div[@class="tags"]/span[1]/text()')[0]
                     }
                 )
