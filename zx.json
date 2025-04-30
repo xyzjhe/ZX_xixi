@@ -184,7 +184,7 @@
             }
     },
 
-    {
+    /*{
             "key": "巧技",
             "name": "👣巧技聚合┃2K1080P",
             "type": 3,
@@ -192,7 +192,7 @@
 	    "jar": "./jar/spider.txt",
             "playerType": 2,
             "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1740038979341/cksp.txt"
-    },
+    },*/
     {
             "key": "移动",
             "name": "👣移动云盘┃2K1080P",
@@ -203,7 +203,17 @@
             "quickSearch": 1
     },
 
-
+    {
+      "key": "jjpp",
+      "name": "金牌影音┃py",
+      "type": 3,
+      "api": "./py/py_jinpai.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+    },
 
     {
             "key": "星芽短剧js",
