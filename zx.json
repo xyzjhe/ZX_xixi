@@ -151,6 +151,38 @@
             "ext": "./drpy_js/星芽短剧[优].js"
      },
 
+
+
+
+     {
+      "key": "界影视",
+      "name": "界影视┃py",
+      "type": 3,
+      "api": "./py/py_jieyingshi.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+     },
+
+
+
+     {
+      "key": "quickvod",
+      "name": 快VOD┃py",
+      "type": 3,
+      "api": "./py/py_quickvod.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+     },
+
+
+	  
+
      {
       "key": "柯南影视",
       "name": "柯南影视┃py",
