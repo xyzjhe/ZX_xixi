@@ -170,7 +170,7 @@
 
      {
       "key": "quickvod",
-      "name": 快VOD┃py",
+      "name": "快VOD┃py",
       "type": 3,
       "api": "./py/py_quickvod.py",
       "searchable": 1,
