@@ -85,10 +85,6 @@
         "filter": "./json/douban.json"
       }
     },
-
-
-  
-	  
     {
       "key":"csp_Douban",
       "name":"🔍真心在线┃250503V1🔍",
@@ -102,7 +98,8 @@
         "filter": "./json/douban.json"
       }
     },
-    {
+	  
+    /*{
       "key": "lf_js_search",
       "name": "🅱路飞豆瓣┃2500503V1🅱",
       "type": 3,
@@ -112,7 +109,8 @@
       "filterable": 1,
       "api": "./lib/路飞豆瓣.js",
       "indexs": 0
-    },
+    },*/
+	  
     {
       "key": "🐯TgYunPan┃本地",
       "name": "🐯TgYunPan┃本地",
@@ -132,9 +130,6 @@
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
 	}
     },
-
-   
-
     {
       "key": "ConfigCenter",
       "name": "真心┃配置中心",
