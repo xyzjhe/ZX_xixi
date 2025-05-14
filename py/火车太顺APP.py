@@ -40,7 +40,7 @@ class Spider(Spider):
     def destroy(self):
         pass
 
-    def homeContent(self, filter):
+   def homeContent(self, filter):
     result = {}
     filters = {}
     classes = []
@@ -54,10 +54,10 @@ class Spider(Spider):
         item['n'] = item.pop('name')
         item['v'] = item.pop('value')
     for item in data1['data']['movie_screen']['filter']:
-        # 检查分类名称是否包含“短剧”或“福利”
+        has_non_empty_field = False
+        # 检查 type_name 是否包含“短剧”或“福利”
         if "短剧" in item["name"] or "福利" in item["name"]:
             continue
-        has_non_empty_field = False
         classes.append({"type_name": item["name"], "type_id": str(item["id"])})
         for key in dy:
             if key in item and item[key]:
