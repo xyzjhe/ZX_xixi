@@ -41,43 +41,46 @@ class Spider(Spider):
         pass
 
     def homeContent(self, filter):
-        result = {}
-        filters = {}
-        classes = []
-        bba = self.url()
-        data = self.fetch(f"{self.host}/api/v1/app/config?pack={bba[0]}&signature={bba[1]}", headers=self.header()).text
-        data1 = self.aes(data)
-        dy = {"class": "类型", "area": "地区", "lang": "语言", "year": "年份", "letter": "字母", "by": "排序",
-              "sort": "排序"}
-        data1['data']['movie_screen']['sort'].pop(0)
-        for item in data1['data']['movie_screen']['sort']:
-            item['n'] = item.pop('name')
-            item['v'] = item.pop('value')
-        for item in data1['data']['movie_screen']['filter']:
-            has_non_empty_field = False
-            classes.append({"type_name": item["name"], "type_id": str(item["id"])})
-            for key in dy:
-                if key in item and item[key]:
-                    has_non_empty_field = True
-                    break
-            if has_non_empty_field:
-                filters[str(item["id"])] = []
-                filters[str(item["id"])].append(
-                    {"key": 'sort', "name": '排序', "value": data1['data']['movie_screen']['sort']})
-                for dkey in item:
-                    if dkey in dy and item[dkey]:
-                        item[dkey].pop(0)
-                        value_array = [
-                            {"n": value.strip(), "v": value.strip()}
-                            for value in item[dkey]
-                            if value.strip() != ""
-                        ]
-                        filters[str(item["id"])].append(
-                            {"key": dkey, "name": dy[dkey], "value": value_array}
-                        )
-        result["class"] = classes
-        result["filters"] = filters
-        return result
+    result = {}
+    filters = {}
+    classes = []
+    bba = self.url()
+    data = self.fetch(f"{self.host}/api/v1/app/config?pack={bba[0]}&signature={bba[1]}", headers=self.header()).text
+    data1 = self.aes(data)
+    dy = {"class": "类型", "area": "地区", "lang": "语言", "year": "年份", "letter": "字母", "by": "排序",
+          "sort": "排序"}
+    data1['data']['movie_screen']['sort'].pop(0)
+    for item in data1['data']['movie_screen']['sort']:
+        item['n'] = item.pop('name')
+        item['v'] = item.pop('value')
+    for item in data1['data']['movie_screen']['filter']:
+        # 检查分类名称是否包含“短剧”或“福利”
+        if "短剧" in item["name"] or "福利" in item["name"]:
+            continue
+        has_non_empty_field = False
+        classes.append({"type_name": item["name"], "type_id": str(item["id"])})
+        for key in dy:
+            if key in item and item[key]:
+                has_non_empty_field = True
+                break
+        if has_non_empty_field:
+            filters[str(item["id"])] = []
+            filters[str(item["id"])].append(
+                {"key": 'sort', "name": '排序', "value": data1['data']['movie_screen']['sort']})
+            for dkey in item:
+                if dkey in dy and item[dkey]:
+                    item[dkey].pop(0)
+                    value_array = [
+                        {"n": value.strip(), "v": value.strip()}
+                        for value in item[dkey]
+                        if value.strip() != ""
+                    ]
+                    filters[str(item["id"])].append(
+                        {"key": dkey, "name": dy[dkey], "value": value_array}
+                    )
+    result["class"] = classes
+    result["filters"] = filters
+    return result
 
     def homeVideoContent(self):
         bba = self.url()
