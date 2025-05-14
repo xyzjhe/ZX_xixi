@@ -149,7 +149,7 @@
             "type": 3,
             "quickSearch": 0,
             "api": "csp_AppMiTo",
-	    "jar": "./jar/spider0514.txt",
+	    "jar": "./jar/spider0514.jar",
             "ext": {
                 "url": "http://110.42.7.130:1866",
                 "dataKey": "aassddwwxxllsx1x",
@@ -164,7 +164,7 @@
             "type": 3,
             "quickSearch": 0,
             "api": "csp_AppMiTo",
-	    "jar": "./jar/spider0514.txt",
+	    "jar": "./jar/spider0514.jar",
             "ext": {
                 "url": "https://sh11.fannaz.top",
                 "dataKey": "aassddwwxxllsx1x",
