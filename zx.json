@@ -142,6 +142,36 @@
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
       }
     },
+
+    {
+            "key": "追忆",
+            "name": "追忆｜APP",
+            "type": 3,
+            "quickSearch": 0,
+            "api": "csp_AppMiTo",
+	    "jar": "./jar/spider0514.txt",
+            "ext": {
+                "url": "http://110.42.7.130:1866",
+                "dataKey": "aassddwwxxllsx1x",
+                "playKey": "1bada76e67e1e7f9",
+                "version": "1.2.0"
+            }
+    },
+
+    {
+            "key": "3号动漫",
+            "name": "三号｜APP",
+            "type": 3,
+            "quickSearch": 0,
+            "api": "csp_AppMiTo",
+	    "jar": "./jar/spider0514.txt",
+            "ext": {
+                "url": "https://sh11.fannaz.top",
+                "dataKey": "aassddwwxxllsx1x",
+                "playKey": "",
+                "version": ""
+            }
+    },
     
     {
             "key": "星芽短剧js",
