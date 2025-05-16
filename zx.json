@@ -157,10 +157,10 @@
      },
 
       {
-      "key": "娱乐大师",
-      "name": "娱乐大师┃py",
+      "key": "acg次元",
+      "name": "acg次元┃py",
       "type": 3,
-      "api": "./py/娱乐大师.py",
+      "api": "./py/py_次元.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
