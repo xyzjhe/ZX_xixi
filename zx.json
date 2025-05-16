@@ -66,7 +66,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250511V1",
+      "name": "🦞Tg豆瓣651156┃250516V1",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -87,7 +87,7 @@
     },
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250511V1🔍",
+      "name":"🔍真心在线┃250516V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -101,7 +101,7 @@
 	  
     /*{
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2500511V1🅱",
+      "name": "🅱路飞豆瓣┃2500511V6🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -142,6 +142,32 @@
         "commonConfig": "http://127.0.0.1:9978/file/TV/peizhi.json"
       }
     },
+
+
+     {
+      "key": "西瓜影视",
+      "name": "西瓜影视┃py",
+      "type": 3,
+      "api": "./py/xigua.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+     },
+
+      {
+      "key": "娱乐大师",
+      "name": "娱乐大师┃py",
+      "type": 3,
+      "api": "./py/娱乐大师.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": ""
+     },
+	  
 
     /*{
             "key": "追忆",
