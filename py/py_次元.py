@@ -192,7 +192,11 @@ class Spider(Spider):
         pass
         
     def aes(self, operation, text):
-        key = "20c79c979da8db0f".encode("utf-8")
+        
+        //key = "20c79c979da8db0f".encode("utf-8")
+
+        key = "f666603b22070ea3".encode("utf-8")
+        
         iv = key
         if operation == "encrypt":
             cipher = AES.new(key, AES.MODE_CBC, iv)
