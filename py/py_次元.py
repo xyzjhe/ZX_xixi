@@ -33,7 +33,7 @@ class Spider(Spider):
     def destroy(self):
         pass
 
-    host = "http://www.ecydm.top"
+    host = "https://appcms.acg.party"
     t = str(int(time.time()))
 
     def header(self):
