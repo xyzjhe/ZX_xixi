@@ -145,10 +145,10 @@
 
 
      {
-      "key": "热播影视",
-      "name": "热播影视┃py",
+      "key": "萝卜影视",
+      "name": "萝卜影视┃py",
       "type": 3,
-      "api": "./py/热播APP.py",
+      "api": "./py/py_萝.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
