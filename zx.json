@@ -263,7 +263,7 @@
       "key": "keke",
       "name": "可可影视┃py",
       "type": 3,
-      "api": "./py/py_可可.py",
+      "api": "./py/py_keke.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
