@@ -66,7 +66,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250516V1",
+      "name": "🦞Tg豆瓣651156┃250528V1",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -87,7 +87,7 @@
     },
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250516V1🔍",
+      "name":"🔍真心在线┃250528V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -101,7 +101,7 @@
 	  
     /*{
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2500511V6🅱",
+      "name": "🅱路飞豆瓣┃2500528V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -144,6 +144,28 @@
     },
 
 
+    {
+            "key": "巧技",
+            "name": "🚗聚搜┃1080P",
+            "type": 3,
+            "api": "csp_qiao2",
+            "playerType": 2,
+            "jar": "./jar/巧技.jar",
+            "ext": "7lj763gg402i79425739i7jghj118797l4hj840gi18633331l4708g2h7145403549g44l8ii56i187681hkjj3hhgh1ih3l32j250lk1k786lj20j468hk3hli4l46gig4i3g7g2722328j0136h01i7g5183k22k7gg3i72hk81gl8k9839kl7i0707"
+     },
+
+     {
+            "key": "py_1905",
+            "name": "m1905┃py",
+            "type": 3,
+          //"api": "./py/py_1905.py",
+	    "api": "./py/m1905.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+     },
+
+
      {
       "key": "萝卜影视",
       "name": "萝卜影视┃py",
@@ -155,8 +177,7 @@
       "order_num": 0,
       "ext": ""
      },
-
-      {
+     {
       "key": "acg次元",
       "name": "acg次元┃py",
       "type": 3,
@@ -183,7 +204,6 @@
                 "version": "1.2.0"
             }
     },*/
-
     /*{
             "key": "3号动漫",
             "name": "三号｜APP",
@@ -198,13 +218,7 @@
                 "version": ""
             }
     },*/
-    
-   
-
-
-
-
-     {
+    /*{
       "key": "界影视",
       "name": "界影视┃py",
       "type": 3,
@@ -214,7 +228,7 @@
       "filterable": 1,
       "order_num": 0,
       "ext": ""
-     },
+     },*/
 
 
 
@@ -229,10 +243,6 @@
       "order_num": 0,
       "ext": ""
      },
-
-
-	  
-
      {
       "key": "火车影视",
       "name": "火车影视┃py",
@@ -246,20 +256,6 @@
      },
 	  
      {
-            "key": "py_1905",
-            "name": "m1905┃py",
-            "type": 3,
-          //"api": "./py/py_1905.py",
-	    "api": "./py/m1905.py",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
-    },
-
-
-
-	  
-    {
       "key": "keke",
       "name": "可可影视┃py",
       "type": 3,
