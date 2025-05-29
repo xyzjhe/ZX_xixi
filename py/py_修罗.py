@@ -19,7 +19,7 @@ class Spider(Spider):
 
     def init(self, extend=""):
         # 直接设置host，移除动态获取逻辑
-        self.host = 'https://xl01.com.de/'
+        self.host = 'https://xl01.com.de'
         self.headers['origin'] = self.host
 
     def getName(self):
