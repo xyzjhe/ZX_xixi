@@ -18,9 +18,9 @@ from base.spider import Spider
 class Spider(Spider):
 
     def init(self, extend=""):
-        self.host = self.gethost()
-        self.headers['origin']=self.host
-        pass
+        # 直接设置host，移除动态获取逻辑
+        self.host = 'https://xl01.com.de/'
+        self.headers['origin'] = self.host
 
     def getName(self):
         pass
@@ -34,7 +34,7 @@ class Spider(Spider):
     def destroy(self):
         pass
 
-    xhost='https://www.xlys02.com/'
+    xhost = 'https://xl01.com.de/'
 
     headers = {
         'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
@@ -50,15 +50,15 @@ class Spider(Spider):
     def homeContent(self, filter):
         result = {}
         doc = self.pq(self.fetch(f'{self.host}/s/all', headers=self.headers).text)
-        hdata=doc('.all-filter-wrapper dl')
+        hdata = doc('.all-filter-wrapper dl')
         classes = []
         for a in hdata.eq(0).find('a').items():
             tid = a.attr('href').split('=')[-1]
-            if a.text()=='不限':
+            if a.text() == '不限':
                 tid = 'all'
             classes.append({
-                "type_id":  tid,
-                "type_name": '全部' if a.text()=='不限' else a.text()
+                "type_id": tid,
+                "type_name": '全部' if a.text() == '不限' else a.text()
             })
         filters = {}
         filter_list = []
@@ -77,7 +77,7 @@ class Spider(Spider):
                     value = a.attr('href').split('/')[-1].split(';')[0]
                 else:
                     value = a.attr('href').split('=')[-1]
-                if config['key']=='area':
+                if config['key'] == 'area':
                     value = unquote(value)
                 values.append({"n": a.text(), "v": value})
             if values:
@@ -93,9 +93,9 @@ class Spider(Spider):
         return result
 
     def homeVideoContent(self):
-        data=self.pq(self.fetch(self.host, headers=self.headers).text)
-        html=data('.container.px-1 .row-cards')
-        vods=[]
+        data = self.pq(self.fetch(self.host, headers=self.headers).text)
+        html = data('.container.px-1 .row-cards')
+        vods = []
         for i in html.items():
             for j in i('.col-4 .card-link').items():
                 vods.append({
@@ -104,7 +104,7 @@ class Spider(Spider):
                     'vod_pic': j('img').attr('data-src'),
                     'vod_remarks': j('.ribbon-top').text() or j('.text-muted').text()
                 })
-        return {'list':vods}
+        return {'list': vods}
 
     def categoryContent(self, tid, pg, filter, extend):
         params = {
@@ -113,10 +113,10 @@ class Spider(Spider):
             'order': extend.get('order', ''),
             'year': extend.get('year', '')
         }
-        p=self.build_params(params,True)
+        p = self.build_params(params, True)
         url = f"{self.host}/s/{extend.get('cate', 'all')}/{pg}{f'?{p}' if p else ''}"
-        data=self.pq(self.fetch(url, headers=self.headers).text)
-        vods=[]
+        data = self.pq(self.fetch(url, headers=self.headers).text)
+        vods = []
         for j in data('.row-cards .card-link').items():
             vods.append({
                 'vod_id': j('a').attr('href').split(';')[0],
@@ -168,10 +168,10 @@ class Spider(Spider):
 
     def searchContent(self, key, quick, pg="1"):
         url = f"{self.host}/search/{key}"
-        data=self.pq(self.fetch(url, headers=self.headers).text)
-        vods=[]
+        data = self.pq(self.fetch(url, headers=self.headers).text)
+        vods = []
         for j in data('.row-cards .col-12').items():
-            id=j('.search-movie-title')
+            id = j('.search-movie-title')
             if id.attr('href'):
                 vods.append({
                     'vod_id': id.attr('href'),
@@ -179,12 +179,12 @@ class Spider(Spider):
                     'vod_name': id.text(),
                     'vod_remarks': j('.mb-md-1').text()
                 })
-        return {'list':vods,'page':pg}
+        return {'list': vods, 'page': pg}
 
     def playerContent(self, flag, id, vipFlags):
-        h=self.headers.copy()
+        h = self.headers.copy()
         if '播放' in flag:
-            data=self.getjx(self.fetch(f"{self.host}{id}", headers=self.headers).text)
+            data = self.getjx(self.fetch(f"{self.host}{id}", headers=self.headers).text)
             result = []
             line_count = 1
             url_keys = [k for k in data['data'].keys() if 'url' in k.lower() or 'm3u8' in k.lower()]
@@ -204,23 +204,22 @@ class Spider(Spider):
                         result.extend([f"线路{line_count}", url])
                         line_count += 1
         elif '种子' in flag:
-            result=f'{self.host}{self.d64(id)}'
+            result = f'{self.host}{self.d64(id)}'
         else:
-            # h={}
-            result=self.d64(id)
-        return  {'parse': 0, 'url': result, 'header': h}
+            result = self.d64(id)
+        return {'parse': 0, 'url': result, 'header': h}
 
     def localProxy(self, param):
         url = b64decode(param["url"]).decode('utf-8')
         y = self.fetch(url, headers=self.headers, allow_redirects=False)
-        data=y.text
-        yhost=url[:url.rfind('/')]
+        data = y.text
+        yhost = url[:url.rfind('/')]
         if '#EXT' not in data:
             base64_str = b64encode(y.content).decode('utf-8')
             zip_data = re.search(r'H4sI.*', base64_str).group(0)
             decoded_data = b64decode(zip_data)
             data = gzip.decompress(decoded_data).decode('utf-8')
-            yhost='https://vod.xlys.me/'
+            yhost = 'https://vod.xlys.me/'
         lines = data.split('\n')
         new_lines = []
         for line in lines:
@@ -233,10 +232,10 @@ class Spider(Spider):
         return [200, "application/vnd.apple.mpegur", new_url]
 
     def gethost(self):
-        host=self.fetch(self.xhost, headers=self.headers, allow_redirects=False).headers['Location']
-        return host
+        # 移除动态获取host的逻辑，直接返回固定host
+        return 'https://xl01.com.de/'
 
-    def getjx(self,input_str):
+    def getjx(self, input_str):
         try:
             pid = re.search(r'var pid = (\d+);', input_str).group(1)
             current_time = int(time.time() * 1000)
@@ -249,7 +248,7 @@ class Spider(Spider):
             encrypted = cipher.encrypt(padded_data)
             encrypted_hex = binascii.hexlify(encrypted).decode('utf-8').upper()
             lines_url = f"{self.host}/lines?t={current_time}&sg={encrypted_hex}&pid={pid}"
-            data=self.fetch(lines_url, headers=self.headers).json()
+            data = self.fetch(lines_url, headers=self.headers).json()
             return data
         except Exception as e:
             print(f"Error in get_lines_url: {e}")
@@ -261,9 +260,9 @@ if __name__ == "__main__":
     formatJo = sp.init([])
     # formatJo = sp.homeContent(False)  # 主页，等于真表示启用筛选
     # formatJo = sp.homeVideoContent()  # 主页视频
-    # formatJo = sp.searchContent("斗罗",False,'1') # 搜索{"area":"大陆","by":"hits","class":"国产","lg":"国语"}
-    # formatJo = sp.categoryContent('all', '1', False, {'year':'2024'})  # 分类
+    # formatJo = sp.searchContent("斗罗", False, '1') # 搜索{"area":"大陆","by":"hits","class":"国产","lg":"国语"}
+    # formatJo = sp.categoryContent('all', '1', False, {'year': '2024'})  # 分类
     # formatJo = sp.detailContent(['/guoju/25132.htm'])  # 详情
-    # formatJo = sp.playerContent("","/play/25766-0.htm",{}) # 播放
-    # formatJo = sp.localProxy({"url":"aHR0cHM6Ly92b2QueGx5cy5jYy51YS9obHNfc3RhcjNfODdmN2I5MWYtZjhjNS00MjkwLTliZTMtZmIwZTFlOTRmNGJlLm0zdTgucG5n"}) # 播放
+    # formatJo = sp.playerContent("", "/play/25766-0.htm", {}) # 播放
+    # formatJo = sp.localProxy({"url": "aHR0cHM6Ly92b2QueGx5cy5jYy51YS9obHNfc3RhcjNfODdmN2I5MWYtZjhjNS00MjkwLTliZTMtZmIwZTFlOTRmNGJlLm0zdTgucG5n"}) # 播放
     pprint(formatJo)
