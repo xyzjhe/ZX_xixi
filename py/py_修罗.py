@@ -34,7 +34,7 @@ class Spider(Spider):
     def destroy(self):
         pass
 
-    xhost='https://www.xlys.me/'
+    xhost='https://www.xlys02.com/'
 
     headers = {
         'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
