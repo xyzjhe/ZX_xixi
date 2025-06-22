@@ -66,7 +66,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250528V1",
+      "name": "🦞Tg豆瓣651156┃250622V1",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -87,7 +87,7 @@
     },
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250528V1🔍",
+      "name":"🔍真心在线┃250622V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -101,7 +101,7 @@
 	  
     /*{
       "key": "lf_js_search",
-      "name": "🅱路飞豆瓣┃2500528V1🅱",
+      "name": "🅱路飞豆瓣┃2500622V1🅱",
       "type": 3,
       "searchable": 0,
       "changeable": 0,
@@ -233,10 +233,10 @@
 
 
      {
-      "key": "zero",
-      "name": "零度影视┃py",
+      "key": "czzy",
+      "name": "厂长资源┃py",
       "type": 3,
-      "api": "./py/零度影视.py",
+      "api": "./py/厂长资源.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
