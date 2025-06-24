@@ -98,6 +98,14 @@
         "filter": "./json/douban.json"
       }
     },
+
+    {
+            "key": "豆瓣搜索js",
+            "name": "豆瓣搜索┃drpyJS",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./drpy_js/douban_list.js"
+      },
 	  
     /*{
       "key": "lf_js_search",
