@@ -58,16 +58,16 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250701V1",
+      "name": "🦞Tg豆瓣651156┃250716V1",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
       "changeable": 0,
       "ext": {
 	      
-	"siteUrl": "https://tgsou.252035.xyz",
+	//"siteUrl": "https://tgsou.252035.xyz",
       //"siteUrl": "https://tgsou.651156.xyz",
-      //"siteUrl": "http://tgsou.fish2018.ip-ddns.com",
+      "siteUrl": "http://tgsou.fish2018.ip-ddns.com",
       //"siteUrl": "http://tgsou3.fish2018.ip-ddns.com",
 
 	      
