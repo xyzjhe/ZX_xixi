@@ -58,7 +58,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250716V1",
+      "name": "🦞Tg豆瓣651156┃250808V1",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -79,7 +79,7 @@
     },
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250701V1🔍",
+      "name":"🔍真心在线┃250808V1🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
@@ -173,10 +173,6 @@
             "api": "./drpy_libs/drpy2.min.js",
             "ext": "./drpy_js/金牌影视.js"
      }, 
-
-    
-
-     
 
     
     //from 真心 JAR 玩偶系列
