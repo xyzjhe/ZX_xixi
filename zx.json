@@ -58,7 +58,7 @@
 
     {
       "key": "🦞Tg豆瓣651156",
-      "name": "🦞Tg豆瓣651156┃250808V1",
+      "name": "🦞Tg豆瓣651156┃250808V3",
       "type": 3,
       "api": "csp_TgYunDouBanPan",
       "searchable": 1,
@@ -79,7 +79,7 @@
     },
     {
       "key":"csp_Douban",
-      "name":"🔍真心在线┃250808V1🔍",
+      "name":"🔍真心在线┃250808V3🔍",
       "type":3,
       "api":"csp_Douban",
       "searchable":0,
